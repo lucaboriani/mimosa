@@ -1,0 +1,88 @@
+{
+  ".svelte-kit/build/app.js": {
+    "file": "app.js",
+    "src": ".svelte-kit/build/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-8b1d4207.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/pages/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js",
+      "_Header-b264fdbe.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-0fdc4617.css"
+    ]
+  },
+  "src/routes/visocollo.svelte": {
+    "file": "entries/pages/visocollo.svelte.js",
+    "src": "src/routes/visocollo.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js",
+      "_Header-b264fdbe.js"
+    ],
+    "css": [
+      "assets/entries/pages/visocollo.svelte-8d7c1861.css"
+    ]
+  },
+  "src/routes/servizi.svelte": {
+    "file": "entries/pages/servizi.svelte.js",
+    "src": "src/routes/servizi.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js",
+      "_Header-b264fdbe.js"
+    ],
+    "css": [
+      "assets/entries/pages/servizi.svelte-2ffa03c5.css"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-6f55eac1.js"
+    ],
+    "css": [
+      "assets/entries/pages/about.svelte-64e391b1.css"
+    ]
+  },
+  "_index-6f55eac1.js": {
+    "file": "chunks/index-6f55eac1.js"
+  },
+  "_Header-b264fdbe.js": {
+    "file": "chunks/Header-b264fdbe.js",
+    "imports": [
+      "_index-6f55eac1.js"
+    ],
+    "css": [
+      "assets/Header-1dba7fe3.css"
+    ]
+  }
+}
