@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Yantramanav', sans-serif;
+    box-sizing: border-box;
+}
+
+.fucsia-color-bg{
+        background-color:#c6919b;
+    }
+    .fucsia-color{
+        color:#c6919b;
+    }
+    .splash-list{
+        height: calc(100vh - 131px);
+    }
+    .splash-list li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .splash-list li  a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        width: 80%;
+        height: 60%;
+    }
+    .mimosa-color{
+		color:#c6919b;
+	}
+    .mosa{
+        word-spacing: -.3em;
+    }
+.tipa, .pink-bg {
+    background-color: #f8eae7;
+}
+/* .tipa:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    opacity: .5;
+    background-image: url('./src/img/trattamento-viso.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+} */
+.viso-1 {
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    opacity: .5;
+    object-fit: contain;
+}
+.viso-2 {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    opacity: .5;
+    object-fit: contain;
+}

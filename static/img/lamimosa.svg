@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="mosa_" data-name="mosa
+" transform="translate(456 596)" font-size="214" font-family="Tahoma"><tspan x="0" y="0">mosa</tspan><tspan x="0" y="258"></tspan></text>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(423 180)" fill="rgba(255,255,255,0)" stroke="#c6909b" stroke-width="10">
+      <rect width="575" height="472" stroke="none"/>
+      <rect x="5" y="5" width="565" height="462" fill="none"/>
+    </g>
+    <text id="lami" transform="translate(450 441)" fill="#c6909b" font-size="285" font-family="Tahoma"><tspan x="0" y="0">lami</tspan></text>
+  </g>
+</svg>

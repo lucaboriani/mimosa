@@ -1,0 +1,33 @@
+<script context="module">
+	export const prerender = true;
+</script>
+<script>
+    
+	import Header from '$lib/header/Header.svelte';
+	import HomeSplash from '$lib/home/HomeSplash.svelte';
+	import HomeAbout from '$lib/home/HomeAbout.svelte';
+</script>
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
+<style>
+	
+</style>
+
+
+       
+
+	<!-- start home -->
+	<HomeSplash />
+	<!-- end home -->
+	<!-- start menu -->     
+	<Header />
+	<!-- end menu menu -->  
+   
+	<section>
+		 <!-- start about -->
+		<HomeAbout />
+		 <!-- end about -->
+	</section>
+	<!-- start contacts and cta -->
+	<!-- end contacts and cta -->
