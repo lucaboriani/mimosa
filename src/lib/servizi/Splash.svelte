@@ -55,17 +55,17 @@
                 </span>
             </li>
             <li class="w-1/4 bg-gray-100">
-                <a href="#a" class="bg-white text-2xl fucsia-color">
+                <a href="/trattamenticorpo" class="bg-white text-2xl fucsia-color">
                     corpo
                 </a>
             </li>
             <li class="w-1/4">
-                <a href="#a" class="fucsia-color-bg text-2xl text-gray-700">
+                <a href="/epilazione" class="fucsia-color-bg text-2xl text-gray-700">
                     epilazione
                 </a>
             </li>
             <li class="w-1/4 bg-gray-400">
-                <a href="#a" class="bg-white text-2xl">
+                <a href="/manicurepedicure" class="bg-white text-2xl">
                     <div class="flex">
                         <span class="text-2xl">manicure</span>
                         <span class="text-2xl fucsia-color pl-2">pedicure</span>
@@ -74,12 +74,12 @@
                 </a>
             </li>
             <li class="w-1/4 bg-gray-100">
-                <a href="#a" class="fucsia-color-bg text-2xl text-white">
+                <a href="/massaggi" class="fucsia-color-bg text-2xl text-white">
                     massaggi
                 </a>
             </li>
             <li class="w-1/4 fucsia-color-bg">
-                <a href="#a" class="bg-gray-300 text-2xl">
+                <a href="/makeup" class="bg-gray-300 text-2xl">
                     <div class="flex">
                         <span class="text-2xl">make</span>
                         <span class="text-2xl fucsia-color">up</span>
