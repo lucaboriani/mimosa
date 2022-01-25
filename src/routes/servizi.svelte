@@ -21,10 +21,5 @@
 	<Header/>
 	<Splash />
 	<!-- start services -->
-	<!-- <FaceNeck /> -->
-	<FaceNeck /> -->
-   
-	 <!-- end services -->
-	<!-- start contacts and cta -->
-	<!-- end contacts and cta -->
+	
 </div>
