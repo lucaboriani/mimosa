@@ -3,12 +3,12 @@
 </script>
 <script>
     import Header from '$lib/header/Header.svelte';
-    import VisoCollo from '$lib/servizi/VisoCollo.svelte';
+   // import VisoCollo from '$lib/servizi/VisoCollo.svelte';
 	import ServiziMenu from '$lib/servizi/ServiziMenu.svelte';
 	// document.body.classList.add('no-scroll')
 </script>
 <svelte:head>
-	<title>Viso collo e décolleté</title>
+	<title>Massaggi</title>
 </svelte:head>
 <style>
 	
@@ -25,11 +25,10 @@
 		<ServiziMenu />
 		<div class="flex flex-col w-3/4">
 			<h1 class="text-gray-510 mr-8 mt-4 mb-4 text-4xl text-right">
-				<span class=" fucsia-color inline">viso collo</span>
-				<span class=" inline pl-2">décolleté</span>
+				<span class=" fucsia-color inline">massaggi</span>
 			</h1>
 			<div class="overflow-y-scroll fucsia-color-bg">
-				<VisoCollo />
+				
 			</div>
 		   
 		</div>

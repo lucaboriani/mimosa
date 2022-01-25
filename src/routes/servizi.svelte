@@ -6,7 +6,7 @@
     import Header from '$lib/header/Header.svelte';
     import Splash from '$lib/servizi/Splash.svelte';
     import FaceNeck from '$lib/servizi/FaceNeck.svelte';
-    document.body.classList.add('no-scroll')
+    
 </script>
 <style>
 	
@@ -15,7 +15,7 @@
     }
 </style>
 <svelte:head>
-	<title>servizi</title>
+	<title>I nostri servizi</title>
 </svelte:head>
 <div id="main-wrap">    
 	<Header/>

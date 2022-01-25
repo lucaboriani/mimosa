@@ -1,6 +1,9 @@
 <script>
 	import { page } from '$app/stores';
 	console.log($page.url)
+
+
+	let servicePaths = ['/servizi', '/visocollo','/epilazione','/makeup','/manicurepedicure','/trattamenticorpo','/massaggi']
 </script>
 
 <div class="w-full" id="menu-container">
@@ -19,7 +22,7 @@
 								Home
 							</a>
 							
-							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-sm font-medium" class:active={$page.url.pathname === '/servizi' || $page.url.pathname === '/visocollo'} href="/servizi">
+							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-sm font-medium" class:active={servicePaths.indexOf($page.url.pathname) !== -1} href="/servizi">
 								servizi
 							</a>
 							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-sm font-medium" href="/#">
