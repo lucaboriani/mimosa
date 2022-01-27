@@ -1,0 +1,65 @@
+[
+  {
+    "title": "ANTISTRESS",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 60,
+    "section": "",
+    "subscription": ""
+  },
+  {
+    "title": "CONNETTIVALE",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 60,
+    "section": "",
+    "subscription": ""
+  },
+  {
+    "title": "ENERGIA VITALE",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 60,
+    "section": "",
+    "subscription": ""
+  },
+  {
+    "title": "EMOLINFATICO",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 60,
+    "section": "",
+    "subscription": ""
+  },
+  {
+    "title": "CLASSICO",
+    "text": "",
+    "image": "",
+    "duration": "",
+    "price": 20,
+    "section": "",
+    "subscription": 45
+  },
+  {
+    "title": "SCRUB CORPO",
+    "text": "",
+    "image": "",
+    "duration": "",
+    "price": 50,
+    "section": "",
+    "subscription": 70
+  },
+  {
+    "title": "BENDAGGIO SNELLENTE",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 51,
+    "section": "",
+    "subscription": ""
+  }
+]

@@ -36,7 +36,6 @@
     export let price
     export let paragraphs
     export let duration
-    console.log(price, typeof price)
     if(price.indexOf && price.indexOf('|') != -1){
         const split = price.split('|')
         price = {

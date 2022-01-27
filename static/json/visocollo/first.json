@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Analisi computerizzata viso",
+    "text": "",
+    "image": "",
+    "duration": "",
+    "price": 50
+  },
+  {
+    "title": "Pulizia viso",
+    "text": "con depilazione ciglia e baffetti",
+    "image": "",
+    "duration": "1 ora e 30 min",
+    "price": 30
+  },
+  {
+    "title": "Trattamenti flash",
+    "text": "",
+    "image": "",
+    "duration": "1 ora",
+    "price": 30
+  },
+  {
+    "title": "LPG viso",
+    "text": "riposiziona i volumi del viso",
+    "image": "",
+    "duration": "1 ora",
+    "price": 70
+  },
+  {
+    "title": "K.R.F.",
+    "text": "azione termica rassodante",
+    "image": "",
+    "duration": "",
+    "price": "35|70"
+  },
+  {
+    "title": "Dermopeeling",
+    "text": "microdermoabrasione cosmetica",
+    "image": "",
+    "duration": "1 ora",
+    "price": 48
+  }
+]

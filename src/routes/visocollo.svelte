@@ -1,24 +1,37 @@
 <script context="module">
 	//export const prerender = true;
-	import { csvToArray } from '$lib/utils/CSV';
+
+
+
+	let urls = [
+		'json/visocollo/first.json',
+		'json/visocollo/trattamentiviso.json',
+		'json/visocollo/second.json'
+	]
+
+
 	export async function load({ fetch }) {
 		
+		const fetchUrl = async (url) => {
+			const response = await fetch(url);
+			const data = await response.json() 
+			return data
+		}
 
-		const response = await fetch('csv/visocollo/first.csv');
-		
-
-		if (response.ok) {
-			const data = await response.text() 
+		try {
+			
+			const multiple = await Promise.all(urls.map(url => fetchUrl(url)))
+			
 			return {
 					props: { 
-					data: csvToArray(data, '\t').filter(el => el.title)
-				} 
+					data: multiple
+				}
+			} 
+		} catch (error) {
+			return {
+				status: '400',
+				error: new Error('error loading data')
 			}
-			
-		}
-		return {
-			status: response.status,
-			error: new Error('error loading data')
 		}
         
 	}
