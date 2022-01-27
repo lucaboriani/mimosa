@@ -1,57 +1,15 @@
 
 <script>
+    //import { onMount } from "svelte";
     import GroupOneService from '$lib/servizi/GroupOneService.svelte';
     import GroupTwoService from '$lib/servizi/GroupTwoService.svelte';
-    let serviceGroups = {
+    import {/* csvStringToArray, formatCsv, */ csvToArray} from '$lib/utils/CSV';
+
+    export let data
+
+    export let serviceGroups = {
         first:[
-            {
-                title:'Analisi computerizzata viso',
-                paragraphs:[],
-                duration:'',
-                price: 50
-            },
-            {
-                title:'Pulizia viso',
-                paragraphs:[
-                    'con depilazione ciglia e baffetti'
-                ],
-                duration: '1 ora e 30 min',
-                price: 30
-            },
-            {
-                title:'Trattamenti flash',
-                paragraphs:[
-                ],
-                duration: '1 ora ',
-                price: 30
-            },
-            {
-                title:'LPG viso',
-                paragraphs:[
-                    'riposiziona i volumi del viso'
-                ],
-                duration: '1 ora ',
-                price: 70
-            },
-            {
-                title:'K.R.F.',
-                paragraphs:[
-                    'azione termica rassodante'
-                ],
-                duration: '',
-                price: {
-                    min:35,
-                    max:70
-                }
-            },
-            {
-                title:'Dermopeeling',
-                paragraphs:[
-                    'microdermoabrasione cosmetica'
-                ],
-                duration: '1 ora ',
-                price: 48
-            },
+            
 
         ],
         second:[
@@ -80,6 +38,43 @@
             
         ]
     }
+
+    serviceGroups.first = data || []
+
+    /* const csvStringToArray = strData =>
+    {
+        const objPattern = new RegExp(("(\\,|\\r?\\n|\\r|^)(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|([^\\,\\r\\n]*))"),"gi");
+        let arrMatches = null, arrData = [[]];
+        while (arrMatches = objPattern.exec(strData)){
+            if (arrMatches[1].length && arrMatches[1] !== ",")arrData.push([]);
+            arrData[arrData.length - 1].push(arrMatches[2] ? 
+                arrMatches[2].replace(new RegExp( "\"\"", "g" ), "\"") :
+                arrMatches[3]);
+        }
+        return arrData;
+    }
+
+    const formatCsv = (array) => {
+        const keys = array.shift()
+        const rawdata = array.map(entry => {
+            const data ={}
+            for(let i=0; i< entry.length; i++){
+                if(keys[i] && entry[i]){
+                    data[keys[i]]=entry[i]
+                }
+                
+            }
+            return data
+        })
+        return rawdata.filter(el => el.title)
+    } */
+
+    /* onMount(async function () {
+        const response = await fetch('csv/visocollo/first.csv');
+        const data = await response.text();
+        
+        serviceGroups.first = csvToArray(data, '\t').filter(el => el.title)
+    }); */
 </script>
 
 <div class="flex flex-col">
@@ -87,7 +82,7 @@
         {#each serviceGroups.first as service}
             <GroupOneService 
                 title="{service.title}"
-                paragraphs="{service.paragraphs}"
+                paragraphs="{[service.text]}"
                 price="{service.price}"
                 duration="{service.duration}"
             />

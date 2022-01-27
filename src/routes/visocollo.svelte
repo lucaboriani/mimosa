@@ -1,11 +1,34 @@
 <script context="module">
 	//export const prerender = true;
+	import { csvToArray } from '$lib/utils/CSV';
+	export async function load({ fetch }) {
+		
+
+		const response = await fetch('csv/visocollo/first.csv');
+		
+
+		if (response.ok) {
+			const data = await response.text() 
+			return {
+					props: { 
+					data: csvToArray(data, '\t').filter(el => el.title)
+				} 
+			}
+			
+		}
+		return {
+			status: response.status,
+			error: new Error('error loading data')
+		}
+        
+	}
 </script>
 <script>
     import Header from '$lib/header/Header.svelte';
     import VisoCollo from '$lib/servizi/VisoCollo.svelte';
 	import ServiziMenu from '$lib/servizi/ServiziMenu.svelte';
 	// document.body.classList.add('no-scroll')
+	export let data
 </script>
 <svelte:head>
 	<title>Viso collo e décolleté</title>
@@ -29,7 +52,7 @@
 				<span class=" inline pl-2">décolleté</span>
 			</h1>
 			<div class="overflow-y-scroll fucsia-color-bg">
-				<VisoCollo />
+				<VisoCollo data="{data}" />
 			</div>
 		   
 		</div>

@@ -37,4 +37,12 @@
     export let price
     export let paragraphs
     export let duration
+    console.log(price, typeof price)
+    if(price.indexOf && price.indexOf('|') != -1){
+        const split = price.split('|')
+        price = {
+            min : split[0],
+            max : split[1]
+        }
+    }
 </script>
