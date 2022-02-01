@@ -1,11 +1,42 @@
 <script context="module">
-	//export const prerender = true;
+
+
+	let urls = [
+		'json/trattamenticorpo.json',
+	]
+
+
+	export async function load({ fetch }) {
+		
+		const fetchUrl = async (url) => {
+			const response = await fetch(url);
+			const data = await response.json() 
+			return data
+		}
+
+		try {
+			
+			const multiple = await Promise.all(urls.map(url => fetchUrl(url)))
+			
+			return {
+					props: { 
+					data: multiple[0]
+				}
+			} 
+		} catch (error) {
+			return {
+				status: '400',
+				error: new Error('error loading data')
+			}
+		}
+        
+	}
 </script>
 <script>
     import Header from '$lib/header/Header.svelte';
-   // import VisoCollo from '$lib/servizi/VisoCollo.svelte';
 	import ServiziMenu from '$lib/servizi/ServiziMenu.svelte';
-	// document.body.classList.add('no-scroll')
+	import TrattamentiCorpo from '$lib/servizi/TrattamentiCorpo.svelte';
+	export let data
 </script>
 <svelte:head>
 	<title>Trattamenti Corpo</title>
@@ -28,8 +59,8 @@
 				<span class=" fucsia-color inline">trattamenti</span>
 				<span class=" inline pl-2">corpo</span>
 			</h1>
-			<div class="overflow-y-scroll fucsia-color-bg">
-				
+			<div class="overflow-y-scroll bg-gray-100">
+				<TrattamentiCorpo data="{data}" />
 			</div>
 		   
 		</div>

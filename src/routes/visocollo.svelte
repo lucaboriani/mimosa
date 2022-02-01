@@ -40,7 +40,6 @@
     import Header from '$lib/header/Header.svelte';
     import VisoCollo from '$lib/servizi/VisoCollo.svelte';
 	import ServiziMenu from '$lib/servizi/ServiziMenu.svelte';
-	// document.body.classList.add('no-scroll')
 	export let data
 </script>
 <svelte:head>

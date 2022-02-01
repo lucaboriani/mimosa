@@ -58,7 +58,7 @@
         </div>
     
     </div>
-    <img src="img/home-donna.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
+    <img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
     <img src="img/logo-dibi-center.png" alt="logo dibi" class="absolute home-logo" loading="eager" /> 
 </div>
 <script>

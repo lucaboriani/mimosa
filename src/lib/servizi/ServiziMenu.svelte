@@ -5,7 +5,7 @@
 </style>
 <script>
 	import { page } from '$app/stores';
-	console.log($page.url)
+
 </script>
 <nav class="w-1/4 bg-gray-400 service-menu px-4">
     <ul class="flex w-full flex-col">
@@ -19,12 +19,12 @@
         <li class="mb-2">
             <a href="/trattamenticorpo" class="{$page.url.pathname === '/trattamenticorpo' ? 'fucsia-color-bg ' : 'bg-gray-300 '}  flex p-2 border border-gray-100">
                 <span class=" text-black">trattamenti</span>
-                <span class=" pl-2 fucsia-color ">corpo</span>
+                <span class=" pl-2 text-white">corpo</span>
             </a>
         </li>
         <li class="mb-2">
             <a href="/epilazione" class="{$page.url.pathname === '/epilazione' ? 'fucsia-color-bg ' : 'bg-gray-300 '} border flex p-2 border border-gray-100">
-                <span class=" pl-2 text-black ">epilazione</span>
+                <span class="text-black ">epilazione</span>
             </a>
         </li>
         <li class="mb-2">

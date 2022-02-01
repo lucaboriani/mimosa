@@ -4,7 +4,6 @@
     import OneFourthCard from '$lib/servizi/OneFourthCard.svelte';
     import HalfWidthCard from '$lib/servizi/HalfWidthCard.svelte';
     export let data
-    console.log(data)
 </script>
 <style>
     .visocollo-dibi-logo{

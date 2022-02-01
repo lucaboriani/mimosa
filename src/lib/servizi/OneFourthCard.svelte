@@ -4,7 +4,7 @@
             <img src="img/{image}" class="px-4 w-full h-40 object-contain bg-gray-300" alt="title" loading="lazy" />
         </div>
     {/if}
-    <div class="bg-white px-4 pb-4 flex flex-col h-full mx-4  mb-4 ml-4 mr-4 justify-between background-gray-0">
+    <div class="px-4 pb-4 flex flex-col h-full mx-4  mb-4 ml-4 mr-4 justify-between { bgColor ? bgColor :'bg-gray-0'}">
         
         <h3 class="text-gray-500 border-b-2 py-4 upp">
             {title}
@@ -43,6 +43,7 @@
     export let paragraphs
     export let duration
     export let image
+    export let bgColor
     if(price.indexOf && price.indexOf('|') != -1){
         const split = price.split('|')
         price = {

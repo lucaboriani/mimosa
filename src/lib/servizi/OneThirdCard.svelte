@@ -1,6 +1,11 @@
 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3   flex flex-col  ">
-    <div class="bg-white px-4 py-4 flex flex-col h-5/6 mx-4 my-4 mt-4 mb-4 ml-4 mr-4 justify-between background-gray-0">
-        <h3 class="text-2xl sm:text-xl text-gray-500 border-b-2 py-2 upp">
+    {#if image}
+        <div class="flex items-center bg-gray-300 mx-4">
+            <img src="img/{image}" class="px-4 w-full h-40 object-contain bg-gray-300" alt="title" loading="lazy" />
+        </div>
+    {/if}
+    <div class="px-4 py-4 flex flex-col h-5/6 mx-4 my-4 mt-4 mb-4 ml-4 mr-4 justify-between { bgColor ? bgColor :'bg-gray-0'}">
+        <h3 class="text-2xl sm:text-xl {titleColor ? titleColor : ' text-gray-500 '} border-b-2 py-2">
             {title}
         </h3>
         {#if paragraphs && paragraphs.length > 0}
@@ -24,7 +29,10 @@
                 {#if duration}
                     <span class="text-sm text-gray-400">{duration}</span>    
                 {/if}    
-                <bold class="text-black font-bold text-md pr-2">{price}&euro;</bold>
+                {#if price}
+                    <bold class="text-black font-bold text-md pr-2">{price}&euro;</bold>
+                {/if} 
+                
             {/if}
            
         </p>
@@ -36,6 +44,10 @@
     export let price
     export let paragraphs
     export let duration
+    export let image
+    export let titleColor
+    export let bgColor
+    console.log(bgColor)
     if(price.indexOf && price.indexOf('|') != -1){
         const split = price.split('|')
         price = {
