@@ -20,6 +20,7 @@
                 paragraphs="{[service.text]}"
                 price="{service.price}"
                 duration="{service.duration}"
+                bgColor="bg-white"
             />
         {/each}
     </div>
@@ -42,6 +43,7 @@
                 paragraphs="{[service.text]}"
                 price="{service.price}"
                 duration="{service.duration}"
+                bgColor="bg-white"
             />
         {/each}
     </div>
