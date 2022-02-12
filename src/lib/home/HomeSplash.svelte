@@ -21,7 +21,7 @@
 	.home-address{
 		position: absolute;
 		left:0;
-		bottom: 0;
+		bottom: 6em;
 		width: 50%;
 	}
 	.home-logo {
@@ -97,7 +97,7 @@
 			<div class="w-full flex">
 				<div class="w-1/2  p-4 fucsia-color-bg">
 					<p class="flex justify-between">
-						<span class="block text-gray-200 z-10  text-sm ">
+						<span class="block text-gray-800 z-10  text-sm ">
 							martedì - venerdì 
 						</span>
 						<span class="block text-black-200 z-10  text-sm">
@@ -105,7 +105,7 @@
 						</span>
 					</p>
 					<p class="flex justify-between">
-						<span class="block text-gray-200 z-10  text-sm">
+						<span class="block text-gray-800 z-10  text-sm">
 							sabato
 						</span>
 						<span class="block text-black-200 z-10  text-sm">
@@ -119,10 +119,10 @@
 				</div>
 				<div class="w-1/2  p-8 bg-white">
 					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold " href="#">
-						<span class="w-full pl-1 block">fissa un appuntamento</span>
-						<div class="flex">
+						<span class="w-full pl-3 block">fissa un appuntamento</span>
+						<div class="flex mt-1">
 							<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
-							<span class="w-full pl-1 block bg-gray-300 p2 text-center leading-8">Tel 02-99026325</span>
+							<span class=" ml-2 block bg-gray-300 px-3 py-1 text-center leading-8">Tel 02-99026325</span>
 						</div>
 						
 					</a>
