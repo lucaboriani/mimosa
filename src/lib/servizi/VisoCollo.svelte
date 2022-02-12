@@ -13,7 +13,7 @@
     }
 </style>
 <div class="flex flex-col">
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap pt-8">
         {#each data[0] as service}
             <OneThirdCard 
                 title="{service.title}"
