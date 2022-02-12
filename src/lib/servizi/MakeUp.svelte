@@ -1,9 +1,10 @@
 
 <script>
-    import NoImageCard from '$lib/servizi/NoImageCard.svelte';
+    import OneThirdCard from '$lib/servizi/OneThirdCard.svelte';
     export let data
 
-    
+    const giftCard = data.pop()
+    console.log(giftCard)
 </script>
 <style>
      .makeup-cont{
@@ -11,9 +12,10 @@
     }
 </style>
 <div class="flex flex-col makeup-cont">
-    <div class="flex flex-wrap bg-gray-500 h-full">
+    <div class="flex flex-wrap bg-gray-500 pt-4">
         {#each data as service}
-            <NoImageCard 
+            <OneThirdCard 
+                image={service.image}
                 title="{service.title}"
                 paragraphs="{[service.text]}"
                 price="{service.price}"
@@ -24,5 +26,17 @@
             />
         {/each}
     </div>
+    <div class="w-full    flex flex-col">
+        <div class="px-4 py-4 flex flex-col h-full justify-between bg-gray-300">
+            <h3 class="text-2xl sm:text-xl  text-gray-500  border-b-2 py-2">
+                {giftCard.title}
+            </h3>
+            <p class="text-md text-gray-600 italic mt-4">
+                { giftCard.text }
+            </p>
+        </div>
+        
+    </div>
+    
 </div>
  

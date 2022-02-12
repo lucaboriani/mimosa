@@ -2,54 +2,63 @@
   {
     "title": "TRUCCO VELOCE",
     "text": "",
-    "image": "",
+    "image": "stock-photo-makeup-artist-applies-applies-powder-and-blush-beautiful-woman-face-hand-of-make-up-master-1805797540.jpg",
     "duration": "",
-    "price": 18,
+    "price": 20,
     "section": "",
     "subscription": ""
   },
   {
     "title": "TRUCCO BASE",
     "text": "",
-    "image": "",
+    "image": "DSC02334.jpg",
     "duration": "",
-    "price": 32,
+    "price": 40,
     "section": "",
     "subscription": ""
   },
   {
     "title": "TRUCCO SPOSA",
     "text": "",
-    "image": "",
+    "image": "istockphoto-1314528208-1024x1024.jpg",
     "duration": "",
-    "price": 50,
+    "price": 60,
     "section": "",
     "subscription": ""
   },
   {
     "title": "TRUCCO FESTIVI",
     "text": "",
-    "image": "",
+    "image": "source.jpg",
     "duration": "",
-    "price": 27,
+    "price": 80,
     "section": "",
     "subscription": ""
   },
   {
     "title": "TRUCCO+APPLICAZIONE CIGLIA",
     "text": "",
-    "image": "",
+    "image": "645Z7468+copy.jpg",
     "duration": "",
-    "price": 11,
+    "price": 60,
+    "section": "",
+    "subscription": ""
+  },
+  {
+    "title": "APPLICAZIONE CIGLIA",
+    "text": "",
+    "image": "645Z7468+copy.jpg",
+    "duration": "",
+    "price": 25,
     "section": "",
     "subscription": ""
   },
   {
     "title": "TINTURA CIGLIA O SOPRACCIGLIA",
     "text": "",
-    "image": "",
+    "image": "istockphoto-961520902-1024x1024.jpg",
     "duration": "",
-    "price": 5,
+    "price": 20,
     "section": "",
     "subscription": ""
   },
@@ -58,7 +67,7 @@
     "text": "",
     "image": "",
     "duration": "",
-    "price": 25,
+    "price": 50,
     "section": "",
     "subscription": ""
   },
@@ -67,7 +76,7 @@
     "text": "prezzo da definire in base alla zona",
     "image": "",
     "duration": "",
-    "price": "",
+    "price": "da definire in base alla zona",
     "section": "",
     "subscription": ""
   },
@@ -76,7 +85,7 @@
     "text": "CARD REGALO PERSONALIZZATE",
     "image": "",
     "duration": "",
-    "price": "",
+    "price": "a partire da 18",
     "section": "",
     "subscription": ""
   }
