@@ -34,6 +34,8 @@
             <p class="text-md text-gray-600 italic mt-4">
                 { giftCard.text }
             </p>
+            <bold class="block text-black font-bold text-md pr-2 text-right">{giftCard.price}</bold>
+           
         </div>
         
     </div>

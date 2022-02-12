@@ -14,7 +14,7 @@
             </span>
         </h1>
         <h2 class="mb-4 text-gray-500 italic font-light text-xl lg:text-2xl mt-8 pl-4">
-            Insieme a te da 25 anni 
+            Da più di 30 anni
         </h2>
         <p class="mb-6 leading-loose text-gray-400 pl-4">
             Senza mai tralasciare la <span class="font-bold text-black">costante formazione</span> tecnico scientifica<br>
