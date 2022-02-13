@@ -14,13 +14,13 @@
         <p class="text-sm  text-gray-400 text-right">
             {#if price.min && price.max}
                 da  <bold class="text-black font-bold text-md">
-                        {price.min}&euro;
+                        {price.min}
                     </bold> 
                 a  <bold class="text-black font-bold text-md">
-                    {price.max}&euro;
+                    {price.max}
                     </bold>
             {:else}
-                <bold class="text-black font-bold text-md">{price}&euro;</bold>
+                <bold class="text-black font-bold text-md">{price}</bold>
             {/if}
         </p>
     </div>

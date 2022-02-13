@@ -18,18 +18,18 @@
                     {#if price.min && price.max}
                         <span class="text-sm text-gray-200">da</span>  
                         <bold class="text-black font-bold text-md">
-                                {price.min}&euro;
+                                {price.min}
                         </bold> 
                         <span class="text-sm text-gray-400">a</span>
                         <bold class="text-black font-bold text-md">
-                            {price.max}&euro;
+                            {price.max}
                         </bold>
                     {:else}
                         {#if duration}
                             <span class="text-sm text-gray-400">{duration}</span>    
                         {/if}    
                         {#if price}
-                            <bold class="text-black font-bold text-md pr-2">{price}&euro;</bold>
+                            <bold class="text-black font-bold text-md pr-2">{price}</bold>
                         {/if} 
                         
                     {/if}

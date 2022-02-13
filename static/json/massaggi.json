@@ -4,7 +4,7 @@
     "text": "",
     "image": "",
     "duration": "1 ora",
-    "price": 60,
+    "price": "60,00 €",
     "section": "",
     "subscription": ""
   },
@@ -13,7 +13,7 @@
     "text": "",
     "image": "",
     "duration": "1 ora",
-    "price": 60,
+    "price": "60,00 €",
     "section": "",
     "subscription": ""
   },
@@ -22,7 +22,7 @@
     "text": "",
     "image": "",
     "duration": "1 ora",
-    "price": 60,
+    "price": "60,00 €",
     "section": "",
     "subscription": ""
   },
@@ -31,7 +31,7 @@
     "text": "",
     "image": "",
     "duration": "1 ora",
-    "price": 60,
+    "price": "60",
     "section": "",
     "subscription": ""
   },
@@ -40,25 +40,25 @@
     "text": "",
     "image": "",
     "duration": "",
-    "price": 20,
+    "price": "20,00 €",
     "section": "",
-    "subscription": 45
+    "subscription": "45,00 €"
   },
   {
     "title": "SCRUB CORPO",
     "text": "",
     "image": "",
     "duration": "",
-    "price": 50,
+    "price": "50,00 €",
     "section": "",
-    "subscription": 70
+    "subscription": "70,00 €"
   },
   {
     "title": "BENDAGGIO SNELLENTE",
     "text": "",
     "image": "",
     "duration": "1 ora",
-    "price": 51,
+    "price": "51,00 €",
     "section": "",
     "subscription": ""
   }
