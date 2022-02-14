@@ -25,12 +25,13 @@
         <li class="mb-2">
             <a href="/epilazione" class="{$page.url.pathname === '/epilazione' ? 'fucsia-color-bg ' : 'bg-gray-300 '} border flex p-2 border border-gray-100">
                 <span class="text-black ">epilazione</span>
+                <span class="text-white pl-2">depilazione</span>
             </a>
         </li>
         <li class="mb-2">
             <a href="/manicurepedicure" class="{$page.url.pathname === '/manicurepedicure' ? 'fucsia-color-bg ' : 'bg-gray-300 '} flex p-2 border border-gray-100">
                 <span class="">manicure</span>
-                <span class="fucsia-color pl-2">pedicure</span>
+                <span class="text-white pl-2">pedicure</span>
                   
             </a>
         </li>

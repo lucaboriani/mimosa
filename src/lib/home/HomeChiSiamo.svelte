@@ -77,10 +77,15 @@
                 
             </li>
         </ul>
-
-        <a class="w-full text-2xl flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
-            Tutti i nostri servizi
-        </a>
+        <div class="flex">
+            <a class="w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
+                Scopri di più
+            </a>
+            <a class="w-1/2 text-2xl ml-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
+                Tutti i nostri servizi
+            </a>
+        </div>
+        
         
     </div>
    
