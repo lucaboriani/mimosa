@@ -44,15 +44,18 @@
                     
                 </a>
             </li>
-            <li class="w-1/4 min-h-10 text-5xl">
-                <span class="text-center">
-                    <span class="mimosa-color">la</span>
-                    <span class="mosa">
-                        <span class="mimosa-color">mi</span>
-                        <span class="text-black mosa">mosa</span>
+            <li class="w-1/4  ">
+                <a href="#a">
+                    <span class="text-center text-5xl">
+                        <span class="mimosa-color">la</span>
+                        <span class="mosa">
+                            <span class="mimosa-color">mi</span>
+                            <span class="text-black mosa">mosa</span>
+                        </span>
                     </span>
-                    
-                </span>
+                    <span class="fucsia-color">Chiama per un appuntamento</span>
+                    <span class="font-semibold text-gray-500 text-3xl">Tel 02 99026325</span>
+                </a>
             </li>
             <li class="w-1/4 bg-gray-100">
                 <a href="/trattamenticorpo" class="bg-white text-2xl fucsia-color">
@@ -87,10 +90,9 @@
                     
                  </a>
             </li>
-            <li class="w-1/4 ">
-                <a href="#a">
-                    <span class="fucsia-color">Chiama per un appuntamento</span>
-                    <span class="font-semibold text-gray-500 text-3xl">Tel 02 99026325</span>
+            <li class="w-1/4 bg-gray-200">
+                <a href="/epilazione" class="bg-white text-2xl text-gray-700">
+                    depilazione
                 </a>
             </li>
         </ul>    

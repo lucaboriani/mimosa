@@ -1,47 +1,33 @@
-var __create = Object.create;
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getProtoOf = Object.getPrototypeOf;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
-var __export = (target, all) => {
-  __markAsModule(target);
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __reExport = (target, module2, desc) => {
-  if (module2 && typeof module2 === "object" || typeof module2 === "function") {
-    for (let key of __getOwnPropNames(module2))
-      if (!__hasOwnProp.call(target, key) && key !== "default")
-        __defProp(target, key, { get: () => module2[key], enumerable: !(desc = __getOwnPropDesc(module2, key)) || desc.enumerable });
-  }
-  return target;
-};
-var __toModule = (module2) => {
-  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
-};
-__export(exports, {
-  default: () => Routes
-});
-var import_index_6f55eac1 = __toModule(require("../../chunks/index-6f55eac1.js"));
-var import_Header_b264fdbe = __toModule(require("../../chunks/Header-b264fdbe.js"));
+import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/index-6f55eac1.js";
+import { H as Header } from "../../chunks/Header-9306c643.js";
 var HomeSplash_svelte_svelte_type_style_lang = "";
 const css$3 = {
-  code: ".mimosa-color.svelte-14sm2hm{color:#c6919b}.phone.svelte-14sm2hm:hover{color:whitesmoke}.home-stripes.svelte-14sm2hm{background:linear-gradient(90deg, #fff 25%, #c6919b 25% 50% , #efefef 50% 75%, #d4d4d4 75% 100%)}.home-mimosa.svelte-14sm2hm{position:absolute;text-align:left;left:25%;transform:translate3d(-9.7rem,0, 0)}#home-image.svelte-14sm2hm{left:55%}.home-address.svelte-14sm2hm{margin-left:10em}.home-logo.svelte-14sm2hm{width:20%;height:auto;bottom:6em;left:75%;transform:translateX(10%)}",
+  code: ".mimosa-color.svelte-1h68knx{color:#c6919b}.phone.svelte-1h68knx:hover{color:whitesmoke}.home-stripes.svelte-1h68knx{background:linear-gradient(90deg, #fff 25%, #c6919b 25% 50% , #efefef 50% 75%, #d4d4d4 75% 100%)}.home-mimosa.svelte-1h68knx{position:absolute;text-align:left;left:25%;transform:translate3d(-9.7rem,0, 0)}#home-image.svelte-1h68knx{left:55%}.home-address.svelte-1h68knx{position:absolute;left:0;bottom:6em;width:50%}.home-logo.svelte-1h68knx{width:15%;height:auto;bottom:4em;left:80%;transform:translateX(10%)}.scroll.svelte-1h68knx{width:34px;height:34px;border:2px solid #333;border-radius:34px;position:absolute;bottom:1em;margin:0;left:50%;transform:translateX(-50%);animation:svelte-1h68knx-down 1.5s infinite;-webkit-animation:svelte-1h68knx-down 1.5s infinite;cursor:pointer}.scroll.svelte-1h68knx::before{content:'';position:absolute;top:7px;left:8px;width:13px;height:13px;border-left:2px solid #333;border-bottom:2px solid #333;transform:rotate(-45deg)}@keyframes svelte-1h68knx-down{0%{transform:translate(-50%,0)}20%{transform:translate(-50%,15px)}40%{transform:translate(-50%,0)}}.phone.svelte-1h68knx{width:2em}",
   map: null
 };
-const HomeSplash = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const HomeSplash = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$3);
-  return `<div class="${"bg-white relative"}"><div class="${"h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes svelte-14sm2hm"}"><div class="${"home-mimosa svelte-14sm2hm"}"><h1 class="${"text-7xl text-black z-10 pl-4-em"}"><span class="${"block mimosa-color svelte-14sm2hm"}"><bold><span>la mi</span><span class="${"text-black"}">mosa</span></bold></span></h1>
-            <div class="${"home-address svelte-14sm2hm"}"><span class="${"block text-black-200 z-10 pl-14-em text-sm"}">Via G. Marconi, 13 - Garbagnate Milanese (MI)
-                </span>
-                <a class="${"block text-black-200 z-10 pl-14-em text-sm font-extrabold phone svelte-14sm2hm"}" href="${"#"}">Tel 02-99026325
-                </a>
-                <div class="${"lg:mt-0 lg:flex-shrink-0 z-10 pl-11-em"}"><div class="${"mt-4 ml-6 inline-flex rounded-md shadow"}"><button type="${"button"}" class="${"py-4 px-6 bg-black hover:fucsia-color-bg hover:text-white focus:ring-black text-gray-100 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "}">Scopri di pi\xF9
-                        </button></div></div></div></div></div>
-    <img src="${"img/home-donna.png"}" alt="${"donna"}" class="${"absolute inset-y-0 h-screen svelte-14sm2hm"}" loading="${"eager"}" id="${"home-image"}">
-    <img src="${"img/logo-dibi-center.png"}" alt="${"logo dibi"}" class="${"absolute home-logo svelte-14sm2hm"}" loading="${"eager"}"> 
+  return `<div class="${"bg-white relative"}"><div class="${"h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes svelte-1h68knx"}"><div class="${"home-mimosa svelte-1h68knx"}"><h1 class="${"text-7xl text-black z-10 pl-4-em"}"><span class="${"block mimosa-color svelte-1h68knx"}"><bold><span>la mi</span><span class="${"text-black"}">mosa</span></bold></span></h1></div>
+		<div class="${"home-address flex flex-col text-left svelte-1h68knx"}"><div class="${"pl-4 pb-4"}"><span class="${"block text-gray-500 z-10 pl-14-em text-sm"}">Via G. Marconi 13
+				</span>
+				<span class="${"block text-black-200 z-10 pl-14-em text-sm"}">Garbagnate Milanese (MI)
+				</span></div>
+			<div class="${"w-full flex"}"><div class="${"w-1/2 p-4 fucsia-color-bg"}"><p class="${"flex justify-between"}"><span class="${"block text-gray-800 z-10 text-sm "}">marted\xEC - venerd\xEC 
+						</span>
+						<span class="${"block text-black-200 z-10 text-sm"}">09.00 - 19.00
+						</span></p>
+					<p class="${"flex justify-between"}"><span class="${"block text-gray-800 z-10 text-sm"}">sabato
+						</span>
+						<span class="${"block text-black-200 z-10 text-sm"}">09.00 - 17.00
+						</span></p>
+					<span class="${"block text-black-200 z-10 font-semibold text-sm text-right pt-2 "}">solo su appuntamento
+					</span></div>
+				<div class="${"w-1/2 p-8 bg-white"}"><a class="${"flex flex-col text-black-200 z-10 text-sm font-extrabold "}" href="${"#"}"><span class="${"w-full pl-3 block"}">fissa un appuntamento</span>
+						<div class="${"flex mt-1"}"><img src="${"img/phone-icons.svg"}" alt="${"phone"}" class="${"phone pr-1 svelte-1h68knx"}">
+							<span class="${"ml-2 block bg-gray-300 px-3 py-1 text-center leading-8"}">Tel 02-99026325</span></div></a></div></div></div></div>
+	<div class="${"scroll bg-gray-100 svelte-1h68knx"}"></div>
+    <img src="${"img/lei.png"}" alt="${"donna"}" class="${"absolute inset-y-0 h-screen svelte-1h68knx"}" loading="${"eager"}" id="${"home-image"}">
+    <img src="${"img/logo-dibi-center.png"}" alt="${"logo dibi"}" class="${"absolute home-logo svelte-1h68knx"}" loading="${"eager"}"> 
 </div>`;
 });
 var HomeAboutCards_svelte_svelte_type_style_lang = "";
@@ -50,7 +36,7 @@ const css$2 = {
   code: ".fucsia-color-bg.svelte-gcvoei{background-color:#c6919b}",
   map: null
 };
-const HomeSpecialties = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const HomeSpecialties = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$2);
   return `<div class="${"w-full lg:w-1/2 p-8 py-20 bg-gray-200 flex justify-center"}"><div class="${"mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0"}"><p class="${"mb-4 text-gray-500 pt-10"}"><span class="${"text-2xl text-gray-700"}">Specializzate</span> nell&#39; epilazione con <br>  laser diodo 
             <span class="${"text-xl text-gray-700"}">Epildream</span>,  
@@ -81,8 +67,8 @@ const HomeSpecialties = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindi
         <p class="${"mb-2 text-gray-500 p-2"}"><span class="${"text-xl text-gray-700"}">Make up</span> personalizzato e minicorsi individuali di trucco,<br>
             trucco semipermanente effettuato da personale altamente specializzato.
         </p>
-        <div class="${"w-full"}"><button type="${"button"}" class="${"py-2 px-4 fucsia-color-bg hover:bg-yellow-200 hover:text-black focus:ring-yellow-200 focus:ring-offset-yellow-200 text-white w-full transition ease-in duration-200 text-center text-base uppercase focus:outline-none focus:ring-2 focus:ring-offset-2  svelte-gcvoei"}">Scopri i nostri servizi
-            </button></div></div></div>
+        <div class="${"w-full"}"><a href="${"/servizi"}" class="${"py-2 px-4 fucsia-color-bg hover:bg-yellow-200 hover:text-black focus:ring-yellow-200 focus:ring-offset-yellow-200 text-white w-full transition ease-in duration-200 text-center text-base uppercase focus:outline-none focus:ring-2 focus:ring-offset-2  svelte-gcvoei"}">Scopri i nostri servizi
+            </a></div></div></div>
 <div class="${"w-full lg:w-1/2 flex"}"><img class="${"h-7/10 w-auto"}" src="${"img/griglia.png"}" alt="${"griglia loghi e prodotti"}" loading="${"lazy"}"></div>`;
 });
 var HomeChiSiamo_svelte_svelte_type_style_lang = "";
@@ -90,10 +76,10 @@ const css$1 = {
   code: ".mimosa-color.svelte-1ostt29{color:#c6919b}.about-title.svelte-1ostt29{transform:translateX(-4.7em)}",
   map: null
 };
-const HomeChiSiamo = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const HomeChiSiamo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
   return `<div class="${"w-3/4 ml-1/4"}"><div class="${"my-12 px-8 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0"}"><h1 class="${"mb-2 text-gray-500 text-6xl font-heading pt-10 about-title svelte-1ostt29"}"><span class="${"text-3xl pr-4"}">estetica</span><span class="${"mimosa-color svelte-1ostt29"}"><bold><span>la mi</span><span class="${"text-black"}">mosa</span></bold></span></h1>
-        <h2 class="${"mb-4 text-gray-500 italic font-light text-xl lg:text-2xl mt-8 pl-4"}">Insieme a te da 25 anni 
+        <h2 class="${"mb-4 text-gray-500 italic font-light text-xl lg:text-2xl mt-8 pl-4"}">Da pi\xF9 di 30 anni
         </h2>
         <p class="${"mb-6 leading-loose text-gray-400 pl-4"}">Senza mai tralasciare la <span class="${"font-bold text-black"}">costante formazione</span> tecnico scientifica<br>
             che ci ha permesso di offrirti <span class="${"font-bold text-black"}">splendidi risultati.</span></p>
@@ -115,22 +101,23 @@ const HomeChiSiamo = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings
                         </h3>
                         <p class="${"text-gray-500 pt-8 italic"}">la linea di trattamento della pelle progettata per conquistare un livello superiore di ringiovanimento cutaneo
                         </p></div></div></li></ul>
-
-        <a class="${"w-full text-2xl flex justify-center p-4 fucsia-color-bg hover:bg-black text-white uppercase transition ease-in-out delay-150"}" href="${"/servizi"}">Tutti i nostri servizi
-        </a></div></div>`;
+        <div class="${"flex"}"><a class="${"w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black text-white uppercase transition ease-in-out delay-150"}" href="${"/servizi"}">Scopri di pi\xF9
+            </a>
+            <a class="${"w-1/2 text-2xl ml-2 flex justify-center p-4 fucsia-color-bg hover:bg-black text-white uppercase transition ease-in-out delay-150"}" href="${"/servizi"}">Tutti i nostri servizi
+            </a></div></div></div>`;
 });
 var HomeAbout_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".about-stripes.svelte-1y3d7x9{background:linear-gradient(90deg, #d4d4d4 25%, #ffffff 25% 100%)}",
   map: null
 };
-const HomeAbout = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const HomeAbout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let about;
   $$result.css.add(css);
-  return `<div class="${"about-stripes min-h-screen pb-8 border-b svelte-1y3d7x9"}" id="${"about"}"${(0, import_index_6f55eac1.a)("this", about, 0)}><div class="${"flex flex-wrap justify-end"}">${(0, import_index_6f55eac1.v)(HomeChiSiamo, "HomeChiSiamo").$$render($$result, {}, {}, {})}</div></div>
-<div class="${""}" id="${"about-specialties"}"><div class="${"flex"}">${(0, import_index_6f55eac1.v)(HomeSpecialties, "HomeSpecialties").$$render($$result, {}, {}, {})}</div></div>`;
+  return `<div class="${"about-stripes min-h-screen pb-8 border-b svelte-1y3d7x9"}" id="${"about"}"${add_attribute("this", about, 0)}><div class="${"flex flex-wrap justify-end"}">${validate_component(HomeChiSiamo, "HomeChiSiamo").$$render($$result, {}, {}, {})}</div></div>
+<div class="${""}" id="${"about-specialties"}"><div class="${"flex"}">${validate_component(HomeSpecialties, "HomeSpecialties").$$render($$result, {}, {}, {})}</div></div>`;
 });
-const Routes = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
 
 
@@ -138,15 +125,18 @@ const Routes = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slot
        
 
 	
-	${(0, import_index_6f55eac1.v)(HomeSplash, "HomeSplash").$$render($$result, {}, {}, {})}
+	${validate_component(HomeSplash, "HomeSplash").$$render($$result, {}, {}, {})}
 	
 	     
-	${(0, import_index_6f55eac1.v)(import_Header_b264fdbe.H, "Header").$$render($$result, {}, {}, {})}
+	${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
 	  
    
 	<section>
-		${(0, import_index_6f55eac1.v)(HomeAbout, "HomeAbout").$$render($$result, {}, {}, {})}
+		${validate_component(HomeAbout, "HomeAbout").$$render($$result, {}, {}, {})}
 		 </section>
 	
-	`;
+<footer class="${"bg-white w-full py-8"}"><div class="${"max-w-screen-xl mx-auto px-4"}"><div class="${"pt-8 flex max-w-xs mx-auto items-center justify-center"}"><a href="${"#"}" class="${"text-gray-400 hover:text-gray-800 transition-colors duration-200"}"><svg width="${"20"}" height="${"20"}" fill="${"currentColor"}" class="${"text-xl hover:text-gray-800 transition-colors duration-200"}" viewBox="${"0 0 1792 1792"}" xmlns="${"http://www.w3.org/2000/svg"}"><path d="${"M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"}"></path></svg></a>
+            <a href="${"#"}" class="${"text-gray-400 hover:text-gray-800 transition-colors duration-200"}"><svg width="${"20"}" height="${"20"}" fill="${"currentColor"}" class="${"text-xl hover:text-gray-800 transition-colors duration-200"}" viewBox="${"0 0 1792 1792"}" xmlns="${"http://www.w3.org/2000/svg"}"><path d="${"M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"}"></path></svg></a></div></div></footer>
+`;
 });
+export { Routes as default };

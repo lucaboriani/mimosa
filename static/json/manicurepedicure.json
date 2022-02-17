@@ -2,7 +2,7 @@
   {
     "title": "MANICURE",
     "text": "",
-    "image": "",
+    "image": "manicure.jpg",
     "duration": "",
     "price": "18,00 €",
     "section": "",
@@ -11,7 +11,7 @@
   {
     "title": "PEDICURE",
     "text": "",
-    "image": "",
+    "image": "pedicure.jpg",
     "duration": "",
     "price": "32,00 €",
     "section": "",
@@ -20,7 +20,7 @@
   {
     "title": "PEDICURE+MANICURE",
     "text": "",
-    "image": "",
+    "image": "cuccio_cut.jpg",
     "duration": "",
     "price": "50,00 €",
     "section": "",
@@ -29,43 +29,43 @@
   {
     "title": "CALLUS PEEL",
     "text": "",
-    "image": "",
+    "image": "callus.jpg",
     "duration": "",
     "price": "27,00 €",
     "section": "",
     "subscription": ""
   },
   {
+    "title": "CALLUS PEEL con pedicure",
+    "text": "",
+    "image": "calluspeeling.jpg",
+    "duration": "",
+    "price": "53,00 €",
+    "section": "",
+    "subscription": ""
+  },
+  {
     "title": "APPLICAZIONE SMALTO",
     "text": "",
-    "image": "",
+    "image": "smalto.jpg",
     "duration": "",
-    "price": "11,00 €",
+    "price": "5,00 €",
     "section": "",
     "subscription": ""
   },
   {
     "title": "SMALTO SEMIPERMANENTE IN GEL",
     "text": "",
-    "image": "",
-    "duration": "",
-    "price": "50,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "RIMOZIONE SMALTO PERMANENTE",
-    "text": "",
-    "image": "",
+    "image": "gel.jpg",
     "duration": "",
     "price": "25,00 €",
     "section": "",
     "subscription": ""
   },
   {
-    "title": "??????",
+    "title": "RIMOZIONE SMALTO PERMANENTE",
     "text": "",
-    "image": "",
+    "image": "smalto-semipermanente_NG5.jpg",
     "duration": "",
     "price": "12,00 €",
     "section": "",

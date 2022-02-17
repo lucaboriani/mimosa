@@ -1,36 +1,18 @@
-var __create = Object.create;
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getProtoOf = Object.getPrototypeOf;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
-var __export = (target, all) => {
-  __markAsModule(target);
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __reExport = (target, module2, desc) => {
-  if (module2 && typeof module2 === "object" || typeof module2 === "function") {
-    for (let key of __getOwnPropNames(module2))
-      if (!__hasOwnProp.call(target, key) && key !== "default")
-        __defProp(target, key, { get: () => module2[key], enumerable: !(desc = __getOwnPropDesc(module2, key)) || desc.enumerable });
-  }
-  return target;
-};
-var __toModule = (module2) => {
-  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
-};
-__export(exports, {
-  default: () => Visocollo
-});
-var import_index_6f55eac1 = __toModule(require("../../chunks/index-6f55eac1.js"));
-var import_Header_b264fdbe = __toModule(require("../../chunks/Header-b264fdbe.js"));
-const GroupOneService = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+import { c as create_ssr_component, e as escape, d as each, v as validate_component } from "../../chunks/index-6f55eac1.js";
+import { H as Header } from "../../chunks/Header-9306c643.js";
+import { O as OneThirdCard } from "../../chunks/OneThirdCard-4fdc4399.js";
+import { S as ServiziMenu } from "../../chunks/ServiziMenu-da0a1911.js";
+const OneFourthCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title } = $$props;
   let { price } = $$props;
   let { paragraphs } = $$props;
   let { duration } = $$props;
+  let { image } = $$props;
+  let { bgColor } = $$props;
+  if (price.indexOf && price.indexOf("|") != -1) {
+    const split = price.split("|");
+    price = { min: split[0], max: split[1] };
+  }
   if ($$props.title === void 0 && $$bindings.title && title !== void 0)
     $$bindings.title(title);
   if ($$props.price === void 0 && $$bindings.price && price !== void 0)
@@ -39,22 +21,25 @@ const GroupOneService = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindi
     $$bindings.paragraphs(paragraphs);
   if ($$props.duration === void 0 && $$bindings.duration && duration !== void 0)
     $$bindings.duration(duration);
-  return `<div class="${"w-full sm:w-1/2 md:w-1/2 lg:w-1/3 flex flex-col "}"><div class="${"bg-white px-4 py-4 flex flex-col h-5/6 mx-4 my-4 mt-4 mb-4 ml-4 mr-4 justify-between background-gray-0"}"><h3 class="${"text-2xl sm:text-xl text-gray-500 border-b-2 py-2 upp"}">${(0, import_index_6f55eac1.e)(title)}</h3>
-        ${paragraphs && paragraphs.length > 0 ? `${(0, import_index_6f55eac1.d)(paragraphs, (p) => {
-    return `<p class="${"text-md text-gray-600 italic mt-4"}">${(0, import_index_6f55eac1.e)(p)}
+  if ($$props.image === void 0 && $$bindings.image && image !== void 0)
+    $$bindings.image(image);
+  if ($$props.bgColor === void 0 && $$bindings.bgColor && bgColor !== void 0)
+    $$bindings.bgColor(bgColor);
+  return `<div class="${"w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col "}">${image ? `<div class="${"flex items-center bg-gray-300 mx-4"}"><img src="${"img/" + escape(image)}" class="${"px-4 w-full h-40 object-contain bg-gray-300"}" alt="${"title"}" loading="${"lazy"}"></div>` : ``}
+    <div class="${"px-4 pb-4 flex flex-col h-full mx-4 mb-4 ml-4 mr-4 justify-between " + escape(bgColor ? bgColor : "bg-gray-0")}"><h3 class="${"text-gray-500 border-b-2 py-4 upp"}">${escape(title)}</h3>
+        ${paragraphs && paragraphs.length > 0 ? `${each(paragraphs, (p) => {
+    return `<p class="${"text-md text-gray-600 italic mt-4"}">${escape(p)}
                 </p>`;
   })}` : ``}
-        <p class="${"text-md text-gray-500 text-right pt-9"}">${price.min && price.max ? `<span class="${"text-sm text-gray-200"}">da</span>  
-                <bold class="${"text-black font-bold text-md"}">${(0, import_index_6f55eac1.e)(price.min)}\u20AC
-                </bold> 
+        <p class="${"text-md text-gray-500 text-right"}">${price.min && price.max ? `<span class="${"text-sm text-gray-200"}">da</span>  
+                <bold class="${"text-black font-bold text-md"}">${escape(price.min)}</bold> 
                 <span class="${"text-sm text-gray-400"}">a</span>
-                <bold class="${"text-black font-bold text-md"}">${(0, import_index_6f55eac1.e)(price.max)}\u20AC
-                </bold>` : `${duration ? `<span class="${"text-sm text-gray-400"}">${(0, import_index_6f55eac1.e)(duration)}</span>` : ``}    
-                <bold class="${"text-black font-bold text-md pr-2"}">${(0, import_index_6f55eac1.e)(price)}\u20AC</bold>`}</p></div>
+                <bold class="${"text-black font-bold text-md"}">${escape(price.max)}</bold>` : `${duration ? `<span class="${"text-sm text-gray-400 block"}">${escape(duration)}</span>` : ``}    
+                <bold class="${"text-black font-bold text-md pr-2 block"}">${escape(price)}</bold>`}</p></div>
     
 </div>`;
 });
-const GroupTwoService = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
+const HalfWidthCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title } = $$props;
   let { price } = $$props;
   let { paragraphs } = $$props;
@@ -64,130 +49,100 @@ const GroupTwoService = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindi
     $$bindings.price(price);
   if ($$props.paragraphs === void 0 && $$bindings.paragraphs && paragraphs !== void 0)
     $$bindings.paragraphs(paragraphs);
-  return `<div class="${"w-full sm:w-1/2 md:w-1/2 lg:w-1/2 flex flex-col "}"><div class="${"bg-white px-4 py-4 flex flex-col h-5/6 mx-4 my-4 mt-4 mb-4 ml-4 mr-4 justify-between background-gray-0"}"><h3 class="${"text-2xl sm:text-xl text-gray-500 font-semibold pt-2 pb-1"}">${(0, import_index_6f55eac1.e)(title)}</h3>
-        ${paragraphs && paragraphs.length > 0 ? `${(0, import_index_6f55eac1.d)(paragraphs, (p) => {
+  return `<div class="${"w-full sm:w-1/2 md:w-1/2 lg:w-1/2 flex flex-col "}"><div class="${"bg-white px-4 py-4 flex flex-col h-5/6 mx-4 my-4 mt-4 mb-4 ml-4 mr-4 justify-between background-gray-0"}"><h3 class="${"text-2xl sm:text-xl text-gray-500 font-semibold pt-2 pb-1"}">${escape(title)}</h3>
+        ${paragraphs && paragraphs.length > 0 ? `${each(paragraphs, (p) => {
     return `<p class="${"text-md text-gray-600 italic"}"><!-- HTML_TAG_START -->${p}<!-- HTML_TAG_END -->
                 </p>`;
   })}` : ``}
         
-        <p class="${"text-sm text-gray-400 text-right"}">${price.min && price.max ? `da  <bold class="${"text-black font-bold text-md"}">${(0, import_index_6f55eac1.e)(price.min)}\u20AC
-                    </bold> 
-                a  <bold class="${"text-black font-bold text-md"}">${(0, import_index_6f55eac1.e)(price.max)}\u20AC
-                    </bold>` : `<bold class="${"text-black font-bold text-md"}">${(0, import_index_6f55eac1.e)(price)}\u20AC</bold>`}</p></div>
+        <p class="${"text-sm text-gray-400 text-right"}">${price.min && price.max ? `da  <bold class="${"text-black font-bold text-md"}">${escape(price.min)}</bold> 
+                a  <bold class="${"text-black font-bold text-md"}">${escape(price.max)}</bold>` : `<bold class="${"text-black font-bold text-md"}">${escape(price)}</bold>`}</p></div>
     
 </div>`;
 });
 var VisoCollo_svelte_svelte_type_style_lang = "";
-const css = {
-  code: ".grid-cont.svelte-1lk7p5g{height:calc(100vh - 64px)}.service-menu.svelte-1lk7p5g{padding-top:4.5rem}",
+const css$1 = {
+  code: ".visocollo-dibi-logo.svelte-vvmjx7{width:10rem;bottom:5rem;right:3rem}",
   map: null
 };
-const VisoCollo = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
-  let serviceGroups = {
-    first: [
-      {
-        title: "Analisi computerizzata viso",
-        paragraphs: [],
-        duration: "",
-        price: 50
-      },
-      {
-        title: "Pulizia viso",
-        paragraphs: ["con depilazione ciglia e baffetti"],
-        duration: "1 ora e 30 min",
-        price: 30
-      },
-      {
-        title: "Trattamenti flash",
-        paragraphs: [],
-        duration: "1 ora ",
-        price: 30
-      },
-      {
-        title: "LPG viso",
-        paragraphs: ["riposiziona i volumi del viso"],
-        duration: "1 ora ",
-        price: 70
-      },
-      {
-        title: "K.R.F.",
-        paragraphs: ["azione termica rassodante"],
-        duration: "",
-        price: { min: 35, max: 70 }
-      },
-      {
-        title: "Dermopeeling",
-        paragraphs: ["microdermoabrasione cosmetica"],
-        duration: "1 ora ",
-        price: 48
-      }
-    ],
-    second: [
-      {
-        title: "The mini spa treatment",
-        paragraphs: [
-          `Offre alla pelle grandi vantaggi in pochissimo tempo
-                            lasciando una sensazione di freschezza<br>
-                            donando effetti rivitalizzanti con un accento sull'esfoliazione e l'idratazione`
-        ],
-        duration: "30 min",
-        price: 49
-      },
-      {
-        title: "High definition peel",
-        paragraphs: [
-          ` Intensivo trattamento peel mensile consente straordinari miglioramenti anti-aging con risultati visibili.<br>
-                        Esfolia profondamente, riempie e volumizza l'aspetto della pelle lasciando la cute radiosa e levigata
-                       `
-        ],
-        duration: "30 min",
-        price: 150
-      }
-    ],
-    third: []
-  };
-  $$result.css.add(css);
-  return `<section class="${"flex grid-cont svelte-1lk7p5g"}"><nav class="${"w-1/4 bg-gray-400 service-menu px-4 svelte-1lk7p5g"}"><ul class="${"flex w-full flex-col"}"><li class="${"mb-2"}"><a class="${"fucsia-color-bg p-2 flex border border-gray-700"}" href="${"/visocollo"}"><span class="${"text-blacl"}">viso collo</span>
-                    <span class="${"inline pl-2 text-white"}">d\xE9collet\xE9</span></a></li>
-            <li class="${"mb-2"}"><a href="${"#a"}" class="${"bg-gray-300 flex p-2 border border-gray-100"}"><span class="${"text-black"}">trattamenti</span>
-                    <span class="${"pl-2 fucsia-color "}">corpo</span></a></li>
-            <li class="${"border mb-2"}"><a href="${"#a"}" class="${"bg-gray-300 flex p-2 border border-gray-100"}">epilazione
-                </a></li>
-            <li class="${"mb-2"}"><a href="${"#a"}" class="${"bg-gray-300 flex p-2 border border-gray-100"}"><span class="${""}">manicure</span>
-                    <span class="${"fucsia-color pl-2"}">pedicure</span></a></li>
-            <li class="${"mb-2"}"><a href="${"#a"}" class="${"bg-gray-300 flex p-2 border border-gray-100"}">massaggi
-                </a></li>
-            <li class="${"mb-2 "}"><a href="${"#a"}" class="${"bg-gray-300 flex p-2 border border-gray-100"}"><span class="${""}">make</span>
-                        <span class="${"fucsia-color"}">up</span></a></li></ul></nav>
-    <div class="${"flex flex-col w-3/4"}"><h1 class="${"text-gray-510 mr-8 mt-4 mb-4 text-4xl text-right"}"><span class="${"fucsia-color inline"}">viso collo</span>
-            <span class="${"inline pl-2"}">d\xE9collet\xE9</span></h1>
-        <div class="${"overflow-y-scroll fucsia-color-bg"}"><div class="${"flex flex-col"}"><div class="${"flex flex-wrap"}">${(0, import_index_6f55eac1.d)(serviceGroups.first, (service) => {
-    return `${(0, import_index_6f55eac1.v)(GroupOneService, "GroupOneService").$$render($$result, {
+const VisoCollo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { data } = $$props;
+  if ($$props.data === void 0 && $$bindings.data && data !== void 0)
+    $$bindings.data(data);
+  $$result.css.add(css$1);
+  return `<div class="${"flex flex-col"}"><div class="${"flex flex-wrap pt-8"}">${each(data[0], (service) => {
+    return `${validate_component(OneThirdCard, "OneThirdCard").$$render($$result, {
       title: service.title,
-      paragraphs: service.paragraphs,
+      paragraphs: [service.text],
       price: service.price,
-      duration: service.duration
+      duration: service.duration,
+      bgColor: "bg-white"
     }, {}, {})}`;
   })}</div></div>
-            <div class="${"sm:flex flex-wrap px-4"}"><div class="${"text-md text-gray-500 pt-9 p-4 bg-white w-full flex justify-between"}"><p class="${"italic w-2/3 text-gray-500 flex flex-col justify-between"}"><span class="${"font-semibold block border-b-2"}">OLOS VISO</span>
-                        <span>percorso estetico olistico e sensoriale fatto di trattamenti e principi attivi naturali ed efficaci per la bellezza del viso</span></p>
-                    <img src="${"img/Logo_Olos Marrone con pay of_preview.png"}" alt="${"logo Olos"}" class="${"w-40 mb-6"}" loading="${"eager"}"></div></div>
-            <div class="${"flex flex-wrap"}">${(0, import_index_6f55eac1.d)(serviceGroups.second, (service) => {
-    return `${(0, import_index_6f55eac1.v)(GroupTwoService, "GroupTwoService").$$render($$result, {
+<div class="${"flex flex-col relative"}"><div class="${"text-md px-4 py-4 my-4 w-full flex justify-between"}"><p class="${"italic w-2/3 text-gray-600 flex flex-col justify-between"}"><span class="${"text-2xl text-gray-500"}">DIBI MILANO</span>
+            <span>offre risposte mirate ai reali bisogni della tua pelle per proporti la soluzione che cercavi<br>
+                e offrirti un momento speciale da dedicare a te stessa
+            </span></p></div>
+    <div class="${"flex flex-wrap"}">${each(data[1], (service) => {
+    return `${validate_component(OneFourthCard, "OneFourthCard").$$render($$result, {
+      image: service.image,
       title: service.title,
-      paragraphs: service.paragraphs,
+      paragraphs: [service.text],
+      price: service.price,
+      duration: service.duration,
+      bgColor: "bg-white"
+    }, {}, {})}`;
+  })}</div>
+    <img src="${"img/logo-dibi-center.png"}" alt="${"logo dibi"}" class="${"absolute visocollo-dibi-logo svelte-vvmjx7"}" loading="${"eager"}"></div>
+<div class="${"sm:flex flex-wrap px-4"}"><div class="${"text-md text-gray-500 pt-9 p-4 bg-white w-full flex justify-between"}"><p class="${"italic w-2/3 text-gray-500 flex flex-col justify-between"}"><span class="${"font-semibold block border-b-2"}">OLOS VISO</span>
+            <span>percorso estetico olistico e sensoriale fatto di trattamenti e principi attivi naturali ed efficaci per la bellezza del viso</span></p>
+        <img src="${"img/Logo_Olos Marrone con pay of_preview.png"}" alt="${"logo Olos"}" class="${"w-40 mb-6"}" loading="${"eager"}"></div></div>
+${data[2] ? `<div class="${"flex flex-wrap"}">${each(data[2], (service) => {
+    return `${validate_component(HalfWidthCard, "HalfWidthCard").$$render($$result, {
+      title: service.title,
+      paragraphs: [service.text],
       price: service.price,
       duration: service.duration
     }, {}, {})}`;
-  })}</div></div></div></section>`;
+  })}</div>` : ``}`;
 });
-const Visocollo = (0, import_index_6f55eac1.c)(($$result, $$props, $$bindings, slots) => {
-  return `${$$result.head += `${$$result.title = `<title>servizi</title>`, ""}`, ""}
-<div id="${"main-wrap"}">${(0, import_index_6f55eac1.v)(import_Header_b264fdbe.H, "Header").$$render($$result, {}, {}, {})}
-	
-	${(0, import_index_6f55eac1.v)(VisoCollo, "VisoCollo").$$render($$result, {}, {}, {})}
-   
-	 
-	
-	</div>`;
+var visocollo_svelte_svelte_type_style_lang = "";
+const css = {
+  code: ".grid-cont.svelte-jkpbjj{height:calc(100vh - 64px)}.no-scroll{overflow:hidden}",
+  map: null
+};
+let urls = [
+  "json/visocollo/first.json",
+  "json/visocollo/trattamentiviso.json",
+  "json/visocollo/second.json"
+];
+async function load({ fetch }) {
+  const fetchUrl = async (url) => {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+  };
+  try {
+    const multiple = await Promise.all(urls.map((url) => fetchUrl(url)));
+    return { props: { data: multiple } };
+  } catch (error) {
+    return {
+      status: "400",
+      error: new Error("error loading data")
+    };
+  }
+}
+const Visocollo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { data } = $$props;
+  if ($$props.data === void 0 && $$bindings.data && data !== void 0)
+    $$bindings.data(data);
+  $$result.css.add(css);
+  return `${$$result.head += `${$$result.title = `<title>Viso collo e d\xE9collet\xE9</title>`, ""}`, ""}
+
+<div id="${"main-wrap"}">${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+	<section class="${"flex grid-cont svelte-jkpbjj"}">${validate_component(ServiziMenu, "ServiziMenu").$$render($$result, {}, {}, {})}
+		<div class="${"flex flex-col w-3/4"}"><h1 class="${"text-gray-510 mr-8 mt-4 mb-4 text-4xl text-right"}"><span class="${"fucsia-color inline"}">viso collo</span>
+				<span class="${"inline pl-2"}">d\xE9collet\xE9</span></h1>
+			<div class="${"overflow-y-scroll fucsia-color-bg"}">${validate_component(VisoCollo, "VisoCollo").$$render($$result, { data }, {}, {})}</div></div></section></div>`;
 });
+export { Visocollo as default, load };

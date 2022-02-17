@@ -1,138 +1,73 @@
 [
   {
-    "title": "DEPILAZIONE GAMBE INTERA",
+    "title": "AREA SMALL",
+    "text": "basette, guance, zigomi, <br>orecchie, labbra, collo, mento,<br>linea alba, sterno, seno, piedi, mani",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 50,00 €",
+    "section": "donna",
+    "subscription": "abbonamenti 39,00 €"
+  },
+  {
+    "title": "AREA MEDIUM",
+    "text": "braccia, ascelle, spalle,<br>décolleté, schiena, addome, <br>lglutei, inguine",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 75,00 €",
+    "section": "donna",
+    "subscription": "abbonamenti 59,00 €"
+  },
+  {
+    "title": "AREA LARGE",
+    "text": "coscia, mezza gamba,<br>viso totale",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 125,00 €",
+    "section": "donna",
+    "subscription": "abbonamenti 99,00 €"
+  },
+  {
+    "title": "AREA SMALL",
+    "text": "basette, guance, zigomi, <br>orecchie, labbra, collo, mento,<br>attaccatura capelli,<br> sterno, piedi, mani",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 65,00 €",
+    "section": "uomo",
+    "subscription": "abbonamenti 49,00 €"
+  },
+  {
+    "title": "AREA MEDIUM",
+    "text": "braccia, avambracci, ascelle,<br>petto, spalle, addome,<br>glutei, inguine",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 90,00 €",
+    "section": "uomo",
+    "subscription": "abbonamenti 69,00 €"
+  },
+  {
+    "title": "AREA LARGE",
+    "text": "Cosce, mezza gamba, viso totale,<br>torace, schiena",
+    "image": "",
+    "duration": "",
+    "price": "seduta singola 140,00 €",
+    "section": "uomo",
+    "subscription": "abbonamenti 109,00 €"
+  },
+  {
+    "title": "ELETTROCOAGULAZIONE",
     "text": "",
     "image": "",
     "duration": "",
-    "price": "31,00 €",
+    "price": "1,50 € al minuto",
     "section": "",
     "subscription": ""
   },
   {
-    "title": "PARZIALE GAMBE CON INGUINE",
-    "text": "",
+    "title": "pacchetti",
+    "text": "Si effettuano pacchetti epilazione laser <br>altamente convenienti, con pagamenti rateizzati, senza interessi",
     "image": "",
     "duration": "",
     "price": "",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "PARZIALE GAMBE SENZA INGUINE",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "26,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "ASCELLE",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "21,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "INGUINE",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "11,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "BRASILIANO con BRASILIANA",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "16,00 + 5,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "HOLLYWOOD con BRASILIANA",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "21,00 + 5,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "VARIE",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "Da 6,00 a 12,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "BRACCIA",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "9,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "SOPRACCIGLIA",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "8,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "BAFFETTI",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "5,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "SOPRACCIGLIA+BAFFETTI",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "10,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "SOPRACCIGLIA UOMO",
-    "text": "",
-    "image": "",
-    "duration": "",
-    "price": "10,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "PROMO",
-    "text": "gambe+braccia+ascelle+baffetti e sopracciglia",
-    "image": "",
-    "duration": "",
-    "price": "71,00 €",
-    "promo":"62,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "PROMO",
-    "text": "gambe+braccia+ascelle +varie+baffetti e sopracciglia",
-    "image": "",
-    "duration": "",
-    "price": "83,00 €",
-    "promo":"72",
     "section": "",
     "subscription": ""
   }

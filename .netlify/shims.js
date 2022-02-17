@@ -1,11 +1,8 @@
-'use strict';
-
-require('./shims-24e5b259.js');
-require('node:http');
-require('node:https');
-require('node:zlib');
-require('node:stream');
-require('node:util');
-require('node:url');
-require('net');
-
+import './shims-c8fba98f.js';
+import 'node:http';
+import 'node:https';
+import 'node:zlib';
+import 'node:stream';
+import 'node:util';
+import 'node:url';
+import 'net';

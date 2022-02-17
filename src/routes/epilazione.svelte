@@ -32,7 +32,7 @@
 </script>
 <script>
     import Header from '$lib/header/Header.svelte';
-   // import VisoCollo from '$lib/servizi/VisoCollo.svelte';
+    import Epilazione from '$lib/servizi/Epilazione.svelte';
 	import ServiziMenu from '$lib/servizi/ServiziMenu.svelte';
 	// document.body.classList.add('no-scroll')
 	export let data
@@ -58,8 +58,8 @@
 			<h1 class="text-gray-510 mr-8 mt-4 mb-4 text-4xl text-right">
 				<span class=" fucsia-color inline">epilazione</span>
 			</h1>
-			<div class="overflow-y-scroll fucsia-color-bg">
-				
+			<div class="overflow-y-scroll">
+				<Epilazione data={data} />
 			</div>
 		   
 		</div>

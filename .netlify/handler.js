@@ -1,23 +1,19 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-require('./shims-24e5b259.js');
-var ./server/app.js = require('./server/app.js');
-require('node:http');
-require('node:https');
-require('node:zlib');
-require('node:stream');
-require('node:util');
-require('node:url');
-require('net');
+import './shims-c8fba98f.js';
+import { App } from './server/app.js';
+import 'node:http';
+import 'node:https';
+import 'node:zlib';
+import 'node:stream';
+import 'node:util';
+import 'node:url';
+import 'net';
 
 /**
  * @param {import('@sveltejs/kit').SSRManifest} manifest
  * @returns {import('@netlify/functions').Handler}
  */
 function init(manifest) {
-	const app = new ./server/app.js.App(manifest);
+	const app = new App(manifest);
 
 	return async (event) => {
 		const rendered = await app.render(to_request(event));
@@ -96,4 +92,4 @@ function split_headers(headers) {
 	};
 }
 
-exports.init = init;
+export { init };
