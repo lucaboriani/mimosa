@@ -2,7 +2,8 @@
     import HomeAboutCards from '$lib/home/HomeAboutCards.svelte';
     import HomeSpecialties from '$lib/home/HomeSpecialties.svelte';
     import HomeChiSiamo from '$lib/home/HomeChiSiamo.svelte';
-	let about
+    import Contacts from '$lib/home/Contacts.svelte';
+	let about, contacts
 </script>
 <style>
     .about-stripes {
@@ -17,5 +18,10 @@
 <div class="" id="about-specialties">
     <div class="flex">
     	<HomeSpecialties/>
+    </div>
+</div>
+<div class="" bind:this={contacts} id="contacts">
+    <div class="flex">
+    	<Contacts/>
     </div>
 </div>

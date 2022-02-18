@@ -78,7 +78,7 @@
             </li>
         </ul>
         <div class="flex">
-            <a class="w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
+            <a on:click="{goToSpecialties}" class="w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="#">
                 Scopri di più
             </a>
             <a class="w-1/2 text-2xl ml-2  flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
@@ -90,3 +90,10 @@
     </div>
    
 </div>
+<script>
+	
+	function goToSpecialties() {
+		let about = document.getElementById('specialties')
+		about.scrollIntoView({behavior: "smooth"})
+	}
+</script>

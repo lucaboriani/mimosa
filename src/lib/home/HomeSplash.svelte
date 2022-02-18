@@ -76,10 +76,7 @@
 		height: 2em;
 		object-fit: contain;
 	}
-	#appointment{
-		width: 12em;
-    	left: -1em;
-	}
+	
 	.home-button {
 		cursor: pointer;
 

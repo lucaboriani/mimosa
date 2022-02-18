@@ -16,6 +16,7 @@
     <div class="flex flex-wrap pt-8">
         {#each data[0] as service}
             <OneThirdCard 
+                image="{service.image}"
                 title="{service.title}"
                 paragraphs="{[service.text]}"
                 price="{service.price}"
@@ -25,7 +26,7 @@
         {/each}
     </div>
 </div>
-<div class="flex flex-col relative">
+<div class="flex flex-col relative bg-gray-100">
     <div class="text-md  px-4  py-4 my-4  w-full flex justify-between">
         <p class="italic w-2/3 text-gray-600 flex flex-col justify-between">
             <span class="text-2xl text-gray-500">DIBI MILANO</span>
@@ -46,10 +47,14 @@
                 bgColor="bg-white"
             />
         {/each}
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center ">
+            <img src="img/logo-dibi-center.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
+        </div>
+        
     </div>
-    <img src="img/logo-dibi-center.png" alt="logo dibi" class="absolute visocollo-dibi-logo" loading="eager" /> 
+     
 </div>
-<div class="sm:flex flex-wrap px-4">
+<div class="sm:flex flex-wrap px-4 bg-gray-100">
     <div class="text-md  text-gray-500 pt-9 p-4 bg-white w-full flex justify-between">
         <p class="italic w-2/3 text-gray-500 flex flex-col justify-between">
             <span class="font-semibold block border-b-2">OLOS VISO</span>
@@ -59,7 +64,7 @@
     </div>
 </div>
 {#if data[2]}
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap bg-gray-100">
         {#each data[2] as service}
             <HalfWidthCard 
                 title="{service.title}"

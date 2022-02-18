@@ -1,3 +1,4 @@
+@import "./css/mapbox.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -8,8 +8,8 @@
 
 <div class="w-full" id="menu-container">
 	<nav class="bg-white   shadow ">
-		<div class="px-8">
-			<div class="flex items-center justify-between h-16">
+		<div class="pl-8 pr-4">
+			<div class="flex items-center justify-between h-16 w-full">
 				<div class="w-full justify-between flex items-center">
 					<a class="flex-shrink-0" href="/">
 						<span class="block mimosa-color text-3xl">
@@ -17,16 +17,22 @@
 						</span>
 					</a>
 					<div class="hidden md:block">
-						<div class="ml-10 flex items-baseline space-x-4">
-							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-xl font-medium" class:active={$page.url.pathname === '/'}  sveltekit:prefetch href="/">
+						<div class="ml-10 flex items-center space-x-2">
+							<a class="text-gray-400  hover:text-gray-800  px-2 py-2 rounded-md text-xl font-medium" class:active={$page.url.pathname === '/'}  sveltekit:prefetch href="/">
 								Home
 							</a>
 							
-							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-xl font-medium" class:active={servicePaths.indexOf($page.url.pathname) !== -1} href="/servizi">
+							<a class="text-gray-400  hover:text-gray-800  px-2 py-2 rounded-md text-xl font-medium" class:active={servicePaths.indexOf($page.url.pathname) !== -1} href="/servizi">
 								servizi
 							</a>
-							<a class="text-gray-400  hover:text-gray-800  px-3 py-2 rounded-md text-xl font-medium" href="/#">
+							<a class="text-gray-400  hover:text-gray-800  px-2 py-2 rounded-md text-xl font-medium" href="/#">
 								contatti
+							</a>
+							<a class="text-gray-400  hover:text-gray-800   py-2 rounded-md text-xl font-medium" href="/#">
+								<img src="img/phone-icons.svg" alt="phone" class="menu-phone"/>
+							</a>
+							<a class="text-gray-400  hover:text-gray-800   py-2 rounded-md text-xl font-medium" href="/#">
+								<img src="img/locator-icon.png" alt="phone" class="menu-phone pr-1"/>
 							</a>
 						</div>
 					</div>
@@ -49,6 +55,7 @@
 </div>
 
 <style>
+
 	.active {
 		color:black;
 	}
@@ -57,7 +64,11 @@
 		top:0;
 		z-index: 100;
 	}
-
+	.menu-phone {
+		width: 1em;
+		height: 1em;
+		object-fit: contain;
+	}
 
 	.mimosa-color{
 		color:#c6919b;
