@@ -13,6 +13,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: all .3s ease;
+    }
+    .splash-list li:hover {
+        filter: brightness(115%);
+        border: solid 1px whitesmoke;
     }
     .splash-list li  a{
         display: flex;

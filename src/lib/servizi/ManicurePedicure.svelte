@@ -1,6 +1,7 @@
 
 <script>
     import OneThirdCard from '$lib/servizi/OneThirdCard.svelte';
+    import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     export let data
 
     
@@ -13,16 +14,17 @@
 <div class="flex flex-col makeup-cont">
     <div class="flex flex-wrap  pt-4">
         {#each data as service}
-            <OneThirdCard 
-                image={service.image}
-                title="{service.title}"
-                paragraphs="{[service.text]}"
-                price="{service.price}"
-                duration="{service.duration}"
-                titleColor="{'text-gray-500'}"
-                bgColor="bg-gray-200"
-                titleBgColor="fucsia-color-bg"
+            <ServiceCard 
+                data={service}
+                uiData={{
+                    imageBg:'fucsia-color-bg', 
+                    titleColor:'text-gray-500', 
+                    bgColor: 'bg-gray-100', 
+                    titleBgColor:'fucsia-color-bg', 
+                    width:'lg:w-1/3'
+                }}
             />
+            
         {/each}
     </div>
     
