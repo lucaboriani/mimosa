@@ -6,7 +6,7 @@
 [context.production]
   publish = "output/"
   command = "make publish"
-  environment = { MAPBOX_API_KEY = "super secret" }
+  
 
 
 [dev]
