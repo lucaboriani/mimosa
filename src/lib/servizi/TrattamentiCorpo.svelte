@@ -1,6 +1,5 @@
 
 <script>
-    import OneThirdCard from '$lib/servizi/OneThirdCard.svelte';
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     export let data
 
