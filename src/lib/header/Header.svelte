@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	console.log($page.url)
+	
 
 
 	let servicePaths = ['/servizi', '/visocollo','/epilazione','/makeup','/manicurepedicure','/trattamenticorpo','/massaggi']
