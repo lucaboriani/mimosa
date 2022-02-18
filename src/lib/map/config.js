@@ -1,7 +1,7 @@
 export const variables = {
     accessToken: import.meta.env.VITE_MAPBOX_API_KEY
 };
-console.log(import.meta.env)
+console.log(import.meta)
 
 console.log(variables)
 export const config = {
