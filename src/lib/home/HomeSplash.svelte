@@ -13,7 +13,7 @@
 		position: absolute;
 		text-align: left;
 		left: 25%;
-		transform: translate3d(-9.7rem,0, 0);
+		transform: translate3d(-12.9rem,0, 0);
 	}
 	#home-image {
 		left:55%;   
@@ -25,11 +25,11 @@
 		width: 50%;
 	}
 	.home-logo {
-		width: 15%;
+		width: 12em;
 		height: auto;
 		bottom: 4em;
-		left: 80%;
-		transform: translateX(10%);
+		left: 87.5%;
+		transform: translateX(-50%);
 	}
 	
 	
@@ -73,66 +73,104 @@
 	}
 	.phone {
 		width: 2em;
+		height: 2em;
+		object-fit: contain;
 	}
+	#appointment{
+		width: 12em;
+    	left: -1em;
+	}
+	.home-button {
+		cursor: pointer;
+
+	}
+	.home-button a {
+		/* display: none; */
+		opacity: 0;
+		transition: all .3s ease-in-out;
+		pointer-events: none;
+		width: 12em;
+    	left: -1em;
+	}
+	.home-button:hover a {
+		cursor: pointer;
+		display: block;
+		opacity: 1;
+		pointer-events: all;
+	}
+	#orari{
+		width: 16em;
+    	left: -4em;
+	}
+	#location {
+    	left: -4.4em
+	}
+	
 </style>
 <div class="bg-white relative">
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
         <div class="home-mimosa">
-            <h1 class="text-7xl text-black z-10 pl-4-em">
+            <h1 class="text-8xl text-black z-10 pl-4-em">
                 <span class="block mimosa-color">
                     <bold><span>la mi</span><span class="text-black">mosa</span></bold>
                 </span>
             </h1>
-            
-        </div>
-		<div class="home-address flex flex-col text-left">
-			<div class=" pl-4 pb-4" >
-				<span class="block text-gray-500 z-10 pl-14-em text-sm">
+			<div class=" pl-4 pb-4 translate-x-48 "  >
+				<span class="block text-black z-10 pl-14-em  text-xl">
 					Via G. Marconi 13
 				</span>
-				<span class="block text-black-200 z-10 pl-14-em text-sm">
+				<span class="block text-black z-10 pl-14-em font-bold">
 					Garbagnate Milanese (MI)
 				</span>
 			</div>
-			<div class="w-full flex">
-				<div class="w-1/2  p-4 fucsia-color-bg">
-					<p class="flex justify-between">
-						<span class="block text-gray-800 z-10  text-sm ">
-							martedì - venerdì 
-						</span>
-						<span class="block text-black-200 z-10  text-sm">
-							09.00 - 19.00
-						</span>
-					</p>
-					<p class="flex justify-between">
-						<span class="block text-gray-800 z-10  text-sm">
-							sabato
-						</span>
-						<span class="block text-black-200 z-10  text-sm">
-							09.00 - 17.00
-						</span>
-					</p>
-					<span class="block text-black-200 z-10 font-semibold text-sm text-right pt-2 ">
-						solo su appuntamento
-					</span>
-					
-				</div>
-				<div class="w-1/2  p-8 bg-white">
-					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold " href="#">
-						<span class="w-full pl-3 block">fissa un appuntamento</span>
-						<div class="flex mt-1">
-							<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
-							<span class=" ml-2 block bg-gray-300 px-3 py-1 text-center leading-8">Tel 02-99026325</span>
-						</div>
+			<div class="flex mt-1 w-32 justify-between translate-x-56">
+				<div class="relative home-button">
+					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
+					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute pt-6 text-center" href="#" >
+						<span class="w-full pl-3 block uppercase">Per appuntamenti</span>
+						<span class=" ml-2 block bg-gray-300  py-1  leading-8">Tel 02-99026325</span>
 						
 					</a>
 				</div>
+				<div class="relative home-button">
+					<img src="img/locator-icon.png" alt="phone" class="phone pr-1"/>
+					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute pt-6 text-center" href="#" id="location" >
+						<span class="w-full pl-3 block ">Per raggiungerci</span>
+						<span class=" ml-2 block bg-gray-300  py-1  leading-8 uppercase pt-2"> mappa</span>
+						
+					</a>
+					
+				</div>
+				<div class="relative home-button">
+					<img src="img/clock-1.svg" alt="phone" class="phone pr-1"/>
+					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 pt-4" href="#" id="orari" >
+						<p class="flex justify-between border-b py-2">
+							<span class="block text-gray-800 z-10  text-sm ">
+								martedì - venerdì 
+							</span>
+							<span class="block text-black-200 z-10  text-sm">
+								09.00 - 19.00
+							</span>
+						</p>
+						<p class="flex justify-between border-b py-2">
+							<span class="block text-gray-800 z-10  text-sm">
+								sabato
+							</span>
+							<span class="block text-black-200 z-10  text-sm">
+								09.00 - 17.00
+							</span>
+						</p>
+						<span class="block text-black-200 z-10 font-semibold text-sm text-right  uppercase pt-4">
+							solo su appuntamento
+						</span>
+						
+					</a>
+				</div>
+				
+				
 			</div>
-			
-			
-			
-
-		</div>
+        </div>
+		
     </div>
 	<div class="scroll bg-gray-100"  on:click="{goToAbout}"></div>
     <img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
