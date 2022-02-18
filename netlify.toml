@@ -3,9 +3,6 @@
   functions = "functions"
   publish = "build"
 
-
-
-
 [dev]
   command = "svelte-kit dev"
  

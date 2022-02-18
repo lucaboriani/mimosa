@@ -4,7 +4,7 @@ console.log("variables")
 console.log(variables)
 export const config = {
     style: 'mapbox://styles/mapbox/light-v10',
-    accessToken: variables.accessToken ,
+    accessToken: 'pk.eyJ1IjoibWFwLXplcm9wYXJhIiwiYSI6ImNrenNjYnNhbDQ5d2Yydm55NmxqcXBram0ifQ.PzudfmpYEp6r82dRvwJMdg' ,
     //accessToken: '',
     showMarkers: true,
     theme: 'light',
