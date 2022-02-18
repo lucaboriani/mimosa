@@ -1,7 +1,7 @@
 <div class="w-full sm:w-1/2 md:w-1/2 {width ? width : ' lg:w-1/3' }   flex flex-col  ">
-    <div class="flex items-center {imageBg ? imageBg : ' bg-gray-300'}  mx-4">
+    <div class="flex items-center   mx-4">
         {#if image}
-            <img src="img/{image}" class="px-4 w-full h-40 object-contain bg-gray-300" alt="title" loading="lazy" />
+            <img src="img/{image}" class="px-4 w-full h-40 object-contain {imageBg ? imageBg : ' bg-gray-300'}" alt="title" loading="lazy" />
         {/if}
     </div>
     

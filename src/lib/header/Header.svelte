@@ -73,13 +73,5 @@
 	.mimosa-color{
 		color:#c6919b;
 	}
-	.fucsia-color-bg{
-		background-color:#c6919b;
-	}
-	.fucsia-color{
-		color:#f7249c;
-	}
-	.phone:hover{
-		color:whitesmoke;
-	}
+	
 </style>
