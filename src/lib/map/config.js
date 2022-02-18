@@ -6,7 +6,7 @@ console.log(import.meta)
 console.log(variables)
 export const config = {
     style: 'mapbox://styles/mapbox/light-v10',
-    accessToken: import.meta.env.MODE === 'development' ? variables.accessToken : process.env.MAPBOX_API_KEY,
+    accessToken: variables.accessToken ,
     //accessToken: '',
     showMarkers: true,
     theme: 'light',
