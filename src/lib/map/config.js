@@ -1,7 +1,8 @@
 export const variables = {
     accessToken: import.meta.env.VITE_MAPBOX_API_KEY
 };
-console.log(import.meta.env)
+console.log(import.meta.env.MODE)
+console.log(process.env)
 console.log(variables)
 export const config = {
     style: 'mapbox://styles/mapbox/light-v10',
