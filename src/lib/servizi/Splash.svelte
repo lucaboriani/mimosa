@@ -91,7 +91,7 @@
                  </a>
             </li>
             <li class="w-1/4 bg-gray-200">
-                <a href="/epilazione" class="bg-white text-2xl text-gray-700">
+                <a href="/depilazione" class="bg-white text-2xl text-gray-700">
                     depilazione
                 </a>
             </li>

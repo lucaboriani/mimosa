@@ -1,6 +1,6 @@
 
 <script>
-    import ServiceCard from '$lib/servizi/ServiceCard.svelte';
+    import ImageLessCard from '$lib/servizi/ImageLessCard.svelte';
     export let data
 </script>
 <style>
@@ -10,11 +10,11 @@
 </style>
 <div class="flex flex-col makeup-cont">
     
-    <div class="flex flex-wrap bg-gray-500 pt-4">
+    <div class="flex flex-wrap bg-gray-200 pt-4">
         {#each data as service}
-            <ServiceCard 
+            <ImageLessCard 
                 data={service}
-                uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                uiData={{titleColor:'text-gray-300', bgColor: 'bg-white', titleBgColor:'bg-gray-600', width:'lg:w-1/3'}}
             />
         {/each}
     </div>

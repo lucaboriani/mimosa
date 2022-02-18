@@ -56,7 +56,7 @@
 
     export let uiData
     export let data
-    console.log(data)
+    console.log(uiData)
     let { title, price, text, duration, subscription } = data
     let paragraphs = [text]
     let { titleColor , bgColor, width, titleBgColor, pTextColor} = uiData
