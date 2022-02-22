@@ -1,8 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	
-
-
 	let servicePaths = ['/servizi', '/visocollo','/epilazione','/makeup','/manicurepedicure','/trattamenticorpo','/massaggi']
 </script>
 
@@ -29,10 +26,10 @@
 								contatti
 							</a>
 							<a class="text-gray-400  hover:text-gray-800   py-2 rounded-md text-xl font-medium" href="/#">
-								<img src="img/phone-icons.svg" alt="phone" class="menu-phone"/>
+								<img src="/static/img/phone-icons.svg" alt="phone" class="menu-phone"/>
 							</a>
 							<a class="text-gray-400  hover:text-gray-800   py-2 rounded-md text-xl font-medium" href="/#">
-								<img src="img/locator-icon.png" alt="phone" class="menu-phone pr-1"/>
+								<img src="/static/img/locator-icon.png" alt="phone" class="menu-phone pr-1"/>
 							</a>
 						</div>
 					</div>

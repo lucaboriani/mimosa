@@ -41,7 +41,7 @@
         
         <ul class="flex w-full flex-wrap splash-list">
             <li class="w-1/4 fucsia-color-bg">
-                <a class="bg-white flex" href="/visocollo">
+                <a class="bg-white flex" href="/trattamenti/visocollo">
                     <div class="flex">
                         <span class="text-2xl fucsia-color inline">viso collo</span>
                         <span class="text-2xl inline pl-2">décolleté</span>
@@ -63,17 +63,17 @@
                 </a>
             </li>
             <li class="w-1/4 bg-gray-100">
-                <a href="/trattamenticorpo" class="bg-white text-2xl fucsia-color">
+                <a href="/trattamenti/corpo" class="bg-white text-2xl fucsia-color">
                     corpo
                 </a>
             </li>
             <li class="w-1/4">
-                <a href="/epilazione" class="fucsia-color-bg text-2xl text-gray-700">
+                <a href="/trattamenti/epilazione" class="fucsia-color-bg text-2xl text-gray-700">
                     epilazione
                 </a>
             </li>
             <li class="w-1/4 bg-gray-400">
-                <a href="/manicurepedicure" class="bg-white text-2xl">
+                <a href="/trattamenti/manicurepedicure" class="bg-white text-2xl">
                     <div class="flex">
                         <span class="text-2xl">manicure</span>
                         <span class="text-2xl fucsia-color pl-2">pedicure</span>
@@ -82,12 +82,12 @@
                 </a>
             </li>
             <li class="w-1/4 bg-gray-100">
-                <a href="/massaggi" class="fucsia-color-bg text-2xl text-white">
+                <a href="/trattamenti/massaggi" class="fucsia-color-bg text-2xl text-white">
                     massaggi
                 </a>
             </li>
             <li class="w-1/4 fucsia-color-bg">
-                <a href="/makeup" class="bg-gray-300 text-2xl">
+                <a href="/trattamenti/makeup" class="bg-gray-300 text-2xl">
                     <div class="flex">
                         <span class="text-2xl">make</span>
                         <span class="text-2xl fucsia-color">up</span>
@@ -96,7 +96,7 @@
                  </a>
             </li>
             <li class="w-1/4 bg-gray-200">
-                <a href="/depilazione" class="bg-white text-2xl text-gray-700">
+                <a href="/trattamenti/depilazione" class="bg-white text-2xl text-gray-700">
                     depilazione
                 </a>
             </li>
