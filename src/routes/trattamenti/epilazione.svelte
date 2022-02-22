@@ -1,13 +1,15 @@
 <script context="module">
-	let urls = import.meta.env.MODE === 'development'? 
+	/* let urls = import.meta.env.MODE === 'development' ? 
         [
             '/static/json/epilazione.json',
         ]
     : 
         [
             'json/epilazione.json',
+        ] */
+        let urls = [
+            'json/epilazione.json',
         ]
-
 	export async function load({ fetch }) {
 		
 		const fetchUrl = async (url) => {
