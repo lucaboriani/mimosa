@@ -7,8 +7,7 @@
         [
             '/static/json/epilazione.json',
         ] 
-        console.log(import.meta.env)
-        console.log(urls)
+        
 	export async function load({ fetch }) {
 		
 		const fetchUrl = async (url) => {
