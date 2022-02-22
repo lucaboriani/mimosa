@@ -1,16 +1,14 @@
 <script context="module">
-	/* let urls = import.meta.env.MODE === 'development' ? 
+	let urls = import.meta.env.MODE === '"production"' ? 
         [
-            '/static/json/epilazione.json',
+            'json/epilazione.json',
         ]
     : 
         [
-            'json/epilazione.json',
-        ] */
+            '/static/json/epilazione.json',
+        ] 
         console.log(import.meta.env)
-        let urls = [
-            'json/epilazione.json',
-        ]
+        console.log(urls)
 	export async function load({ fetch }) {
 		
 		const fetchUrl = async (url) => {
