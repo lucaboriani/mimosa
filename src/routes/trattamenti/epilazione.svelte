@@ -1,5 +1,5 @@
 <script context="module">
-	let urls = import.meta.env.MODE === '"production"' ? 
+	let urls = import.meta.env.MODE === "production" ? 
         [
             'json/epilazione.json',
         ]
