@@ -1,8 +1,12 @@
 <script context="module">
-	let urls = [
-		'/static/json/epilazione.json',
-	]
-
+	let urls = import.meta.env.MODE === 'development'? 
+        [
+            '/static/json/epilazione.json',
+        ]
+    : 
+        [
+            'json/epilazione.json',
+        ]
 
 	export async function load({ fetch }) {
 		
