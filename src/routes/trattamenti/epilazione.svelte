@@ -7,6 +7,7 @@
         [
             'json/epilazione.json',
         ] */
+        console.log(import.meta.env)
         let urls = [
             'json/epilazione.json',
         ]
