@@ -40,7 +40,6 @@
             {#if subscription}
                 <p class="text-md  text-gray-500 text-right mt-auto uppercase mb-2">
                     <bold class="text-gray-600  text-md pr-2">{subscription}</bold>
-                
                 </p>
                
             {/if} 
