@@ -1,11 +1,11 @@
-<div class="w-full sm:w-1/2 md:w-1/2 {width ? width : ' lg:w-1/3' }   flex flex-col  ">
+<div class="w-full sm:w-1/2 md:w-1/2 {width ? width : ' lg:w-1/3' }   flex flex-col   card">
     <div class="flex items-center   mx-4">
         {#if image}
-            <img src="img/{image}" class="px-4 w-full h-40 object-contain {imageBg ? imageBg : ' bg-gray-300'}" alt="title" loading="lazy" />
+            <img src="/static/img/{image}" class="px-4 w-full h-40 object-contain {imageBg ? imageBg : ' bg-gray-300'}" alt="title" loading="lazy" />
         {/if}
     </div>
     
-    <div class="px-4 py-4 flex flex-col h-full  mx-4  mb-4 ml-4 mr-4  { bgColor ? bgColor :'bg-gray-0'}">
+    <div class="px-4 py-4 flex flex-col h-full  mx-4  mb-4 ml-4 mr-4  { bgColor ? bgColor :'bg-gray-0'} card-content">
         <h3 class="text-2xl sm:text-xl {titleColor ? titleColor : ' text-gray-500 '} border-b-2 py-2">
             {title}
         </h3>
@@ -44,9 +44,11 @@
     
     export let uiData
     export let data
-    console.log(data)
+    
     let { title, price, text, duration,image } = data
-    let paragraphs = [text]
+   
+    let paragraphs = Array.isArray(text) ? text : [text]
+    
     let { titleColor , bgColor, width, imageBg, pTextColor} = uiData
    
     if(price.indexOf && price.indexOf('|') != -1){
