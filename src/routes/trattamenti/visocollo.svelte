@@ -80,7 +80,7 @@
                 />
                 {/each}
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center ">
-                    <img src="/static/img/logo-dibi-center.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
+                    <img src="img/logo-dibi-center.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
                 </div>
                 
             </div>
@@ -92,7 +92,7 @@
                     <span class="font-semibold block border-b-2">OLOS VISO</span>
                     <span>percorso estetico olistico e sensoriale fatto di trattamenti e principi attivi naturali ed efficaci per la bellezza del viso</span>
                 </p>
-                <img src="/static/img/Logo_Olos Marrone con pay of_preview.png" alt="logo Olos" class="w-40 mb-6" loading="eager" />
+                <img src="img/Logo_Olos Marrone con pay of_preview.png" alt="logo Olos" class="w-40 mb-6" loading="eager" />
             </div>
         </div>
         {#if data[2]}
