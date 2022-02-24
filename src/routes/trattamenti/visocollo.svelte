@@ -1,8 +1,8 @@
 <script context="module">
 	let urls = [
-		'/static/json/visocollo/first.json',
-		'/static/json/visocollo/trattamentiviso.json',
-		'/static/json/visocollo/second.json'
+		'../json/visocollo/first.json',
+		'../json/visocollo/trattamentiviso.json',
+		'../json/visocollo/second.json'
 	]
 	export async function load({ fetch }) {
 		const fetchUrl = async (url) => {

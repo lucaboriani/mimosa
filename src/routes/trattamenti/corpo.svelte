@@ -2,7 +2,7 @@
 
 
 	let urls = [
-		'/static/json/trattamenticorpo.json',
+		'../json/trattamenticorpo.json',
 	]
 
 

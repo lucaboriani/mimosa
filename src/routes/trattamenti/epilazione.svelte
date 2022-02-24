@@ -1,12 +1,5 @@
 <script context="module">
-	let urls = import.meta.env.MODE === "production" ? 
-        [
-            'json/epilazione.json',
-        ]
-    : 
-        [
-            '/json/epilazione.json',
-        ] 
+	let urls =['../json/epilazione.json']
         
 	export async function load({ fetch }) {
 		
@@ -52,8 +45,7 @@
 </script>
 <div class="flex flex-col w-3/4">
     <TreatmentTitle>
-        <span class="">make</span>
-        <span class=" fucsia-color">up</span>
+        <span class="">Epilazione</span>
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col cont">

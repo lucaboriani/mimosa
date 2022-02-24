@@ -1,6 +1,6 @@
 <script context="module">
 	let urls = [
-		'/static/json/makeup.json',
+		'../json/makeup.json',
 	]
 	export async function load({ fetch }) {
 		const fetchUrl = async (url) => {

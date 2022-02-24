@@ -1,6 +1,6 @@
 <script context="module">
 	let urls = [
-		'/static/json/depilazione.json',
+		'../json/depilazione.json',
 	]
 
 

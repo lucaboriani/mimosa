@@ -1,7 +1,7 @@
 <script context="module">
 	//export const prerender = true;
 	let urls = [
-		'/static/json/massaggi.json',
+		'../json/massaggi.json',
 	]
 
 
