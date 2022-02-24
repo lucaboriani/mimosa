@@ -43,7 +43,7 @@
     let female = data.filter(s => s.section === 'donna')
     let male = data.filter(s => s.section === 'uomo')
 </script>
-<div class="flex flex-col w-3/4">
+<div class="flex flex-col w-full md:w-3/4">
     <TreatmentTitle>
         <span class="">Epilazione</span>
     </TreatmentTitle>

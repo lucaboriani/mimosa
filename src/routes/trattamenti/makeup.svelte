@@ -37,7 +37,7 @@
 <svelte:head>
 	<title>Makeup</title>
 </svelte:head>
-<div class="flex flex-col w-3/4">
+<div class="flex flex-col w-full md:w-3/4">
     <TreatmentTitle>
         <span class="">make</span>
         <span class=" fucsia-color">up</span>

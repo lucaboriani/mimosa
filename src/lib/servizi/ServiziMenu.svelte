@@ -6,7 +6,7 @@
 <script>
 	import { page } from '$app/stores';
 </script>
-<nav class="w-1/4 bg-gray-400 service-menu px-4">
+<nav class="hidden md:block w-1/4 bg-gray-400 service-menu px-4">
     <ul class="flex w-full flex-col">
         <li class="mb-2">
             <a class="{$page.url.pathname === '/trattamenti/visocollo' ? 'fucsia-color-bg ' : 'bg-gray-300 '} p-2 flex  border border-gray-700" 

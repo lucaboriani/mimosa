@@ -38,7 +38,7 @@
 	export let data
    
 </script>
-<div class="flex flex-col w-3/4">
+<div class="flex flex-col w-full md:w-3/4">
     <TreatmentTitle>
         <span class=" fucsia-color inline">massaggi</span>
     </TreatmentTitle>

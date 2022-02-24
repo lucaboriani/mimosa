@@ -49,7 +49,7 @@
         overflow: hidden;
     }
 </style>
-<div class="flex flex-col w-3/4">
+<div class="flex flex-col w-full md:w-3/4">
 	<TreatmentTitle>
 		<span class=" fucsia-color inline">manicure</span>
 		<span class=" inline pl-2">pedicure</span>

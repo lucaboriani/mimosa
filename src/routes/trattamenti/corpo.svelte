@@ -40,7 +40,7 @@
     export let lpg = data.filter(el => el.section === "LPG ENDERMOLOGIE CORPO")
     export let dibi = data.filter(el => el.section === "dibi body")
 </script>
-<div class="flex flex-col w-3/4">
+<div class="flex flex-col w-full md:w-3/4">
     <TreatmentTitle>
         <span class=" fucsia-color inline">trattamenti</span>
         <span class=" inline pl-2">corpo</span>
