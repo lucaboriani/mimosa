@@ -51,19 +51,26 @@
                         uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
                     />
                 {/each}
-            </div>
-            <div class="w-full    flex flex-col">
-                <div class="px-4 py-4 flex flex-col h-full justify-between bg-gray-300">
-                    <h3 class="text-2xl sm:text-xl  text-gray-500  border-b-2 py-2">
-                        {giftCard.title}
-                    </h3>
-                    <p class="text-md text-gray-600 italic mt-4">
-                        { giftCard.text }
-                    </p>
-                    <bold class="block text-black font-bold text-md pr-2 text-right">{giftCard.price}</bold>
-                   
+                <div class="w-1/3    flex flex-col">
+                    <div class="px-4 py-4 flex  h-full justify-center items-center bg-white mt-0 m-4">
+                        <h3 class="sm:text-xl lg:text-3xl   text-gray-800  py-2">
+                            {giftCard.title}
+                        </h3>   
+                        <img src="../img/pacco_regalo.png" alt="icona pacco" loading="lazy" class="h-24" />                    
+                    </div>
+                </div> 
+                <div class="w-1/3    flex flex-col">
+                    <div class="px-4 py-4 flex  h-full justify-center items-center bg-gray-300 mt-0 m-4">
+                        <h3 class="sm:text-xl lg:text-3xl   text-gray-800  py-2">
+                            { giftCard.text }
+                        </h3>   
+                        <img src="../img/regalo_icona.png" alt="icona pacco" loading="lazy" class="h-16 pl-4" />                    
+                    </div>
                 </div>
+                
+               
             </div>
+            
         </div>
     </TreatmentContent>
 </div>

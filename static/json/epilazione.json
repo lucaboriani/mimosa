@@ -4,61 +4,61 @@
     "text": "basette, guance, zigomi, <br>orecchie, labbra, collo, mento,<br>linea alba, sterno, seno, piedi, mani",
     "image": "",
     "duration": "",
-    "price": "seduta singola 50,00 €",
+    "price": "",
     "section": "donna",
-    "subscription": "abbonamenti 39,00 €"
+    "subscription": ""
   },
   {
     "title": "AREA MEDIUM",
     "text": "braccia, ascelle, spalle,<br>décolleté, schiena, addome, <br>lglutei, inguine",
     "image": "",
     "duration": "",
-    "price": "seduta singola 75,00 €",
+    "price": "",
     "section": "donna",
-    "subscription": "abbonamenti 59,00 €"
+    "subscription": ""
   },
   {
     "title": "AREA LARGE",
     "text": "coscia, mezza gamba,<br>viso totale",
     "image": "",
     "duration": "",
-    "price": "seduta singola 125,00 €",
+    "price": "",
     "section": "donna",
-    "subscription": "abbonamenti 99,00 €"
+    "subscription": ""
   },
   {
     "title": "AREA SMALL",
     "text": "basette, guance, zigomi, <br>orecchie, labbra, collo, mento,<br>attaccatura capelli,<br> sterno, piedi, mani",
     "image": "",
     "duration": "",
-    "price": "seduta singola 65,00 €",
+    "price": "",
     "section": "uomo",
-    "subscription": "abbonamenti 49,00 €"
+    "subscription": ""
   },
   {
     "title": "AREA MEDIUM",
     "text": "braccia, avambracci, ascelle,<br>petto, spalle, addome,<br>glutei, inguine",
     "image": "",
     "duration": "",
-    "price": "seduta singola 90,00 €",
+    "price": "",
     "section": "uomo",
-    "subscription": "abbonamenti 69,00 €"
+    "subscription": ""
   },
   {
     "title": "AREA LARGE",
     "text": "Cosce, mezza gamba, viso totale,<br>torace, schiena",
     "image": "",
     "duration": "",
-    "price": "seduta singola 140,00 €",
+    "price": "",
     "section": "uomo",
-    "subscription": "abbonamenti 109,00 €"
+    "subscription": ""
   },
   {
     "title": "ELETTROCOAGULAZIONE",
     "text": "",
     "image": "",
     "duration": "",
-    "price": "1,50 € al minuto",
+    "price": "",
     "section": "",
     "subscription": ""
   },

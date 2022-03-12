@@ -26,20 +26,14 @@
         </li>
         <li class="mb-2">
             <a 
-                href="/trattamenti/epilazione" 
-                class="{$page.url.pathname === '/trattamenti/epilazione' ? 'fucsia-color-bg ' : 'bg-gray-300 '} border flex p-2 border border-gray-100"
+                href="/trattamenti/depilazione-epilazione" 
+                class="{$page.url.pathname === '/trattamenti/depilazione-epilazione' ? 'fucsia-color-bg ' : 'bg-gray-300 '} border flex p-2 border border-gray-100"
             >
-                <span class="text-black ">epilazione</span>
+                <span class=" pl-2 text-white">depilazione</span>
+                <span class="text-black pl-2 ">epilazione</span>
             </a>
         </li>
-        <li class="mb-2">
-            <a
-                href="/trattamenti/depilazione" 
-                class="{$page.url.pathname === '/trattamenti/depilazione' ? 'fucsia-color-bg ' : 'bg-gray-300 '} border flex p-2 border border-gray-100"
-            >
-                <span class="text-black ">depilazione</span>
-            </a>
-        </li>
+        
         <li class="mb-2">
             <a href="/trattamenti/manicurepedicure" class="{$page.url.pathname === '/trattamenti/manicurepedicure' ? 'fucsia-color-bg ' : 'bg-gray-300 '} flex p-2 border border-gray-100">
                 <span class="">manicure</span>

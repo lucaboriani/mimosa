@@ -1,64 +1,69 @@
 [
   {
     "title": "ANTISTRESS",
-    "text": "",
+    "text": "1 ora di relax",
     "image": "antistress_400.jpg",
     "duration": "1 ora",
-    "price": "60,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "1 ora di relax"
   },
   {
     "title": "CONNETTIVALE",
-    "text": "",
+    "text": "per sciogliere le tensioni",
     "image": "connettivale_400.jpg",
     "duration": "1 ora",
-    "price": "60,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "per sciogliere le tensioni"
   },
   {
     "title": "ENERGIA VITALE",
-    "text": "",
+    "text": "per ridare energia al corpo",
     "image": "energia_vitale_400.jpg",
     "duration": "1 ora",
-    "price": "60,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "per ridare energia al corpo"
   },
   {
     "title": "EMOLINFATICO",
-    "text": "",
+    "text": "per drenare i liquidi",
     "image": "emolinfatico_400.jpg",
     "duration": "1 ora",
-    "price": "60,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "per drenare i liquidi"
   },
   {
     "title": "CLASSICO",
     "text": "",
     "image": "classico_400.jpg",
     "duration": "",
-    "price": "20,00 €",
+    "price": "",
     "section": "",
-    "subscription": "45,00 €"
+    "subscription": ""
   },
   {
     "title": "SCRUB CORPO",
-    "text": "",
+    "text": "per rinnovare la pelle",
     "image": "img_scrub_corpo.jpg",
     "duration": "",
-    "price": "50,00 €",
+    "price": "",
     "section": "",
-    "subscription": "70,00 €"
+    "subscription": "",
+    "description": "per rinnovare la pelle"
   },
   {
     "title": "BENDAGGIO SNELLENTE",
     "text": "",
     "image": "bendaggi_400.jpg",
     "duration": "1 ora",
-    "price": "51,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   }

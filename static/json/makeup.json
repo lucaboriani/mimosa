@@ -1,82 +1,70 @@
 [
   {
     "title": "TRUCCO VELOCE",
-    "text": "",
-    "image": "stock-photo-makeup-artist-applies-applies-powder-and-blush-beautiful-woman-face-hand-of-make-up-master-1805797540.jpg",
+    "text": "fondo tinta, mascara, fard, lucida labbra",
+    "image": "trucco_veloce.jpg",
     "duration": "",
-    "price": "20,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "fondo tinta, mascara, fard, lucida labbra"
   },
   {
-    "title": "TRUCCO BASE",
+    "title": "TRUCCO COMPLETO",
     "text": "",
-    "image": "DSC02334.jpg",
+    "image": "Trucco_completo.jpg",
     "duration": "",
-    "price": "40,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": ""
   },
   {
     "title": "TRUCCO SPOSA",
     "text": "",
-    "image": "istockphoto-1314528208-1024x1024.jpg",
+    "image": "trucco-sposa-768x461.jpg",
     "duration": "",
-    "price": "60,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": ""
   },
   {
-    "title": "TRUCCO FESTIVI",
+    "title": "TINTURA SOPRACCIGLIA",
     "text": "",
-    "image": "source.jpg",
+    "image": "tintura_sopracciglia.jpg",
     "duration": "",
-    "price": "80,00€",
+    "price": "",
     "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "TRUCCO+APPLICAZIONE CIGLIA",
-    "text": "",
-    "image": "645Z7468+copy.jpg",
-    "duration": "",
-    "price": "60,00 €",
-    "section": "",
-    "subscription": ""
-  },
+    "subscription": "",
+    "description": ""
+ },
   {
     "title": "APPLICAZIONE CIGLIA",
     "text": "",
-    "image": "istockphoto-961520902-1024x1024.jpg",
+    "image": "CIGLIA.jpg",
     "duration": "",
-    "price": "25,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": ""
   },
   {
-    "title": "TINTURA CIGLIA O SOPRACCIGLIA",
-    "text": "",
-    "image": "EyebrowAndLashTinting.jpg",
+    "title": "TRUCCO SEMIPERMANENTE",
+    "text": "occhi, sopracciglia, labbra",
+    "image": "trucco-semipermanente.jpg",
     "duration": "",
-    "price": "20,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": "occhi, sopracciglia, labbra"
   },
   {
     "title": "LEZIONI TRUCCO",
     "text": "",
     "image": "learn-makeup.jpg",
     "duration": "",
-    "price": "50,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
-    "title": "TRUCCO SEMIPERMANENTE",
-    "text": "",
-    "image": "trucco-semipermanente.jpg",
-    "duration": "",
-    "price": "da definire in base alla zona",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -85,8 +73,9 @@
     "text": "CARD REGALO PERSONALIZZATE",
     "image": "",
     "duration": "",
-    "price": "a partire da 18,00 €",
+    "price": "",
     "section": "",
-    "subscription": ""
+    "subscription": "",
+    "description": ""
   }
 ]

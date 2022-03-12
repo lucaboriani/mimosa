@@ -6,10 +6,10 @@
         transform: translateX(-4.7em);
     }
 </style>
-<div class="w-3/4   ml-1/4">
+<div class="w-full md:w-3/4   ml-1/4">
     <div class="my-12 px-8 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
         <h1 class="mb-2 text-gray-500 text-6xl  font-heading pt-10 about-title" >
-            <span class="text-3xl pr-4">estetica</span><span class="mimosa-color">
+            <span class="text-3xl pr-4 block md:inline">estetica</span><span class="mimosa-color">
                 <bold><span>la mi</span><span class="text-black">mosa</span></bold>
             </span>
         </h1>
@@ -24,8 +24,8 @@
         <h2 class="my-4 text-gray-500 italic font-light text-xl lg:text-2xl font-heading pl-4">
             Al nostro fianco i pi&ugrave; prestigiosi partner nel mondo dell' estetica:
         </h2>
-        <ul class="p-4 mt-8  flex my-8 py-12 fucsia-color-bg">
-            <li class="w-1/3 p-4 fucsia-color-bg">
+        <ul class="p-4 mt-8  flex flex-col lg:flex-row my-8 py-12 fucsia-color-bg">
+            <li class="w-full lg:w-1/3 p-4 fucsia-color-bg">
                 <div class="flex flex-col bg-white h-full pb-4">
                     <div class="p-4 pt-8 bg-gray-200">
                         <img src="img/dibi.png" alt="logo Dibi" loading="lazy" class="flex w-28 h-28 mx-auto items-center justify-center object-contain"/>
@@ -42,7 +42,7 @@
                 </div>
                 
             </li>
-            <li class="w-1/3 p-4 fucsia-color-bg">
+            <li class="w-full lg:w-1/3 p-4 fucsia-color-bg">
                 <div class="flex flex-col bg-white h-full pb-4">
                     <div class="p-4 pt-8 bg-gray-200">
                         <img src="img/lpg.png" alt="logo LPG" loading="lazy" class="flex w-28 h-28 mx-auto items-center justify-center object-contain"/>
@@ -59,7 +59,7 @@
                 </div>
                 
             </li>
-            <li class="flex  flex-col w-1/3 p-4  fucsia-color-bg">
+            <li class="w-full lg:w-1/3 flex  flex-col p-4  fucsia-color-bg">
                 <div class="flex flex-col bg-white h-full pb-4">
                     <div class="p-4 pt-8 bg-gray-200">
                         <img src="img/Elizabeth-Arden-Simbolo.jpg" alt="logo Elizabeth Arden" loading="lazy" class="flex w-28 h-28 mx-auto items-center justify-center object-contain"/>
@@ -77,11 +77,11 @@
                 
             </li>
         </ul>
-        <div class="flex">
-            <a on:click="{goToSpecialties}" class="w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="#">
+        <div class="flex flex-col lg:flex-row">
+            <a on:click="{goToSpecialties}" class="w-full lg:w-1/2 text-2xl mr-2 flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="#">
                 Scopri di più
             </a>
-            <a class="w-1/2 text-2xl ml-2  flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
+            <a class="w-full lg:w-1/2 text-2xl mt-4 lg:mt-0 lg:ml-2  flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/servizi">
                 Tutti i nostri servizi
             </a>
         </div>

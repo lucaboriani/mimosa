@@ -42,7 +42,7 @@
     <TreatmentTitle>
         <span class=" fucsia-color inline">massaggi</span>
     </TreatmentTitle>
-    <TreatmentContent>
+    <TreatmentContent classes=" bg-gray-200">
         <div class="flex flex-col cont bg-gray-200">
             <div class="flex flex-wrap  pt-4">
                 {#each data as service}

@@ -50,7 +50,7 @@
     </div>
    
 </div>
-<div class="w-full lg:w-1/2 flex">
+<div class="w-full lg:w-1/2 flex justify-center">
     <img class="h-7/10 w-auto" src="img/griglia.png" alt="griglia loghi e prodotti" loading="lazy" />
 </div>
 <script>

@@ -47,6 +47,10 @@
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col">
+            <p class="text-gray-500 text-right pr-8 pb-4">
+                Una bellezza speciale dedicata al corpo offre un progetto di bellezza completo, mirato e selettivo<br>
+                in base al tuo profilo, alle tue caratteristiche, al tuo stile di vita
+            </p>
             <div class="flex flex-wrap bg-gray-300 p-4 pt-8">
                 {#each lpg as service}
                 <ServiceCard 
@@ -56,13 +60,13 @@
                 {/each}
                 <span class="text-xl w-1/3 ml-auto text-gray-600 mt-4 px-4 font-semibold">LPG ENDERMOLOGIE CORPO</span>
             </div>
-            <div class="flex pt-4 bg-white">
-                <span class="text-xl text-gray-600  mt-4 px-4 font-semibold w-1/6">DIBI BODY</span>
+            <div class="flex flex-col pt-4 bg-white">
+                <span class="text-xl text-gray-600  mb-4 px-4 font-semibold w-1/6">DIBI BODY</span>
                 <div class="flex flex-wrap w-full">
                     {#each dibi as service}
                         <ServiceCard 
                             data={service}
-                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-gray-500', bgColor: 'bg-gray-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-gray-500', bgColor: 'bg-gray-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/4'}}
                         />
                         
                     {/each}

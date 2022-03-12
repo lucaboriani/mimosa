@@ -1,19 +1,11 @@
 [
-  {
-    "title": "ANALISI COMPUTERIZZATA CORPO",
-    "text": "",
-    "image": "1561355919.jpg",
-    "duration": "",
-    "price": "50,00 €",
-    "section": "LPG ENDERMOLOGIE CORPO",
-    "subscription": ""
-  },
+  
   {
     "title": "LPG ENDERMOLOGIE CORPO",
     "text": "Il metodo 100% naturale che modella drena e rassoda il tuo corpo",
     "image": "lpg-endermologie.jpg",
     "duration": "",
-    "price": "70,00 €",
+    "price": "",
     "section": "LPG ENDERMOLOGIE CORPO",
     "subscription": ""
   },
@@ -22,7 +14,7 @@
     "text": "",
     "image": "linea_av_lipo-e487899e.jpg",
     "duration": "",
-    "price": "70,00 €",
+    "price": "",
     "section": "dibi body",
     "subscription": ""
   },
@@ -31,7 +23,7 @@
     "text": "",
     "image": "dibi_tonic_lifter.jpg",
     "duration": "",
-    "price": "70,00 €",
+    "price": "",
     "section": "dibi body",
     "subscription": ""
   },
@@ -40,34 +32,16 @@
     "text": "",
     "image": "KRF-banner.jpg",
     "duration": "",
-    "price": "70,00 €",
+    "price": "",
     "section": "dibi body",
     "subscription": ""
   },
   {
-    "title": "THALASENCE",
+    "title": "CELL REWIND",
     "text": "",
-    "image": "dibi_olos_thalasence.jpg",
+    "image": "Cell_Rewind_ADV",
     "duration": "",
-    "price": "40,00 €",
-    "section": "dibi body",
-    "subscription": "60,00 €"
-  },
-  {
-    "title": "TIME OF RITUAL",
-    "text": "",
-    "image": "dibi_time_of_ritual.jpg",
-    "duration": "",
-    "price": "45,00 €",
-    "section": "dibi body",
-    "subscription": ""
-  },
-  {
-    "title": "CELL CONTOUR",
-    "text": "",
-    "image": "CELL-CONTOUR.jpg",
-    "duration": "",
-    "price": "70,00 €",
+    "price": "",
     "section": "dibi body",
     "subscription": ""
   }

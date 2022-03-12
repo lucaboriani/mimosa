@@ -4,7 +4,7 @@
     "text": "",
     "image": "manicure.jpg",
     "duration": "",
-    "price": "18,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -18,20 +18,11 @@
     "subscription": ""
   },
   {
-    "title": "PEDICURE+MANICURE",
-    "text": "",
-    "image": "cuccio_cut.jpg",
-    "duration": "",
-    "price": "50,00 €",
-    "section": "",
-    "subscription": ""
-  },
-  {
     "title": "CALLUS PEEL",
     "text": "",
     "image": "callus.jpg",
     "duration": "",
-    "price": "27,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -40,7 +31,7 @@
     "text": "",
     "image": "calluspeeling.jpg",
     "duration": "",
-    "price": "53,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -49,7 +40,7 @@
     "text": "",
     "image": "smalto.jpg",
     "duration": "",
-    "price": "5,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -58,7 +49,7 @@
     "text": "",
     "image": "gel.jpg",
     "duration": "",
-    "price": "25,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   },
@@ -67,7 +58,7 @@
     "text": "",
     "image": "smalto-semipermanente_NG5.jpg",
     "duration": "",
-    "price": "12,00 €",
+    "price": "",
     "section": "",
     "subscription": ""
   }

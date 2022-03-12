@@ -1,44 +1,44 @@
 [
   {
-    "title": "Analisi computerizzata viso",
+    "title": "Analisi della pelle",
     "text": "",
     "image": "APG-Tech-Epildream_PP025069-SCHEDA-CHECKUP-ITA.jpg",
     "duration": "",
-    "price": "50,00 €"
+    "price": ""
   },
   {
     "title": "Pulizia viso",
-    "text": "con depilazione ciglia e baffetti",
+    "text": "scrub, massaggio e maschera con depilazione ciglia e baffetti",
     "image": "Estetica_pulizia_viso-e24de9e1.webp",
     "duration": "1 ora e 30 min",
-    "price": "30,00 €"
+    "price": ""
   },
   {
     "title": "Trattamenti flash",
-    "text": "",
+    "text": "massaggio e maschera",
     "image": "la-boutique-dell-estetica-pordenone-pulizia-viso.jpg",
     "duration": "1 ora",
-    "price": "30,00 €"
+    "price": ""
   },
   {
     "title": "LPG viso",
     "text": "riposiziona i volumi del viso",
     "image": "lpgviso.jpg",
     "duration": "1 ora",
-    "price": "70,00 €"
+    "price": ""
   },
   {
     "title": "K.R.F.",
     "text": "azione termica rassodante",
     "image": "kfr.jpg",
     "duration": "",
-    "price": "da 35,00 € | 70,00 €"
+    "price": ""
   },
   {
     "title": "Dermopeeling",
     "text": "microdermoabrasione cosmetica",
     "image": "microdermoabrasione.jpg",
     "duration": "1 ora",
-    "price": "48,00 €"
+    "price": ""
   }
 ]

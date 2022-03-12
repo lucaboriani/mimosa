@@ -16,7 +16,7 @@
     </div>
 </div>
 <div class="" id="about-specialties">
-    <div class="flex">
+    <div class="flex flex-col lg:flex-row">
     	<HomeSpecialties/>
     </div>
 </div>
