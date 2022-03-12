@@ -69,10 +69,10 @@
                 </a>
             </li>
             <li class="w-1/4">
-                <a href="/trattamenti/epilazione" class="fucsia-color-bg text-2xl text-gray-700">
+                <a href="/trattamenti/depilazione-epilazione" class="fucsia-color-bg text-2xl text-gray-700">
                     <div class="flex">
-                        epilazione  
-                        <span class="text-white pl-4">depilazione</span>  
+                        depilazione 
+                        <span class="text-white pl-4">epilazione </span>  
                     </div>
                     
                 </a>
