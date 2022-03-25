@@ -5,10 +5,9 @@
 </style>
 <div class="w-full lg:w-1/2 p-8 py-20 bg-gray-200 flex justify-center" id="specialties" bind:this={specialties}>
     <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-        <p class="mb-4 text-gray-500 pt-10">
+        <p class="mb-4 text-gray-500 p-2 pt-10">
             <span class="text-2xl text-gray-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
-            <span class="text-xl text-gray-700">Epildream</span>,  
-            luce pulsata <span class="text-xl text-gray-700">Quantum IPL</span> 
+            <span class="text-xl text-gray-700">Epildream</span>  
             ed 
             <span class="text-xl text-gray-700">elettrocoagulazione</span>.
             
@@ -16,7 +15,7 @@
         <p class="mb-4  text-gray-500 p-2">
             <span class="text-xl text-gray-700">Trattamenti viso</span> 
             correttivi <br>
-            AHA, DNA Enzyme Complex antiossidanti, Idebenone e COFFEBERRY.
+            AHA, DNA Enzyme Complex antiossidanti.
         </p>
         <p class="mb-4 p-2  text-gray-500">
             <span class="text-xl text-gray-700">LPG</span> 

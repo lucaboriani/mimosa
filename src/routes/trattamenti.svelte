@@ -6,7 +6,7 @@
     import Header from '$lib/header/Header.svelte';
     import Splash from '$lib/servizi/Splash.svelte';
     import FaceNeck from '$lib/servizi/FaceNeck.svelte';
-    
+    import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
 </script>
 <style>
 	
@@ -19,6 +19,9 @@
 </svelte:head>
 <div id="main-wrap">    
 	<Header/>
+    <TreatmentTitle>
+        <span class="text-gray-500">trattamenti</span>
+    </TreatmentTitle>
 	<Splash />
 	<!-- start services -->
 	

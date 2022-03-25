@@ -34,8 +34,8 @@
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
+	import Footer from '$lib/Footer.svelte';
 	export let data
-	console.log(data)
 </script>
 <svelte:head>
 	<title>Manicure e pedicure</title>
@@ -74,5 +74,6 @@
 			
 			
 		</div>
+		<Footer></Footer>
 	</TreatmentContent>
 </div>

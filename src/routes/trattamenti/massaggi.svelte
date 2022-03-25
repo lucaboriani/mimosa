@@ -35,6 +35,7 @@
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
+	import Footer from '$lib/Footer.svelte';
 	export let data
    
 </script>
@@ -62,10 +63,14 @@
             
             
          </div>
+		 <Footer></Footer>
     </TreatmentContent>
 </div>
 <style>
-    .cont{
-       height: calc(100vh - 8.5em);
-   }
+  .cont{
+        min-height: calc(100vh - 64px);
+    }
+    :global(.no-scroll) {
+        overflow: hidden;
+    }
 </style>

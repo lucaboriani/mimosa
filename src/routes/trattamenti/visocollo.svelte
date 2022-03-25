@@ -33,6 +33,7 @@
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
+    import Footer from '$lib/Footer.svelte';
 	export let data
     const giftCard = data.pop()
 </script>
@@ -64,13 +65,16 @@
         </div>
         <div class="flex flex-col relative bg-gray-100">
             <div class="text-md  px-4  py-4 my-4  w-full flex justify-between">
-                <p class="italic w-2/3 text-gray-600 flex flex-col justify-between">
+                <p class="italic w-2/3 text-gray-600 flex flex-col ">
                     <span class="text-2xl text-gray-500">DIBI MILANO</span>
-                    <span>
+                    <span class="pt-4">
                         offre risposte mirate ai reali bisogni della tua pelle per proporti la soluzione che cercavi<br>
                         e offrirti un momento speciale da dedicare a te stessa
                     </span>
-             </p>
+                 </p>
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center ">
+                    <img src="../img/dibi.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
+                </div>
              </div>
             <div class="flex flex-wrap">
                 {#each data[1] as service}
@@ -79,16 +83,14 @@
                     uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
                 />
                 {/each}
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center ">
-                    <img src="../img/logo-dibi-center.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
-                </div>
+                
                 
             </div>
              
         </div>
-        <div class="sm:flex flex-wrap px-4 ">
-            <div class="text-md  text-gray-400 pt-9 p-0 lg:p-4 bg-white w-full flex flex-col lg:flex-row items-start">
-                <img src="../img/Olos_LOGO@2x.png" alt="logo Olos" class="w-64 mb-6" loading="eager" />
+        <div class="sm:flex flex-wrap px-4 bg-gray-100">
+            <div class="text-md  text-gray-400 pt-9 p-0 lg:p-4  w-full flex flex-col lg:flex-row items-start">
+                <img src="../img/Logo_Olos Marrone con pay of_preview.png" alt="logo Olos" class="w-64 mb-6" loading="eager" />
                 <div class="flex flex-col w-full">
                     <div class=" w-full flex flex-col justify-between items-center bg-gray-300 lg:px-4 lg:m-4 mt-4 lg:mt-0 p-4">
                         <div class="flex flex-col w-full lg:w-1/2 border border-gray-500">
@@ -121,18 +123,38 @@
                 </div>
                 
             </div>
+            
         </div>
-        {#if data[2]}
-            <div class="flex flex-wrap bg-gray-100">
-                {#each data[2] as service}
-                <ServiceCard 
-                    data={service}
-                    uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/2'}}
-                />
-                {/each}
+        <div class="sm:flex flex-wrap pr-4 bg-gray-400">
+            <div class="text-md  text-gray-400 py-8 p-0   w-full flex flex-col lg:flex-row justify-between items-start">
+                <div class="flex flex-col w-5/6 bg-gray-200">
+                    <div class=" w-full flex flex-col justify-between items-center fucscia-bg-color p-4">
+                        <div class="flex flex-col w-full lg:w-1/2 border border-gray-500">
+                            <div class="flex justify-center">
+                                <img src="../img/priori-1.jpg" loading="lazy" alt="olos" />
+                            </div>
+                            <div class="flex flex-col py-4 px-4 bg-white">
+                                <ul>
+                                    <li class="p-x font-bold text-xl mr-4">LCA Complex</li>
+                                    <li class="p-x font-bold text-xl mr-4"> DNA</li>
+                                    <li class="p-x font-bold text-xl mr-4">Q+SOD.</li>
+                                </ul>
+                               
+                                
+                                <p class="italic p-x">
+                                    una linea di ricca di principi attivi esfolianti dedicata a chi vuole rigenerare la pelle in maniera profonda<br>
+                                    riduce la pigmentazione in eccesso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="../img/priori.png" alt="priori logo" class="w-48 border" loading="eager" />
+                
             </div>
-        {/if}
-         
+            
+        </div>
+        <Footer></Footer>
     </TreatmentContent>
 </div>
 

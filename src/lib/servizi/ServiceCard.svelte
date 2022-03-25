@@ -28,7 +28,14 @@
                 </bold>
             {:else}
                 {#if duration}
-                    <span class="text-sm text-gray-400">{duration}</span>    
+                    <div class="flex justify-end items-end">
+                        <img src="../img/clock-1.svg" alt="time icon" loading="lazy" class="w-5" />
+                        <span class="text-gray-400 pl-1">
+                            
+                            {duration}
+                        </span> 
+                    </div>
+                       
                 {/if}    
                 {#if price}
                     <bold class="text-black font-bold text-md pr-2">{price}</bold>

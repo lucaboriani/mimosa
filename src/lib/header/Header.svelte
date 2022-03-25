@@ -1,7 +1,15 @@
 <script>
 	import { page } from '$app/stores';
 	import {bgWhiteMenu} from '$lib/states'
-	let servicePaths = ['/trattamenti', '/visocollo','/epilazione','/makeup','/manicurepedicure','/trattamenticorpo','/massaggi']
+	let servicePaths = [
+		'/trattamenti', 
+		'/trattamenti/visocollo',
+		'/trattamenti/epilazione',
+		'/trattamenti/makeup',
+		'/trattamenti/manicurepedicure',
+		'/trattamenti/corpo',
+		'/trattamenti/massaggi'
+	]
 	let showWiteBg 
 	bgWhiteMenu.subscribe(value => {
 		showWiteBg = value;
@@ -9,14 +17,12 @@
 </script>
 
 <div class="w-full {$page.url.pathname === '/' ? 'fixed ' : ' sticky' } " id="menu-container">
-	<nav class="bg-white {showWiteBg ? 'lg:bg-white' : 'lg:bg-transparent' }   shadow ">
-		<div class="pl-8 pr-4">
+	<nav class="bg-white {showWiteBg ? 'lg:bg-white shadow' : 'lg:bg-transparent' }    ">
+		<div class="pl-4 pr-4">
 			<div class="flex items-center justify-between h-16 w-full">
 				<div class="w-full justify-between flex items-center">
 					<a class="flex-shrink-0" href="/">
-						<span class="block mimosa-color text-3xl">
-							<bold><span>la mi</span><span class="text-black">mosa</span></bold>
-						</span>
+						<img src="../img/mimosalogo.svg" loading="eager" alt="logo la mimosa " class="w-16" />
 					</a>
 					<div class="hidden md:block">
 						<div class="ml-10 flex items-center space-x-2">

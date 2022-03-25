@@ -13,20 +13,16 @@
 </style>
 <div class="w-full md:w-3/4   ml-1/4">
     <div class="my-12 px-8 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-        <h1 class="mb-2 text-gray-500 text-6xl  font-heading pt-10 about-title" >
-            <span class="text-3xl pr-4 block md:inline">estetica</span><span class="mimosa-color">
-                <bold><span>la mi</span><span class="text-black">mosa</span></bold>
-            </span>
-        </h1>
-        <h2 class="mb-4 text-gray-500 italic font-light text-xl lg:text-2xl mt-8 pl-4">
-            Da più di 30 anni
+        
+        <h2 class="mb-4 text-gray-500 italic font-semibold text-2xl lg:text-4xl mt-8 pl-4">
+            Insieme a voi da più di 30 anni
         </h2>
-        <p class="mb-6 leading-loose text-gray-400 pl-4">
+        <p class="mb-6 leading-loose text-gray-500 pl-4 text-xl font-light">
             Senza mai tralasciare la <span class="font-bold text-black">costante formazione</span> tecnico scientifica<br>
             che ci ha permesso di offrirti <span class="font-bold text-black">splendidi risultati.</span>
         </p>
 
-        <h2 class="my-4 text-gray-500 italic font-light text-xl lg:text-2xl font-heading pl-4">
+        <h2 class="my-4 text-gray-500 italic  text-xl lg:text-2xl font-heading pl-4">
             Al nostro fianco i pi&ugrave; prestigiosi partner nel mondo dell' estetica:
         </h2>
         <ul class="p-4 mt-8  flex flex-col lg:flex-row my-8 py-12 fucsia-color-bg">
@@ -41,7 +37,7 @@
                             DIBI Milano
                         </h3>
                         <p class="text-gray-500 pt-8 italic">
-                            risposte mirate ai reali bisogni della tua pelle
+                            Risposte mirate ai reali bisogni della tua pelle.
                         </p>
                     </div>
                 </div>
@@ -58,7 +54,8 @@
                             LPG Endermologie
                         </h3>
                         <p class="text-gray-500 pt-8 italic">
-                            stimola delicatamente la pelle per riattivare l'attivit&agrave; cellulare assopita
+                            Riattiva l’attività cellulare assopita della pelle, combattendo ogni inestetismo (elimina le adiposità, leviga la cellulite, rassoda la pelle...)
+                            in modo <bold class="font-semibold">naturale e senza dolore</bold>.
                         </p>
                     </div>
                 </div>

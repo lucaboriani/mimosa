@@ -36,6 +36,7 @@
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
+    import Footer from '$lib/Footer.svelte';
 	export let data
     export let lpg = data.filter(el => el.section === "LPG ENDERMOLOGIE CORPO")
     export let dibi = data.filter(el => el.section === "dibi body")
@@ -47,9 +48,9 @@
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col">
-            <p class="text-gray-500 text-right pr-8 pb-4">
-                Una bellezza speciale dedicata al corpo offre un progetto di bellezza completo, mirato e selettivo<br>
-                in base al tuo profilo, alle tue caratteristiche, al tuo stile di vita
+            <p class="text-gray-500 text-right pr-4 pb-4 text-xl">
+                Per una bellezza speciale un trattamento completo, mirato e selettivo<br>
+                in base al tuo profilo, alle tue caratteristiche ed al tuo stile di vita
             </p>
             <div class="flex flex-wrap bg-gray-300 p-4 pt-8">
                 {#each lpg as service}
@@ -74,5 +75,6 @@
             </div>
             
         </div>
+        <Footer></Footer>
     </TreatmentContent>
 </div>

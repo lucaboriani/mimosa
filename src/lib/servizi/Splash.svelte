@@ -36,7 +36,7 @@
     }
 </style>
 
-<div class="bg-white relative mt-20">
+<div class="bg-white relative">
     <div class="w-full mx-auto z-19 justify-center">
         
         <ul class="flex w-full flex-wrap splash-list">
@@ -51,16 +51,8 @@
             </li>
             <li class="w-full lg:w-1/4 order-0 lg:order-1  py-8 lg:py-0">
                 <a href="#a">
-                    <h1 class="text-gray-500 text-center   mb-4 text-4xl">Trattamenti</h1>
-                    <span class="block text-3xl">estetica</span>
-                    <span class="text-center text-5xl">
-                       
-                        <span class="mimosa-color">la</span>
-                        <span class="mosa">
-                            <span class="mimosa-color">mi</span>
-                            <span class="text-black mosa">mosa</span>
-                        </span>
-                    </span>
+                    
+                    <img src="../img/mimosalogo.svg" loading="eager" alt="logo la mimosa " class="w-48" />
                     
                 </a>
             </li>

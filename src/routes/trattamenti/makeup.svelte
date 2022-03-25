@@ -31,6 +31,7 @@
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
+    import Footer from '$lib/Footer.svelte';
 	export let data
     const giftCard = data.pop()
 </script>
@@ -72,6 +73,7 @@
             </div>
             
         </div>
+        <Footer></Footer>
     </TreatmentContent>
 </div>
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="362" height="313" viewBox="0 0 362 313">
+  <g id="Group_8" data-name="Group 8" transform="translate(-11824 1024)">
+    <g id="Group_6" data-name="Group 6" transform="translate(11824 -1024)">
+      <g id="Group_7" data-name="Group 7" transform="translate(0 15.123)">
+        <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 -0.123)" fill="rgba(255,255,255,0)" stroke="#c6909b" stroke-width="10">
+          <rect width="362" height="298" stroke="none"/>
+          <rect x="5" y="5" width="352" height="288" fill="none"/>
+        </g>
+      </g>
+      <text id="lami" transform="translate(17 179)" fill="#c6909b" font-size="179" font-family="Tahoma"><tspan x="0" y="0">lami</tspan></text>
+    </g>
+    <text id="mosa_" data-name="mosa " transform="translate(11844 -755)" font-size="134" font-family="Tahoma" letter-spacing="0.006em"><tspan x="0" y="0">mosa</tspan></text>
+  </g>
+</svg>

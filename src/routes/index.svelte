@@ -16,13 +16,13 @@
 
 
        
-
-	<!-- start home -->
-	<HomeSplash />
-	<!-- end home -->
 	<!-- start menu -->     
 	<Header />
 	<!-- end menu menu -->  
+	<!-- start home -->
+	<HomeSplash />
+	<!-- end home -->
+	
    
 	<section>
 		 <!-- start about -->
