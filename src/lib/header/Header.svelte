@@ -8,7 +8,7 @@
 	});
 </script>
 
-<div class="w-full fixed" id="menu-container">
+<div class="w-full {$page.url.pathname === '/' ? 'fixed ' : ' sticky' } " id="menu-container">
 	<nav class="bg-white {showWiteBg ? 'lg:bg-white' : 'lg:bg-transparent' }   shadow ">
 		<div class="pl-8 pr-4">
 			<div class="flex items-center justify-between h-16 w-full">
