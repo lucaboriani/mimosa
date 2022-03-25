@@ -35,12 +35,12 @@
         word-spacing: -.3em;
     }
 </style>
-<h1 class="text-gray-500 text-right mr-8 mt-4 mb-4 text-4xl">I nostri servizi</h1>
-<div class="bg-white relative">
+
+<div class="bg-white relative mt-20">
     <div class="w-full mx-auto z-19 justify-center">
         
         <ul class="flex w-full flex-wrap splash-list">
-            <li class="w-1/4 fucsia-color-bg">
+            <li class="w-full lg:w-1/4 fucsia-color-bg order-1 lg:order-0  py-8 lg:py-0">
                 <a class="bg-white flex" href="/trattamenti/visocollo">
                     <div class="flex">
                         <span class="text-2xl fucsia-color inline">viso collo</span>
@@ -49,8 +49,9 @@
                     
                 </a>
             </li>
-            <li class="w-1/4  ">
+            <li class="w-full lg:w-1/4 order-0 lg:order-1  py-8 lg:py-0">
                 <a href="#a">
+                    <h1 class="text-gray-500 text-center   mb-4 text-4xl">Trattamenti</h1>
                     <span class="block text-3xl">estetica</span>
                     <span class="text-center text-5xl">
                        
@@ -63,12 +64,12 @@
                     
                 </a>
             </li>
-            <li class="w-1/4 bg-gray-100">
+            <li class="w-full lg:w-1/4 bg-gray-100 order-2  py-8 lg:py-0">
                 <a href="/trattamenti/corpo" class="bg-white text-2xl fucsia-color">
                     corpo
                 </a>
             </li>
-            <li class="w-1/4">
+            <li class="w-full lg:w-1/4 order-2 py-8 lg:py-0">
                 <a href="/trattamenti/depilazione-epilazione" class="fucsia-color-bg text-2xl text-gray-700">
                     <div class="flex">
                         depilazione 
@@ -77,7 +78,7 @@
                     
                 </a>
             </li>
-            <li class="w-1/4 bg-gray-400">
+            <li class="w-full lg:w-1/4 bg-gray-400 order-2 py-8 lg:py-0">
                 <a href="/trattamenti/manicurepedicure" class="bg-white text-2xl">
                     <div class="flex">
                         <span class="text-2xl">manicure</span>
@@ -86,12 +87,12 @@
                       
                 </a>
             </li>
-            <li class="w-1/4 bg-gray-100">
+            <li class="w-full lg:w-1/4 bg-gray-100 order-2 py-8 lg:py-0">
                 <a href="/trattamenti/massaggi" class="fucsia-color-bg text-2xl text-white">
                     massaggi
                 </a>
             </li>
-            <li class="w-1/4 fucsia-color-bg">
+            <li class="w-full lg:w-1/4 fucsia-color-bg order-2 py-8 lg:py-0">
                 <a href="/trattamenti/makeup" class="bg-gray-300 text-2xl">
                     <div class="flex">
                         <span class="text-2xl">make</span>
@@ -100,7 +101,7 @@
                     
                  </a>
             </li>
-            <li class="w-1/4 bg-gray-200">
+            <li class="w-full lg:w-1/4 bg-gray-200 order-2 py-8 lg:py-0">
                 <span class="fucsia-color">Chiama per un appuntamento</span>
                     <span class="font-semibold text-gray-500 text-3xl">Tel 02 99026325</span>
                 

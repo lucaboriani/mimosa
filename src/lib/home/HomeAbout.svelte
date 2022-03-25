@@ -9,6 +9,11 @@
     .about-stripes {
 		background: linear-gradient(90deg, #d4d4d4 25%, #ffffff 25% 100%);
 	}
+    @media screen and (max-width: 768px) {
+        .about-stripes {
+            background: white;
+        }
+    }
 </style>
 <div class="about-stripes min-h-screen pb-8 border-b" bind:this={about} id="about">
     <div class="flex flex-wrap justify-end">

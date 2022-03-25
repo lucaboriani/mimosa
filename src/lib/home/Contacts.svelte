@@ -3,18 +3,18 @@
         width: 1.5em;
     }
 </style>
-<div class="min-h-screen flex w-full  pt-16">
-    <div class="w-1/2 flex flex-col items-center justify-center" id="contact-content">
-        <h1 class="text-5xl text-black z-10  pb-4 justify-end w-5/6 flex ">
+<div class="min-h-screen flex flex-col lg:flex-row w-full  pt-16">
+    <div class="w-full lg:w-1/2 flex flex-col items-center justify-center" id="contact-content">
+        <h1 class="text-5xl text-black z-10  pb-4 justify-start lg:justify-end w-5/6 flex ">
             <span class="block mimosa-color ">
                 <bold><span>la mi</span><span class="text-black">mosa</span></bold>
             </span>
         </h1>
-        <div class="flex w-5/6  border-b   pb-3 uppercase justify-end">
+        <div class="flex flex-col lg:flex-row w-5/6  border-b   pb-3 uppercase justify-end">
             <span class="block text-gray-600 z-10 pl-14-em  text-xl">
                 Via G. Marconi 13,
             </span>
-            <span class="block text-gray-600 z-10 pl-2 text-xl">
+            <span class="block text-gray-600 z-10 lg:pl-2 text-xl">
                 Garbagnate Milanese (MI)
             </span>
         </div>
@@ -53,14 +53,14 @@
                         09.00 - 17.00
                     </span>
                 </p>
-                <span class="block text-gray-600 z-10 font-semibold text-xl text-right  uppercase pt-4">
+                <span class="block text-gray-100 bg-gray-800 z-10 font-semibold text-xl text-center  uppercase p-4 mt-4">
                     riceviamo solo su appuntamento
                 </span>
                 
             </div>
         </div>
     </div>
-    <div class="w-1/2 flex flex-col overflow-hidden" id="contact-map" bind:this={map}>
+    <div class="w-full lg:w-1/2 h-screen flex flex-col overflow-hidden" id="contact-map" bind:this={map}>
        
     </div>
     

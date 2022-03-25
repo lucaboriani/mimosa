@@ -104,7 +104,38 @@
 	}
 	
 </style>
-<div class="bg-white relative">
+<script>
+	import { onMount } from 'svelte';
+	import {bgWhiteMenu} from '$lib/states'
+	let splash 
+	onMount(() => {
+		if (typeof IntersectionObserver !== 'undefined') {
+			const rootMargin = `0px`;
+			
+			const observer = new IntersectionObserver(entries => {
+				let intersecting = entries[0].isIntersecting;
+				console.log('intersecting :',intersecting)
+				bgWhiteMenu.set(!intersecting)
+				console.log('bgWhiteMenu', bgWhiteMenu)
+			}, {
+				rootMargin
+			});
+
+			observer.observe(splash);
+			return () => observer.unobserve(splash);
+		}
+
+		
+	});
+
+	function goToAbout() {
+		let about = document.getElementById('about')
+		about.scrollIntoView({behavior: "smooth"})
+	}
+
+	
+</script>
+<div class="bg-white relative" bind:this={splash} id="splash">
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
         <div class="home-mimosa">
             <h1 class="text-8xl text-black z-10 pl-4-em">
@@ -173,10 +204,4 @@
     <img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
     <img src="img/logo-dibi-center.png" alt="logo dibi" class="absolute home-logo" loading="eager" /> 
 </div>
-<script>
-	
-	function goToAbout() {
-		let about = document.getElementById('about')
-		about.scrollIntoView({behavior: "smooth"})
-	}
-</script>
+

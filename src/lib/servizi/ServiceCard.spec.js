@@ -38,7 +38,7 @@ it('giocando pulito, dati facili', async () => {
   expect(title.classList.contains('text-gray-500')).toBe(true)
   expect(content.classList.contains('bg-white')).toBe(true)
   //qui sto forse truccando e dovrei usare path...
-  expect(image.src).toBe('http://localhost/static/img/'+ data.image)
+  expect(image.src).toBe('http://localhost/img/'+ data.image)
   expect(paragraphs.length).toBe(1)
   expect(text).not.toBe(null)
 })
@@ -77,7 +77,7 @@ it('paragrafi multipli', async () => {
   expect(title.classList.contains('text-gray-500')).toBe(true)
   expect(content.classList.contains('bg-white')).toBe(true)
   //qui sto forse truccando e dovrei usare path...
-  expect(image.src).toBe('http://localhost/static/img/'+ data.image)
+  expect(image.src).toBe('http://localhost/img/'+ data.image)
   expect(paragraphs.length).toBe(3)
   expect(text).not.toBe(null)
 })

@@ -7,6 +7,10 @@ body{
     font-family: 'Yantramanav', sans-serif;
     box-sizing: border-box;
 }
+html,body{
+	max-width: 100vw;
+   	 overflow-x: hidden;
+}
 
 .fucsia-color-bg{
         background-color:#c6919b;

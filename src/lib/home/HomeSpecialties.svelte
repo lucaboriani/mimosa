@@ -44,7 +44,7 @@
         </p>
         <div class="w-full">
             <a href="/servizi" class="py-2 px-4  fucsia-color-bg hover:bg-yellow-200 hover:text-black focus:ring-yellow-200 focus:ring-offset-yellow-200 text-white w-full transition ease-in duration-200 text-center text-base uppercase  focus:outline-none focus:ring-2 focus:ring-offset-2   ">
-                Scopri i nostri servizi
+                i nostri trattamenti
             </a>
         </div>
     </div>
