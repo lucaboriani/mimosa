@@ -88,7 +88,7 @@
         </div>
         <div class="sm:flex flex-wrap px-4 ">
             <div class="text-md  text-gray-400 pt-9 p-0 lg:p-4 bg-white w-full flex flex-col lg:flex-row items-start">
-                <img src="../img/Olos_LOGO@2x.png" alt="logo Olos" class="w-40 mb-6" loading="eager" />
+                <img src="../img/Olos_LOGO@2x.png" alt="logo Olos" class="w-64 mb-6" loading="eager" />
                 <div class="flex flex-col w-full">
                     <div class=" w-full flex flex-col justify-between items-center bg-gray-300 lg:px-4 lg:m-4 mt-4 lg:mt-0 p-4">
                         <div class="flex flex-col w-full lg:w-1/2 border border-gray-500">
