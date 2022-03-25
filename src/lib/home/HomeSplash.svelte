@@ -114,9 +114,9 @@
 			
 			const observer = new IntersectionObserver(entries => {
 				let intersecting = entries[0].isIntersecting;
-				console.log('intersecting :',intersecting)
+				
 				bgWhiteMenu.set(!intersecting)
-				console.log('bgWhiteMenu', bgWhiteMenu)
+				
 			}, {
 				rootMargin
 			});
@@ -124,8 +124,6 @@
 			observer.observe(splash);
 			return () => observer.unobserve(splash);
 		}
-
-		
 	});
 
 	function goToAbout() {
@@ -139,15 +137,16 @@
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
         <div class="home-mimosa">
             <h1 class="text-8xl text-black z-10 pl-4-em">
+				<span class="block text-6xl text-gray-200 translate-x-1/2">estetica</span>
                 <span class="block mimosa-color">
                     <bold><span>la mi</span><span class="text-black">mosa</span></bold>
                 </span>
             </h1>
 			<div class=" pl-4 pb-4 translate-x-48 "  >
-				<span class="block text-black z-10 pl-14-em  text-xl">
+				<span class="block text-black z-10 pl-14-em  text-2xl">
 					Via G. Marconi 13
 				</span>
-				<span class="block text-black z-10 pl-14-em font-bold">
+				<span class="block text-black z-10 pl-14-em font-bold text-2xl">
 					Garbagnate Milanese (MI)
 				</span>
 			</div>

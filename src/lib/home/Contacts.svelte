@@ -4,7 +4,7 @@
     }
 </style>
 <div class="min-h-screen flex flex-col lg:flex-row w-full  pt-16">
-    <div class="w-full lg:w-1/2 flex flex-col items-center justify-center" id="contact-content">
+    <div class="w-full lg:w-1/2 flex flex-col items-center justify-center"  bind:this={contact}  id="contact-content">
         <h1 class="text-5xl text-black z-10  pb-4 justify-start lg:justify-end w-5/6 flex ">
             <span class="block mimosa-color ">
                 <bold><span>la mi</span><span class="text-black">mosa</span></bold>
@@ -70,7 +70,25 @@
     
     import { loadMap } from '$lib/map/index';
     let map
+    let contact
+    let sdkLoaded = false 
     onMount(async () => {
-		await loadMap(map)
+        if (typeof IntersectionObserver !== 'undefined') {
+			const rootMargin = `0px`;
+			
+			const observer = new IntersectionObserver(async entries => {
+				let intersecting = entries[0].isIntersecting;
+				if(intersecting && ! sdkLoaded){
+                    await loadMap(map)
+                }
+				
+			}, {
+				rootMargin
+			});
+
+			observer.observe(contact);
+			return () => observer.unobserve(contact);
+		}
+		
 	});
 </script>

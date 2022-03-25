@@ -42,8 +42,8 @@
             <span class="text-xl text-gray-700">Make up</span> personalizzato e minicorsi individuali di trucco,<br>
             trucco semipermanente effettuato da personale altamente specializzato.
         </p>
-        <div class="w-full">
-            <a href="/servizi" class="py-2 px-4  fucsia-color-bg hover:bg-yellow-200 hover:text-black focus:ring-yellow-200 focus:ring-offset-yellow-200 text-white w-full transition ease-in duration-200 text-center text-base uppercase  focus:outline-none focus:ring-2 focus:ring-offset-2   ">
+        <div class="w-full mt-16">
+            <a href="/servizi" class="flex justify-center p-4 text-2xl  fucsia-color-bg  hover:text-black  text-white w-full transition ease-in duration-200 text-center text-base uppercase  focus:outline-none focus:ring-2 focus:ring-offset-2   ">
                 i nostri trattamenti
             </a>
         </div>

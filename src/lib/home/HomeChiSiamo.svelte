@@ -67,15 +67,16 @@
             <li class="w-full lg:w-1/3 flex  flex-col p-4  fucsia-color-bg">
                 <div class="flex flex-col bg-white h-full pb-4">
                     <div class="p-4 pt-8 bg-gray-200">
-                        <img src="img/Elizabeth-Arden-Simbolo.jpg" alt="logo Elizabeth Arden" loading="lazy" class="flex w-28 h-28 mx-auto items-center justify-center object-contain"/>
+                        <img src="img/logo-stackedok.png" alt="logo priori stacked" loading="lazy" class="flex w-28 h-28 mx-auto items-center justify-center object-contain"/>
                         
                     </div>
                     <div class="px-4">
                         <h3 class="mt-4 text-xl  text-gray-700 border-b border-gray-700 pb-4">
-                            Elizabeth Arden PRO
+                            Priori
                         </h3>
                         <p class="text-gray-500 pt-8 italic">
-                            la linea di trattamento della pelle progettata per conquistare un livello superiore di ringiovanimento cutaneo
+                            Arricchita di principi attivi della biotecnologia più avanzata, le formule Priori Adaptive Superceutical agiscono per offrirti, in tempo reale, i benefici correttivi visibili di cui hai bisogno.
+                            La tua pelle sfrutterà di ogni formula solo i complessi necessari, quando necessario, per rivelare una pelle più luminosa e idratata. 
                         </p>
                     </div>
                 </div>
