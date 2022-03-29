@@ -3,7 +3,7 @@
     import HomeSpecialties from '$lib/home/HomeSpecialties.svelte';
     import HomeChiSiamo from '$lib/home/HomeChiSiamo.svelte';
     import Contacts from '$lib/home/Contacts.svelte';
-	let about, contacts
+	let about, contacts, specialties
 </script>
 <style>
     .about-stripes {
@@ -20,7 +20,7 @@
     	<HomeChiSiamo/>
     </div>
 </div>
-<div class="" id="about-specialties">
+<div class="" id="specialties" bind:this={specialties}>
     <div class="flex flex-col lg:flex-row">
     	<HomeSpecialties/>
     </div>

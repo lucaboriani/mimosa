@@ -34,6 +34,7 @@
 </script>
 <script>
     import ServiceCard from '$lib/servizi/ServiceCard.svelte';
+    import HorizontalCard from '$lib/servizi/HorizontalCard.svelte';
     import TreatmentTitle from '$lib/trattamenti/TreatmentTitle.svelte';
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
     import Footer from '$lib/Footer.svelte';
@@ -48,19 +49,24 @@
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col">
-            <p class="text-gray-500 text-right pr-4 pb-4 text-xl">
+            <p class="text-gray-500 text-left lg:text-right pl-4 pr-4 pb-4 text-xl">
                 Per una bellezza speciale un trattamento completo, mirato e selettivo<br>
                 in base al tuo profilo, alle tue caratteristiche ed al tuo stile di vita
             </p>
-            <div class="flex flex-wrap bg-gray-300 p-4 pt-8">
+            <div class="flex flex-wrap bg-gray-100 p-4 m-4">
                 {#each lpg as service}
-                <ServiceCard 
+                <HorizontalCard 
                     data={service}
-                    uiData={{imageBg:'fucsia-color-bg', titleColor:'text-gray-500', bgColor: 'bg-gray-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                    uiData={{
+                        imageBg:'fucsia-color-bg', 
+                        titleColor:'text-gray-800 font-bold', 
+                        bgColor: 'bg-gray-100', 
+                        titleBgColor:'fucsia-color-bg', 
+                        width:'lg:w-full'
+                    }}
                 />
                 {/each}
-                <span class="text-xl w-1/3 ml-auto text-gray-600 mt-4 px-4 font-semibold">LPG ENDERMOLOGIE CORPO</span>
-            </div>
+             </div>
             <div class="flex flex-col pt-4 bg-white">
                 <span class="text-xl text-gray-600  mb-4 px-4 font-semibold w-1/6">DIBI BODY</span>
                 <div class="flex flex-wrap w-full">

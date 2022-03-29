@@ -20,18 +20,18 @@
         
         <div class="cont ">
             <h4 class="text-right text-2xl mr-4 mb-4 text-gray-500">epilazione laser</h4>
-            <div class="flex  w-full  bg-gray-200">
+            <div class="flex flex-col lg:flex-row items-center lg:items-start  w-full  bg-gray-200">
                 <img src="../img/APG-Epildream.jpg" alt="apg" loading="lazy" class="w-64 m-4" />
-                <div class="flex flex-col w-full ">
+                <div class="flex flex-col w-full p-4 lg:p-0">
                     <h3 class="my-8 font-semibold text-gray-500 pr-4 text-2xl">EPILDREAM</h3>
                     <p class=" text-gray-500 pr-4 border-b pb-4 text-xl">il laser diodo di ultima generazione a alta potenza, veloce, efficace, affidabile e tecnologico</p>
-                    <div class="flex grow mb-4">
-                        <div class="flex flex-col  w-1/2 bg-white mr-2">
+                    <div class="flex flex-col lg:flex-row grow mb-4">
+                        <div class="flex flex-col w-full  lg:w-1/2 bg-white lg:mr-2 mb-4 lg:mb-0">
                             <h3 class="p-4 fucsia-color-bg text-center uppercase text-gray-500 text-xl font-semibold">Consulenza gratuita</h3>
     
                             <p class="p-2 flex items-center  grow text-gray-600 text-xl font-semibold justify-center uppercase  p-4">per una epilazione su misura per te!</p>
                         </div>
-                        <div class="flex flex-col  w-1/2 bg-white ml-2 mr-4">
+                        <div class="flex flex-col  w-full  lg:w-1/2 bg-white lg:ml-2 lg:mr-4 mb-4 lg:mb-0">
                             <h3 class="p-4 fucsia-color-bg text-center uppercase text-gray-500 text-xl font-semibold">Si effettuano pacchetti</h3>
     
                             <ul class="m-4 flex flex-col  justify-center grow text-gray-600 text-xl ">
@@ -46,8 +46,8 @@
                 </div>
             </div>
             <h4 class="text-right text-2xl mr-4 mb-4 mt-4 text-gray-500">depliazione</h4>
-            <div class="flex  w-full  bg-gray-200 mb-4 p-4">
-                <div class="flex flex-col  w-1/2 bg-white mr-2">
+            <div class="flex flex-col lg:flex-row  w-full  bg-gray-200 mb-4 p-4">
+                <div class="flex flex-col w-full lg:w-1/2 bg-white mr-2 mb-4 lg:mb-0">
                     <div class="p-4 fucsia-color-bg flex justify-center uppercase text-gray-500 text-2xl">
                         <img src="../img/brasiliana.png" loading="lazy" alt="cera brasiliana" />
                     </div>
@@ -56,7 +56,7 @@
                         cera brasiliana
                     </p>
                 </div>
-                <div class="flex flex-col  w-1/2 bg-white ml-2">
+                <div class="flex flex-col w-full lg:w-1/2 bg-white lg:mr-2 mb-4 lg:mb-0">
                     <div class="p-4 fucsia-color-bg flex justify-center uppercase text-gray-500 text-2xl">
                         <img src="../img/ceretta_rullo.png" loading="lazy" alt="cera brasiliana" />
                     </div>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <h4 class="text-right text-2xl mr-4 mb-4 mt-4 text-gray-500">elettrocoagulazione</h4>
-            <div class="flex  w-full  bg-gray-200  p-4 justify-end">
+            <div class="flex  w-full  bg-gray-200  p-4 justify-center lg:justify-end">
                 <p class=" p-4 fucsia-color-bg uppercase text-gray-800 text-2xl ">
                     depilazione ad ago
                 </p>

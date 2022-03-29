@@ -57,7 +57,6 @@
 							width:'lg:w-1/3'
 						}}
 					/>
-                    
                 {/each}
             </div>
             

@@ -96,7 +96,8 @@
 <script>
 	
 	function goToSpecialties() {
-		let about = document.getElementById('specialties')
-		about.scrollIntoView({behavior: "smooth"})
+		let specialties = document.getElementById('specialties')
+        console.log(specialties)
+		specialties.scrollIntoView({behavior: "smooth"})
 	}
 </script>

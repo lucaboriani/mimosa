@@ -71,9 +71,8 @@
 					
 				{/each}
 			</div>
-			
-			
 		</div>
-		<Footer></Footer>
+		<Footer/>
 	</TreatmentContent>
+	
 </div>
