@@ -43,33 +43,33 @@
         <span class="">make</span>
         <span class=" fucsia-color">up</span>
     </TreatmentTitle>
-    <TreatmentContent>
+    <TreatmentContent classes="">
         <div class="flex flex-col makeup-cont">
-            <div class="flex flex-wrap bg-gray-500 pt-4">
+            <div class="flex flex-wrap bg-stone-500 pt-4">
                 {#each data as service}
                     <ServiceCard 
                         data={service}
-                        uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                        uiData={{imageBg:'fucsia-color-bg', titleColor:'text-stone-600', bgColor: 'bg-gray-300', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
                     />
                 {/each}
-                <div class="w-1/3    flex flex-col">
-                    <div class="px-4 py-4 flex  h-full justify-center items-center bg-white mt-0 m-4">
-                        <h3 class="sm:text-xl lg:text-3xl   text-gray-800  py-2">
-                            {giftCard.title}
-                        </h3>   
-                        <img src="../img/pacco_regalo.png" alt="icona pacco" loading="lazy" class="h-24" />                    
-                    </div>
-                </div> 
-                <div class="w-1/3    flex flex-col">
+               
+                <div class="w-full lg:w-1/3    flex flex-col">
                     <div class="px-4 py-4 flex  h-full justify-center items-center bg-gray-300 mt-0 m-4">
-                        <h3 class="sm:text-xl lg:text-3xl   text-gray-800  py-2">
+                        <h3 class=" lg:text-xl   text-gray-800  py-2">
                             { giftCard.text }
                         </h3>   
                         <img src="../img/regalo_icona.png" alt="icona pacco" loading="lazy" class="h-16 pl-4" />                    
                     </div>
                 </div>
                 
-               
+                <div class="w-full lg:w-1/3    flex flex-col">
+                    <div class="px-4 py-4 flex  h-full justify-center items-center bg-white mt-0 m-4">
+                        <h3 class=" lg:text-xl   text-gray-800  py-2">
+                            {giftCard.title}
+                        </h3>   
+                        <img src="../img/pacco_regalo.png" alt="icona pacco" loading="lazy" class="h-24" />                    
+                    </div>
+                </div> 
             </div>
             
         </div>

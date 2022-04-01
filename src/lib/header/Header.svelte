@@ -22,7 +22,7 @@
 			<div class="flex items-center justify-between h-16 w-full">
 				<div class="w-full justify-between flex items-center">
 					<a class="flex-shrink-0" href="/">
-						<img src="../img/mimosalogo.svg" loading="eager" alt="logo la mimosa " class="w-16" />
+						<img src="../img/logo-mimosa.svg" loading="eager" alt="logo la mimosa " class="w-16 p-2" />
 					</a>
 					<div class="hidden md:block">
 						<div class="ml-10 flex items-center space-x-2">

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="127" viewBox="0 0 127 127">
+  <g id="Group_7" data-name="Group 7" transform="translate(-6 -13)">
+    <g id="Group_5" data-name="Group 5" transform="translate(-575 -254)">
+      <text id="mosa" transform="translate(644 353)" fill="#030303" font-size="40" font-family="Helvetica" letter-spacing="0.208em"><tspan x="-61.386" y="0">mosa</tspan></text>
+      <text id="lami" transform="translate(644 325)" fill="#c6919b" font-size="60" font-family="Helvetica" letter-spacing="0.075em"><tspan x="-61.755" y="0">lami</tspan></text>
+      <text id="estetica" transform="translate(586 372)" fill="#6d6b6b" font-size="20" font-family="Helvetica" letter-spacing="0.35em"><tspan x="0" y="0">estetica</tspan></text>
+    </g>
+    <g id="Rectangle_118" data-name="Rectangle 118" transform="translate(6 13)" fill="none" stroke="#c6919b" stroke-linecap="square" stroke-width="1">
+      <rect width="127" height="127" stroke="none"/>
+      <rect x="0.5" y="0.5" width="126" height="126" fill="none"/>
+    </g>
+  </g>
+</svg>

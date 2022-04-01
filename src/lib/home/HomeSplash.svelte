@@ -13,7 +13,7 @@
 		position: absolute;
 		text-align: left;
 		left: 25%;
-		transform: translate3d(-12.9rem,0, 0);
+		transform: translate3d(-9.8rem,0, 0);
 	}
 	#home-image {
 		left:55%;   
@@ -136,21 +136,21 @@
 <div class="bg-white relative" bind:this={splash} id="splash">
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
         <div class="home-mimosa">
-            <h1 class="text-8xl text-black z-10 pl-4-em">
-				<span class="block text-6xl text-gray-200 translate-x-1/2 relative -left-3">estetica</span>
+            <h1 class="text-7xl text-black z-10 pl-4-em">
+				<span class="block text-5xl text-stone-600 translate-x-1/2 relative -left-1">estetica</span>
                 <span class="block mimosa-color">
                     <bold><span>la mi</span><span class="text-black">mosa</span></bold>
                 </span>
             </h1>
-			<div class=" pl-4 pb-4 translate-x-48 "  >
-				<span class="block text-black z-10 pl-14-em  text-2xl">
+			<div class=" relative text-stone-700 text-sm flex justify-between border-b border-b-stone-800"  >
+				<span class=" z-10   ">
 					Via G. Marconi 13
 				</span>
-				<span class="block text-black z-10 pl-14-em font-bold text-2xl">
+				<span class="  z-10   ">
 					Garbagnate Milanese (MI)
 				</span>
 			</div>
-			<div class="flex mt-1 w-32 justify-between translate-x-56">
+			<div class="flex mt-1 w-32 justify-between translate-x-32 relative -left-4">
 				<div class="relative home-button">
 					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
 					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute pt-6 text-center" href="#" >

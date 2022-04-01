@@ -5,40 +5,40 @@
 </style>
 <div class="w-full lg:w-1/2 p-8 py-20 bg-gray-200 flex justify-center" id="specialties" >
     <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-        <p class="mb-4 text-gray-500 p-2 pt-10">
-            <span class="text-2xl text-gray-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
-            <span class="text-xl text-gray-700">Epildream</span>  
+        <p class="mb-4 text-stone-500 p-2 pt-10">
+            <span class="text-2xl text-stone-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
+            <span class="text-xl text-stone-700">Epildream</span>  
             ed 
-            <span class="text-xl text-gray-700">elettrocoagulazione</span>.
+            <span class="text-xl text-stone-700">elettrocoagulazione</span>.
             
         </p>
-        <p class="mb-4  text-gray-500 p-2">
-            <span class="text-xl text-gray-700">Trattamenti viso</span> 
+        <p class="mb-4  text-stone-500 p-2">
+            <span class="text-xl text-stone-700">Trattamenti viso</span> 
             correttivi <br>
             AHA, DNA Enzyme Complex antiossidanti.
         </p>
-        <p class="mb-4 p-2  text-gray-500">
-            <span class="text-xl text-gray-700">LPG</span> 
+        <p class="mb-4 p-2  text-stone-500">
+            <span class="text-xl text-stone-700">LPG</span> 
             viso e corpo, 
-            <span class="text-xl text-gray-700">elettropermeazione</span> 
+            <span class="text-xl text-stone-700">elettropermeazione</span> 
             e 
-            <span class="text-xl text-gray-700">dermopeeling</span>
+            <span class="text-xl text-stone-700">dermopeeling</span>
         </p>
        
-        <p class="mb-2 text-gray-500 p-2">
-            <span class="text-xl text-gray-700">Massaggi</span> funzionali e sensoriali    
+        <p class="mb-2 text-stone-500 p-2">
+            <span class="text-xl text-stone-700">Massaggi</span> funzionali e sensoriali    
         </p>
 
-        <p class="mb-2  text-gray-500 p-2">
-            <span class="text-xl text-gray-700">Manicure e pedicure</span> estetico e curativo
+        <p class="mb-2  text-stone-500 p-2">
+            <span class="text-xl text-stone-700">Manicure e pedicure</span> estetico e curativo
         </p>
 
-        <p class="mb-2  text-gray-500 p-2">
-            <span class="text-xl text-gray-700">Smalti Zoya</span> adatto anche in gravidanza, <br> trattamento <span class="text-xl text-gray-700">callus peel</span>, <span class="text-xl text-gray-700">smalto semi permanente</span> in gel. 
+        <p class="mb-2  text-stone-500 p-2">
+            <span class="text-xl text-stone-700">Smalti Zoya</span> adatto anche in gravidanza, <br> trattamento <span class="text-xl text-gray-700">callus peel</span>, <span class="text-xl text-gray-700">smalto semi permanente</span> in gel. 
         </p>
         
-        <p class="mb-2  text-gray-500 p-2">
-            <span class="text-xl text-gray-700">Make up</span> personalizzato e minicorsi individuali di trucco,<br>
+        <p class="mb-2  text-stone-500 p-2">
+            <span class="text-xl text-stone-700">Make up</span> personalizzato e minicorsi individuali di trucco,<br>
             trucco semipermanente effettuato da personale altamente specializzato.
         </p>
         <div class="w-full mt-16">

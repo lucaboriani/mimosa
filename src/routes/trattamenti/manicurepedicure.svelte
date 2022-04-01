@@ -54,16 +54,16 @@
 		<span class=" fucsia-color inline">manicure</span>
 		<span class=" inline pl-2">pedicure</span>
 	</TreatmentTitle>
-	<TreatmentContent>
+	<TreatmentContent classes="fucsia-color-bg">
 		<div class="flex flex-col cont">
 			<div class="flex flex-wrap  pt-4">
 				{#each data as service}
 					<ServiceCard 
 						data={service}
 						uiData={{
-							imageBg:'fucsia-color-bg', 
+							imageBg:'bg-white', 
 							titleColor:'text-gray-500', 
-							bgColor: 'bg-gray-100', 
+							bgColor: 'bg-gray-300', 
 							titleBgColor:'fucsia-color-bg', 
 							width:'lg:w-1/3'
 						}}
@@ -71,8 +71,9 @@
 					
 				{/each}
 			</div>
+			<Footer></Footer>
 		</div>
-		<Footer/>
+		
 	</TreatmentContent>
 	
 </div>

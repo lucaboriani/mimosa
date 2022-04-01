@@ -50,7 +50,7 @@
                     <ServiceCard 
 						data={service}
 						uiData={{
-							imageBg:'bg-gray-300', 
+							imageBg:'fucsia-color-bg', 
 							titleColor:'text-gray-500', 
 							bgColor: 'bg-white', 
 							titleBgColor:'fucsia-color-bg', 

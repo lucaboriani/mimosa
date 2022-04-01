@@ -127,11 +127,11 @@
         </div>
         <div class="sm:flex flex-wrap pr-4 bg-gray-400">
             <div class="text-md  text-gray-400 py-8 p-0   w-full flex flex-col lg:flex-row justify-between items-start">
-                <div class="flex flex-col w-5/6 bg-gray-200">
+                <div class="flex flex-col w-5/6 fucsia-color-bg">
                     <div class=" w-full flex flex-col justify-between items-center fucscia-bg-color p-4">
                         <div class="flex flex-col w-full lg:w-1/2 border border-gray-500">
                             <div class="flex justify-center">
-                                <img src="../img/priori-1.jpg" loading="lazy" alt="olos" />
+                                <img src="../img/priori-1.jpg" loading="lazy" alt="priori" />
                             </div>
                             <div class="flex flex-col py-4 px-4 bg-white">
                                 <ul>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="../img/priori.png" alt="priori logo" class="w-48 border" loading="eager" />
+                <img src="../img/priori.png" alt="priori logo" class="w-48 border ml-4 block" loading="eager" />
                 
             </div>
             
