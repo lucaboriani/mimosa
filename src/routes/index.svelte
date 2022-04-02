@@ -13,11 +13,13 @@
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
-		  "@type": "LocalBusiness",
+		  "@type": "BeautySalon",
 		  "image": [
 			"https://lamimosa.netlify.app/img/logo-mimosa.svg"
 		   ],
+		  "currenciesAccepted": "EUR" 
 		  "name": "Estetica la mimosa",
+		  "brand" : "dibi"
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "Via G. Marconi 13",
