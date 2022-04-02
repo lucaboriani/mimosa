@@ -35,7 +35,7 @@
     import TreatmentContent from '$lib/trattamenti/TreatmentContent.svelte';
     import Footer from '$lib/Footer.svelte';
 	export let data
-    const giftCard = data.pop()
+    
 </script>
 <svelte:head>
 	<title>Visocollo e Décolleté</title>
@@ -112,7 +112,7 @@
                             </div>
                             <div class=" justify-center  relative">
                                 <img class="absolute bottom-0 left-0 w-48 lg:w-64" src="../img/GROUPAGE-OLOS-PRODOTTI.png" loading="lazy" alt="olos" />
-                                <div class="flex flex-col flex fucsia-color-bg text-stone-500 py-8">
+                                <div class="flex flex-col flex fucsia-color-bg text-stone-100 py-8">
                                     <h3 class="text-right font-bold text-xl mr-4">vegan friendly</h3>
                                      <p class="text-right font-bold text-xl mr-4">free from</p>
                                 </div>
@@ -127,8 +127,8 @@
         </div>
         <div class="sm:flex flex-wrap pr-4 bg-stone-400">
             <div class="text-md  text-stone-400 py-8 p-0   w-full flex flex-col lg:flex-row justify-between items-start">
-                <div class="flex flex-col w-5/6 fucsia-color-bg">
-                    <div class=" w-full flex flex-col justify-between items-center fucscia-bg-color p-4">
+                <div class="flex flex-col w-5/6 bg-stone-200">
+                    <div class=" w-full flex flex-col justify-between items-center  p-4">
                         <div class="flex flex-col w-full lg:w-1/2 border border-stone-500">
                             <div class="flex justify-center">
                                 <img src="../img/priori-1.jpg" loading="lazy" alt="priori" />

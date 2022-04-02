@@ -16,8 +16,8 @@
 	});
 </script>
 
-<div class="w-full {$page.url.pathname === '/' ? 'fixed ' : ' sticky' } " id="menu-container">
-	<nav class="bg-white {showWiteBg ? 'bg-white shadow' : 'bg-transparent' }    ">
+<div class="w-full {$page.url.pathname === '/' ? 'fixed ' : ' sticky ' } {showWiteBg || $page.url.pathname !== '/' ? ' shadow' : ' ' } " id="menu-container">
+	<nav class="bg-white {showWiteBg ? 'bg-white ' : 'bg-transparent' }    ">
 		<div class="pl-4 pr-4">
 			<div class="flex items-center justify-between h-16 w-full">
 				<div class="w-full justify-between flex items-center">
