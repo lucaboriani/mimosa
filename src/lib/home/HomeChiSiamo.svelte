@@ -90,7 +90,7 @@
                 Scopri di più
             </a>
             <a class="w-full lg:w-1/2 text-2xl mt-4 lg:mt-0 lg:ml-2  flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150" href="/trattamenti">
-                i nostri trattamenti
+                trattamenti
             </a>
         </div>
         

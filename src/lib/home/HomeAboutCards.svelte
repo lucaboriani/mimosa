@@ -71,7 +71,7 @@
         </p>
         <div class="w-full md:w-1/3">
             <button type="button" class="py-2 px-4  fucsia-color-bg hover:bg-yellow-200 hover:text-black focus:ring-yellow-200 focus:ring-offset-yellow-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                Scopri i nostri trattamenti
+                trattamenti
             </button>
         </div>
     </div>

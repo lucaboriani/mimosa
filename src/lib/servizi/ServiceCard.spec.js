@@ -14,7 +14,7 @@ it('giocando pulito, dati facili', async () => {
     "subscription": ""
   }
   const uidata = {
-    titleColor:'text-gray-500', 
+    titleColor:'text-stone-500', 
     bgColor: 'bg-white',  
     width:'lg:w-1/3'
   }
@@ -29,13 +29,13 @@ it('giocando pulito, dati facili', async () => {
   const title  = card.querySelector('h3')
   const price  = card.querySelector('.text-black.font-bold.text-md.pr-2')
   const image = card.querySelector('img')
-  const paragraphs  = Array.from(card.querySelectorAll('.text-md.text-gray-600.italic.mt-4'))
+  const paragraphs  = Array.from(card.querySelectorAll('.text-md.text-stone-600.italic.mt-4'))
   const text = getByText('prova')
   
   expect(card.classList.contains('lg:w-1/3')).toBe(true)
   expect(price.textContent).toBe('20,00 €')
   expect(title.textContent).toBe('TRUCCO VELOCE')
-  expect(title.classList.contains('text-gray-500')).toBe(true)
+  expect(title.classList.contains('text-stone-500')).toBe(true)
   expect(content.classList.contains('bg-white')).toBe(true)
   //qui sto forse truccando e dovrei usare path...
   expect(image.src).toBe('http://localhost/img/'+ data.image)
@@ -53,7 +53,7 @@ it('paragrafi multipli', async () => {
     "subscription": ""
   }
   const uidata = {
-    titleColor:'text-gray-500', 
+    titleColor:'text-stone-500', 
     bgColor: 'bg-white',  
     width:'lg:w-1/3'
   }
@@ -68,13 +68,13 @@ it('paragrafi multipli', async () => {
   const title  = card.querySelector('h3')
   const price  = card.querySelector('.text-black.font-bold.text-md.pr-2')
   const image = card.querySelector('img')
-  const paragraphs  = Array.from(card.querySelectorAll('.text-md.text-gray-600.italic.mt-4'))
+  const paragraphs  = Array.from(card.querySelectorAll('.text-md.text-stone-600.italic.mt-4'))
   const text = getByText('prova')
   
   expect(card.classList.contains('lg:w-1/3')).toBe(true)
   expect(price.textContent).toBe('20,00 €')
   expect(title.textContent).toBe('TRUCCO VELOCE')
-  expect(title.classList.contains('text-gray-500')).toBe(true)
+  expect(title.classList.contains('text-stone-500')).toBe(true)
   expect(content.classList.contains('bg-white')).toBe(true)
   //qui sto forse truccando e dovrei usare path...
   expect(image.src).toBe('http://localhost/img/'+ data.image)

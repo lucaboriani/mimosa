@@ -53,7 +53,7 @@
                 Per una bellezza speciale un trattamento completo, mirato e selettivo<br>
                 in base al tuo profilo, alle tue caratteristiche ed al tuo stile di vita
             </p>
-            <div class="flex flex-wrap bg-stone-100 p-4 m-4">
+            <div class="flex flex-wrap bg-stone-100 p-4 m-4 lg:items-center lg:justify-center">
                 {#each lpg as service}
                 <HorizontalCard 
                     data={service}
@@ -62,18 +62,18 @@
                         titleColor:'text-stone-800 font-bold', 
                         bgColor: 'bg-stone-100', 
                         titleBgColor:'fucsia-color-bg', 
-                        width:'lg:w-full'
+                        width:'lg:w-2/3'
                     }}
                 />
                 {/each}
              </div>
-            <div class="flex flex-col pt-4 bg-white">
-                <span class="text-xl text-stone-600  mb-4 px-4 font-semibold w-1/6">DIBI BODY</span>
-                <div class="flex flex-wrap w-full">
+            <div class="flex flex-col pt-4 bg-white lg:items-center text-left">
+                <span class="text-xl text-stone-600 relative left-1/4  mb-4 px-4 font-semibold self-start -translate-x-2/3">DIBI BODY</span>
+                <div class="flex flex-wrap lg:w-2/3">
                     {#each dibi as service}
                         <ServiceCard 
                             data={service}
-                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-stone-500', bgColor: 'bg-stone-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/4'}}
+                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-stone-500', bgColor: 'bg-stone-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/2'}}
                         />
                         
                     {/each}

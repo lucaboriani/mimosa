@@ -20,7 +20,7 @@
 <div id="main-wrap">    
 	<Header/>
     <TreatmentTitle>
-        <span class="text-gray-500">trattamenti</span>
+        <span class="text-stone-500">trattamenti</span>
     </TreatmentTitle>
 	<Splash />
 	<!-- start services -->
