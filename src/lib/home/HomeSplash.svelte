@@ -9,21 +9,41 @@
 	.home-stripes {
 		background: linear-gradient(90deg, #fff 25%, #c6919b 25% 50% , #efefef 50% 75%, #d4d4d4 75% 100%);
 	}
+
+	
+
 	.home-mimosa{
 		position: absolute;
 		text-align: left;
 		left: 25%;
 		transform: translate3d(-9.8rem,0, 0);
+		padding: 0;
+    	background-color: rgba(255,255,255, 0);
 	}
 	#home-image {
-		left:55%;   
+		left:55%; 
+		height: 100%;  
 	}
-	.home-address{
-		position: absolute;
-		left:0;
-		bottom: 6em;
-		width: 50%;
+	@media screen and (max-width: 992px) {
+		.home-stripes {
+			background: linear-gradient(90deg, #fff 33.333%, #c6919b 33.333% 66.666%, #d4d4d4 66.666% 100%);
+		}
+		#home-image {
+			top:initial;
+			bottom:0;
+			left:55%;
+			height: 90%;   
+		}
+		.home-mimosa {
+			padding: 1em;
+    		background-color: rgba(255,255,255, .7);
+			position: absolute;
+			text-align: left;
+			left: 2em;
+			transform: translate3d(0,0, 0);
+		}
 	}
+	
 	.home-logo {
 		width: 7em;
 		height: auto;
@@ -139,18 +159,18 @@
 	
 </script>
 <div class="bg-white relative" bind:this={splash} id="splash">
-	<img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
+	<img src="img/lei.png" alt="donna"  class="absolute" loading="eager" id="home-image" />
     
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
-        <div class="home-mimosa flex">
+        <div class="home-mimosa flex flex-col lg:flex-row">
 			<div>
-				<h1 class="text-7xl text-black z-10 pl-4-em">
-					<span class="block text-5xl text-stone-600 translate-x-1/2 relative -left-1">estetica</span>
-					<span class="block mimosa-color">
+				<h1 class="text-4xl lg:text-7xl text-black z-10 lg:pl-4-em">
+					<span class="block text-3xl lg:text-5xl text-stone-600 lg:translate-x-1/2 relative lg:-left-1">estetica</span>
+					<span class="flex lg:flex-col mimosa-color relative">
 						<bold><span>la mi</span><span class="text-black">mosa</span></bold>
 					</span>
 				</h1>
-				<div class=" relative text-stone-700 text-base translate-x-1/2"  >
+				<div class=" relative text-stone-700 text-sm lg:text-base lg:translate-x-1/2"  >
 					<span class=" z-10   block">
 						Via G. Marconi 13
 					</span>
@@ -160,7 +180,7 @@
 				</div>
 			</div>
             
-			<div class="flex mt-1 w-32 justify-between items-end ml-4 mb-11">
+			<div class="flex w-32 justify-between items-end ml-4 pb-9 lg:relative lg:-top-4">
 				<div class="relative home-button">
 					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
 					<a class="mt-2 bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#" >
