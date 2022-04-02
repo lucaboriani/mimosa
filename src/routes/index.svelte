@@ -13,7 +13,7 @@
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
-		  "@type": " LocalBusiness ",
+		  "@type": "LocalBusiness",
 		  "image": [
 			"https://lamimosa.netlify.app/img/logo-mimosa.svg"
 		   ],
