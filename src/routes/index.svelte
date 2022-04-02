@@ -17,7 +17,7 @@
 		  "image": [
 			"https://lamimosa.netlify.app/img/logo-mimosa.svg"
 		   ],
-		  "currenciesAccepted": "EUR" 
+		  "currenciesAccepted": "EUR", 
 		  "name": "Estetica la mimosa",
 		  "brand" : "dibi",
 		  "address": {
