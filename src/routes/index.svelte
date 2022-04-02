@@ -56,8 +56,7 @@
 			  "closes": "17:00"
 			}
 			
-		  ],
-		  "acceptsReservations": "True"
+		  ]
 		}
 	</script>
 </svelte:head>
