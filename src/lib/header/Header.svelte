@@ -155,9 +155,7 @@
 		object-fit: contain;
 	}
 
-	.mimosa-color{
-		color:#c6919b;
-	}
+	
 	input#mobile-menu-btn {
     display: none;
 }
