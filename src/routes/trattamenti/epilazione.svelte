@@ -49,42 +49,42 @@
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col cont">
-            <h3 class="text-right font-semibold text-gray-500 pr-4">EPILDREAM</h3>
-            <p class="text-right text-gray-500 pr-4 border-b pb-4">il laser diodo di ultima generazione a alta potenza, veloce, efficace, affidabile e tecnologico</p>
-            <h3 class="px-4 py-2  text-gray-500 text-xl">Donna</h3>
-            <div class="flex flex-wrap bg-gray-200 py-4">
+            <h3 class="text-right font-semibold text-stone-500 pr-4">EPILDREAM</h3>
+            <p class="text-right text-stone-500 pr-4 border-b pb-4">il laser diodo di ultima generazione a alta potenza, veloce, efficace, affidabile e tecnologico</p>
+            <h3 class="px-4 py-2  text-stone-500 text-xl">Donna</h3>
+            <div class="flex flex-wrap bg-stone-200 py-4">
                 {#each female as service}
                     <ImageLessCard 
                         data={service}
-                        uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                        uiData={{titleColor:'text-stone-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
                     />
                 {/each}
             </div>
-            <h3 class="px-4 py-2 text-gray-500 text-xl">Uomo</h3>
-            <div class="flex flex-wrap bg-gray-200 py-4">
+            <h3 class="px-4 py-2 text-stone-500 text-xl">Uomo</h3>
+            <div class="flex flex-wrap bg-stone-200 py-4">
                 {#each male as service}
                     <ImageLessCard 
                         data={service}
-                        uiData={{titleColor:'text-gray-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
+                        uiData={{titleColor:'text-stone-500', bgColor: 'bg-white', titleBgColor:'fucsia-color-bg', width:'lg:w-1/3'}}
                     />
                 {/each}
             </div>
             <div class="w-full flex ">
-                <div class=" px-4 py-4 flex flex-col w-1/3 justify-between bg-gray-300">
-                    <h3 class="text-2xl sm:text-xl  text-gray-500  border-b-2 py-2">
+                <div class=" px-4 py-4 flex flex-col w-1/3 justify-between bg-stone-300">
+                    <h3 class="text-2xl sm:text-xl  text-stone-500  border-b-2 py-2">
                         {electro.title}
                     </h3>
-                    <p class="text-md text-gray-600 italic mt-4">
+                    <p class="text-md text-stone-600 italic mt-4">
                         {@html electro.text }
                     </p>
                     <bold class="block text-black font-bold text-md pr-2 text-right">{electro.price}</bold>
                    
                 </div>
-                <div class=" px-4 py-4 flex flex-col w-2/3 h-full justify-between bg-gray-300">
-                    <h3 class="text-2xl sm:text-xl  text-gray-500  border-b-2 py-2">
+                <div class=" px-4 py-4 flex flex-col w-2/3 h-full justify-between bg-stone-300">
+                    <h3 class="text-2xl sm:text-xl  text-stone-500  border-b-2 py-2">
                         {packages.title}
                     </h3>
-                    <p class="text-md text-gray-600 italic mt-4">
+                    <p class="text-md text-stone-600 italic mt-4">
                         {@html packages.text }
                     </p>
                     <bold class="block text-black font-bold text-md pr-2 text-right">{packages.price}</bold>

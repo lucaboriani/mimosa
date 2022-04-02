@@ -26,7 +26,7 @@
            
             <div class="flex items-center text-black-200 z-10  text-xl font-extrabold  text-center w-full pt-3"  >
                
-                <span class="block bg-gray-200  py-2 px-4  leading-8 w-full text-stone-600">Tel 02-99026325</span>
+                <span class="block bg-stone-200  py-2 px-4  leading-8 w-full text-stone-600">Tel 02-99026325</span>
                 
             </div>
         </div>
@@ -53,7 +53,7 @@
                         09.00 - 17.00
                     </span>
                 </p>
-                <span class="block text-gray-100 bg-stone-600 z-10 font-semibold text-xl text-center  uppercase p-4 mt-4">
+                <span class="block text-stone-100 bg-stone-600 z-10 font-semibold text-xl text-center  uppercase p-4 mt-4">
                     riceviamo solo su appuntamento
                 </span>
                 

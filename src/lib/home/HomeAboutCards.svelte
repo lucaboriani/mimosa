@@ -5,9 +5,9 @@
 </style>
 <div class="w-full lg:w-2/3 pt-20 border-t">
     <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-        <div class="flex p-4 bg-gray-100 rounded-2xl shadow " style="transform: translateX(-25%);">
+        <div class="flex p-4 bg-stone-100 rounded-2xl shadow " style="transform: translateX(-25%);">
             <div class="flex flex-col">
-                <p class="mb-4 leading-loose text-gray-500 pr-6">
+                <p class="mb-4 leading-loose text-stone-500 pr-6">
                     Specializzate nell' epilazione con  laser diodo 
                     <span class="font-bold text-black">Epildream</span> ,  
                     luce pulsata <span class="font-bold text-black">Quantum IPL</span> 
@@ -15,23 +15,23 @@
                     <span class="font-bold text-black">elettrocoagulazione</span>.
                     
                 </p>
-                <img class="w-full pt-10 pr-6" src="img/Apg-SHAPEINPULSE_LogoRGB_preview.png" loading="lazy" />
+                <img class="w-full pt-10 pr-6" src="img/Apg-SHAPEINPULSE_LogoRGB_preview.png" alt="apg" loading="lazy" />
                 
             </div>
-            <img class="w-1/3" src="img/APG-Epildream.jpg" loading="lazy" />
+            <img class="w-1/3" src="img/APG-Epildream.jpg" alt="epildream" loading="lazy" />
         
         </div>
-        <div class="flex items-center p-4 bg-gray-100 mt-4  rounded-2xl shadow " style="transform: translateX(25%);">
-                <img class="w-2/3 pr-4" src="img/priori-1.jpg" loading="lazy" />
-                <p class="mb-4  text-gray-500">
+        <div class="flex items-center p-4 bg-stone-100 mt-4  rounded-2xl shadow " style="transform: translateX(25%);">
+                <img class="w-2/3 pr-4" src="img/priori-1.jpg" alt="priori" loading="lazy" />
+                <p class="mb-4  text-stone-500">
                     <span class="font-bold text-black">Trattamenti viso</span> 
                     correttivi AHA, DNA Enzyme Complex antiossidanti, Idebenone e COFFEBERRY.
             
                 </p>
                
         </div>
-        <div class="flex items-center p-4 bg-gray-100 mt-4  rounded-2xl shadow" style="transform: translateX(-25%);">
-            <p class="mb-4 pl-4  text-gray-500">
+        <div class="flex items-center p-4 bg-stone-100 mt-4  rounded-2xl shadow" style="transform: translateX(-25%);">
+            <p class="mb-4 pl-4  text-stone-500">
                 <span class="font-bold text-black">LPG</span> 
                 viso e corpo, 
                 <span class="font-bold text-black">elettropermeazione</span> 
@@ -39,24 +39,24 @@
                 <span class="font-bold text-black">dermopeeling</span>
             </p>
             <div class="flex justify-around">
-                <img class="w-1/4 object-cover" src="img/trattamentoviso.jpg" loading="lazy" />
-                <img class="w-1/2" src="img/lpg-endermologie.jpg" loading="lazy" />
+                <img class="w-1/4 object-cover" src="img/trattamentoviso.jpg" alt="viso" loading="lazy" />
+                <img class="w-1/2" src="img/lpg-endermologie.jpg" alt="lpg endermologie" loading="lazy" />
             </div>
         </div>
-        <div class="flex items-center p-4 bg-gray-100 mt-4  rounded-2xl shadow"  style="transform: translateX(10%);">
-            <img class="w-1/2" src="img/Img-Scrub-Corpo.jpg" loading="lazy" />
-            <p class="mb-2 leading-loose text-gray-500 pl-4">
+        <div class="flex items-center p-4 bg-stone-100 mt-4  rounded-2xl shadow"  style="transform: translateX(10%);">
+            <img class="w-1/2" src="img/Img-Scrub-Corpo.jpg" loading="lazy" alt="lmassaggi"/>
+            <p class="mb-2 leading-loose text-stone-500 pl-4">
                 <span class="font-bold text-black">Massaggi</span> funzionali e sensoriali    
             </p>
         </div>
-        <div class="flex items-center justify-between p-4 bg-gray-100 mt-4  rounded-2xl shadow" style="transform: translateX(-10%);">
-             <p class="mb-2 leading-loose text-gray-500 pl-4">
+        <div class="flex items-center justify-between p-4 bg-stone-100 mt-4  rounded-2xl shadow" style="transform: translateX(-10%);">
+             <p class="mb-2 leading-loose text-stone-500 pl-4">
                 <span class="font-bold text-black">Manicure e pedicure</span> estetico e curativo
             </p>
             <img class="w-1/2" src="img/Cuccio.jpg" loading="lazy" alt="Cuccio" />  
         </div>
-        <div class="flex  justify-between p-4 bg-gray-100 mt-4  rounded-2xl shadow" style="transform: translateX(10%);">
-            <p class="mb-2 leading-loose text-gray-500 pl-4">
+        <div class="flex  justify-between p-4 bg-stone-100 mt-4  rounded-2xl shadow" style="transform: translateX(10%);">
+            <p class="mb-2 leading-loose text-stone-500 pl-4">
                 <img class="w-full pr-4 mb-4" src="img/SMALTO-SICURO.jpg" loading="lazy" alt="smalto sicuro" />
                 <span class="font-bold text-black">Smalti Zoya</span> adatto anche in gravidanza e trattamento <span class="font-bold text-black">callus peel</span>, <span class="font-bold text-black">smalto semi permanente</span> in gel. 
             </p>
@@ -65,7 +65,7 @@
             </div>
         </div>
         
-        <p class="mb-2 leading-loose text-gray-500">
+        <p class="mb-2 leading-loose text-stone-500">
             <span class="font-bold text-black">Make up</span> personalizzato e minicorsi individuali di trucco,
             trucco semipermanente effettuato da personale altamente specializzato.
         </p>

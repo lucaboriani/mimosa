@@ -50,9 +50,9 @@
                 </a>
             </li>
             <li class="w-full lg:w-1/4 order-0 lg:order-1  py-8 lg:py-0">
-                <a href="#a">
+                <a href="/">
                     
-                    <img src="../img/mimosalogo.svg" loading="eager" alt="logo la mimosa " class="w-48" />
+                    <img src="../img/logo-mimosa.svg" loading="eager" alt="logo la mimosa " class="w-48" />
                     
                 </a>
             </li>

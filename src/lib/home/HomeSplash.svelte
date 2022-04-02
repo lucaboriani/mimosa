@@ -25,7 +25,7 @@
 		width: 50%;
 	}
 	.home-logo {
-		width: 12em;
+		width: 7em;
 		height: auto;
 		bottom: 4em;
 		left: 87.5%;
@@ -150,7 +150,7 @@
 						<bold><span>la mi</span><span class="text-black">mosa</span></bold>
 					</span>
 				</h1>
-				<div class=" relative text-stone-700 text-sm translate-x-1/2"  >
+				<div class=" relative text-stone-700 text-base translate-x-1/2"  >
 					<span class=" z-10   block">
 						Via G. Marconi 13
 					</span>
@@ -163,26 +163,29 @@
 			<div class="flex mt-1 w-32 justify-between items-end ml-4 mb-11">
 				<div class="relative home-button">
 					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
-					<a class="bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#" >
-						<span class="w-full  block uppercase">Per appuntamenti</span>
-						<span class="block bg-gray-300    leading-8">Tel 02-99026325</span>
+					<a class="mt-2 bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#" >
+						<span class="w-full  block uppercase mb-2">Per appuntamenti</span>
+						<span class="block bg-stone-300    leading-8">Tel 02-99026325</span>
 						
 					</a>
 				</div>
 				<div class="relative home-button">
 					<img src="img/locator-icon.png" alt="phone" class="locator pr-1"/>
-					<a class="bg-stone-200 w-64 flex flex-col text-black-200 z-10  text-sm font-extrabold absolute p-4 text-center" href="#" id="location" >
-						<span class="w-full pl-3 block ">Per raggiungerci</span>
-						<span class="block bg-gray-300  py-1  leading-8 uppercase pt-2"> mappa</span>
-						
+					<a class="mt-2 bg-stone-200 w-64 flex flex-col text-black-200 z-10  text-sm font-extrabold absolute p-4 text-center" href="#contacts" id="location" >
+						<span class="w-full pl-3 block mb-2 uppercase">Per raggiungerci</span>
+						<span class="block bg-stone-300  py-1  leading-8 uppercase pt-2"> mappa</span>
 					</a>
 					
 				</div>
 				<div class="relative home-button">
 					<img src="img/clock-1.svg" alt="phone" class="phone pr-1"/>
-					<a class="bg-stone-200  flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 p-4" href="#" id="orari" >
+					<a class="mt-2 bg-stone-200  flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 p-4" href="#" id="orari" >
+						<span class="block text-stone-800 z-10 uppercase text-sm mb-2">
+							orari 
+						</span>
 						<p class="flex justify-between border-b border-b-stone-200 py-2">
-							<span class="block text-gray-800 z-10  text-sm ">
+							
+							<span class="block text-stone-800 z-10  text-sm ">
 								martedì - venerdì 
 							</span>
 							<span class="block text-black-200 z-10  text-sm">
@@ -190,7 +193,7 @@
 							</span>
 						</p>
 						<p class="flex justify-between border-b py-2">
-							<span class="block text-gray-800 z-10  text-sm">
+							<span class="block text-stone-800 z-10  text-sm">
 								sabato
 							</span>
 							<span class="block text-black-200 z-10  text-sm">
@@ -209,7 +212,7 @@
         </div>
 		
     </div>
-	<div class="scroll bg-gray-100"  on:click="{goToAbout}"></div>
+	<div class="scroll bg-stone-100"  on:click="{goToAbout}"></div>
     <img src="img/logo-dibi-center.png" alt="logo dibi" class="absolute home-logo" loading="eager" /> 
 </div>
 

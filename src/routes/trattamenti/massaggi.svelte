@@ -43,15 +43,15 @@
     <TreatmentTitle>
         <span class=" fucsia-color inline">massaggi</span>
     </TreatmentTitle>
-    <TreatmentContent classes=" bg-gray-200">
-        <div class="flex flex-col cont bg-gray-200">
+    <TreatmentContent classes=" bg-stone-200">
+        <div class="flex flex-col cont bg-stone-200">
             <div class="flex flex-wrap  pt-4">
                 {#each data as service}
                     <ServiceCard 
 						data={service}
 						uiData={{
 							imageBg:'fucsia-color-bg', 
-							titleColor:'text-gray-500', 
+							titleColor:'text-stone-500', 
 							bgColor: 'bg-white', 
 							titleBgColor:'fucsia-color-bg', 
 							width:'lg:w-1/3'

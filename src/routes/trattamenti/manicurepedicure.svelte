@@ -62,8 +62,8 @@
 						data={service}
 						uiData={{
 							imageBg:'bg-white', 
-							titleColor:'text-gray-500', 
-							bgColor: 'bg-gray-300', 
+							titleColor:'text-stone-500', 
+							bgColor: 'bg-stone-300', 
 							titleBgColor:'fucsia-color-bg', 
 							width:'lg:w-1/3'
 						}}

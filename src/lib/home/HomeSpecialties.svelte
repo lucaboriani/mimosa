@@ -3,7 +3,7 @@
             background-color:#c6919b;
         }
 </style>
-<div class="w-full lg:w-1/2 p-8 py-20 bg-gray-200 flex justify-center" id="specialties" >
+<div class="w-full lg:w-1/2 p-8 py-20 bg-stone-200 flex justify-center" id="specialties" >
     <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
         <p class="mb-4 text-stone-500 p-2 pt-10">
             <span class="text-2xl text-stone-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
@@ -34,7 +34,7 @@
         </p>
 
         <p class="mb-2  text-stone-500 p-2">
-            <span class="text-xl text-stone-700">Smalti Zoya</span> adatto anche in gravidanza, <br> trattamento <span class="text-xl text-gray-700">callus peel</span>, <span class="text-xl text-gray-700">smalto semi permanente</span> in gel. 
+            <span class="text-xl text-stone-700">Smalti Zoya</span> adatto anche in gravidanza, <br> trattamento <span class="text-xl text-stone-700">callus peel</span>, <span class="text-xl text-stone-700">smalto semi permanente</span> in gel. 
         </p>
         
         <p class="mb-2  text-stone-500 p-2">
@@ -42,7 +42,7 @@
             trucco semipermanente effettuato da personale altamente specializzato.
         </p>
         <div class="w-full mt-16">
-            <a href="/servizi" class="flex justify-center p-4 text-2xl  fucsia-color-bg  hover:text-black  text-white w-full transition ease-in duration-200 text-center text-base uppercase  focus:outline-none focus:ring-2 focus:ring-offset-2   ">
+            <a href="/trattamenti" class="w-full  text-2xl mt-4 lg:mt-0 lg:ml-2  flex justify-center p-4 fucsia-color-bg hover:bg-black  text-white uppercase transition ease-in-out delay-150">
                 i nostri trattamenti
             </a>
         </div>

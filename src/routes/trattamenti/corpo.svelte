@@ -49,18 +49,18 @@
     </TreatmentTitle>
     <TreatmentContent>
         <div class="flex flex-col">
-            <p class="text-gray-500 text-left lg:text-right pl-4 pr-4 pb-4 text-xl">
+            <p class="text-stone-500 text-left lg:text-right pl-4 pr-4 pb-4 text-xl">
                 Per una bellezza speciale un trattamento completo, mirato e selettivo<br>
                 in base al tuo profilo, alle tue caratteristiche ed al tuo stile di vita
             </p>
-            <div class="flex flex-wrap bg-gray-100 p-4 m-4">
+            <div class="flex flex-wrap bg-stone-100 p-4 m-4">
                 {#each lpg as service}
                 <HorizontalCard 
                     data={service}
                     uiData={{
                         imageBg:'fucsia-color-bg', 
-                        titleColor:'text-gray-800 font-bold', 
-                        bgColor: 'bg-gray-100', 
+                        titleColor:'text-stone-800 font-bold', 
+                        bgColor: 'bg-stone-100', 
                         titleBgColor:'fucsia-color-bg', 
                         width:'lg:w-full'
                     }}
@@ -68,12 +68,12 @@
                 {/each}
              </div>
             <div class="flex flex-col pt-4 bg-white">
-                <span class="text-xl text-gray-600  mb-4 px-4 font-semibold w-1/6">DIBI BODY</span>
+                <span class="text-xl text-stone-600  mb-4 px-4 font-semibold w-1/6">DIBI BODY</span>
                 <div class="flex flex-wrap w-full">
                     {#each dibi as service}
                         <ServiceCard 
                             data={service}
-                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-gray-500', bgColor: 'bg-gray-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/4'}}
+                            uiData={{imageBg:'fucsia-color-bg', titleColor:'text-stone-500', bgColor: 'bg-stone-100', titleBgColor:'fucsia-color-bg', width:'lg:w-1/4'}}
                         />
                         
                     {/each}

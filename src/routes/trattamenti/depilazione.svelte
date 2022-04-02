@@ -49,11 +49,11 @@
     <TreatmentContent>
         <div class="flex flex-col cont">
     
-            <div class="flex flex-wrap bg-gray-200 pt-4">
+            <div class="flex flex-wrap bg-stone-200 pt-4">
                 {#each data as service}
                     <ImageLessCard 
                         data={service}
-                        uiData={{titleColor:'text-gray-300', bgColor: 'bg-white', titleBgColor:'bg-gray-600', width:'lg:w-1/3'}}
+                        uiData={{titleColor:'text-stone-300', bgColor: 'bg-white', titleBgColor:'bg-stone-600', width:'lg:w-1/3'}}
                     />
                 {/each}
             </div>

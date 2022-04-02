@@ -1,5 +1,4 @@
 <script>
-    import HomeAboutCards from '$lib/home/HomeAboutCards.svelte';
     import HomeSpecialties from '$lib/home/HomeSpecialties.svelte';
     import HomeChiSiamo from '$lib/home/HomeChiSiamo.svelte';
     import Contacts from '$lib/home/Contacts.svelte';
