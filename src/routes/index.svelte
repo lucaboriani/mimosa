@@ -40,7 +40,7 @@
 				"Tuesday",
 				"Wednesday",
 				"Thursday",
-				"Friday",
+				"Friday"
 			  ],
 			  "opens": "09:00",
 			  "closes": "19:00"
