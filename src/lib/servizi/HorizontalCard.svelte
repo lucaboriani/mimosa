@@ -1,5 +1,5 @@
 <div class="w-full {width ? width : ' lg:w-1/3' }   flex flex-col lg:flex-row   card">
-    <div class="flex items-center   lg:mx-4">
+    <div class="flex items-center   ">
         {#if image}
             <img src="../img/{image}" class="px-4 w-full h-40 object-contain {imageBg ? imageBg : ' bg-stone-300'}" alt="title" loading="lazy" />
         {/if}
