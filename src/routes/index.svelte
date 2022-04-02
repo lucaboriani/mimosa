@@ -10,6 +10,54 @@
 </script>
 <svelte:head>
 	<title>Home</title>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": " LocalBusiness ",
+		  "image": [
+			"https://lamimosa.netlify.app/img/logo-mimosa.svg"
+		   ],
+		  "name": "Estetica la mimosa",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Via G. Marconi 13",
+			"addressLocality": "Garbagnate Milanese",
+			"addressRegion": "MI",
+			"postalCode": "20024",
+			"addressCountry": "IT"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 45.57632858619434,
+			"longitude":  9.072801121421676
+		  },
+		  "url": "https://lamimosa.netlify.app/",
+		  "telephone": "+390299026325",
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday",
+			  ],
+			  "opens": "09:00",
+			  "closes": "19:00"
+			},
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Saturday"
+			  ],
+			  "opens": "09:00",
+			  "closes": "17:00"
+			},
+			
+		  ],
+		  "acceptsReservations": "True"
+		}
+	</script>
 </svelte:head>
 <style>
 	
