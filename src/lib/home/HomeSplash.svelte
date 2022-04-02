@@ -71,11 +71,16 @@
 			transform: translate(-50%,0);
 		}
 	}
-	.phone {
-		width: 2em;
-		height: 2em;
+	.phone , .locator{
+		width: 3em;
+		height: 3em;
 		object-fit: contain;
 	}
+	.locator{
+		height: 2.5em;
+		margin-bottom: .3em;
+	}
+
 	
 	.home-button {
 		cursor: pointer;
@@ -86,7 +91,7 @@
 		opacity: 0;
 		transition: all .3s ease-in-out;
 		pointer-events: none;
-		width: 12em;
+		min-width: 12em;
     	left: -1em;
 	}
 	.home-button:hover a {
@@ -96,7 +101,7 @@
 		pointer-events: all;
 	}
 	#orari{
-		width: 16em;
+		
     	left: -4em;
 	}
 	#location {
@@ -134,44 +139,49 @@
 	
 </script>
 <div class="bg-white relative" bind:this={splash} id="splash">
+	<img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
+    
     <div class="h-screen flex flex-col text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-19 justify-center home-stripes">
-        <div class="home-mimosa">
-            <h1 class="text-7xl text-black z-10 pl-4-em">
-				<span class="block text-5xl text-stone-600 translate-x-1/2 relative -left-1">estetica</span>
-                <span class="block mimosa-color">
-                    <bold><span>la mi</span><span class="text-black">mosa</span></bold>
-                </span>
-            </h1>
-			<div class=" relative text-stone-700 text-sm flex justify-between border-b border-b-stone-800"  >
-				<span class=" z-10   ">
-					Via G. Marconi 13
-				</span>
-				<span class="  z-10   ">
-					Garbagnate Milanese (MI)
-				</span>
+        <div class="home-mimosa flex">
+			<div>
+				<h1 class="text-7xl text-black z-10 pl-4-em">
+					<span class="block text-5xl text-stone-600 translate-x-1/2 relative -left-1">estetica</span>
+					<span class="block mimosa-color">
+						<bold><span>la mi</span><span class="text-black">mosa</span></bold>
+					</span>
+				</h1>
+				<div class=" relative text-stone-700 text-sm translate-x-1/2"  >
+					<span class=" z-10   block">
+						Via G. Marconi 13
+					</span>
+					<span class="  z-10   block">
+						Garbagnate Milanese (MI)
+					</span>
+				</div>
 			</div>
-			<div class="flex mt-1 w-32 justify-between translate-x-32 relative -left-4">
+            
+			<div class="flex mt-1 w-32 justify-between items-end ml-4 mb-11">
 				<div class="relative home-button">
 					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
-					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute pt-6 text-center" href="#" >
-						<span class="w-full pl-3 block uppercase">Per appuntamenti</span>
-						<span class=" ml-2 block bg-gray-300  py-1  leading-8">Tel 02-99026325</span>
+					<a class="bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#" >
+						<span class="w-full  block uppercase">Per appuntamenti</span>
+						<span class="block bg-gray-300    leading-8">Tel 02-99026325</span>
 						
 					</a>
 				</div>
 				<div class="relative home-button">
-					<img src="img/locator-icon.png" alt="phone" class="phone pr-1"/>
-					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute pt-6 text-center" href="#" id="location" >
+					<img src="img/locator-icon.png" alt="phone" class="locator pr-1"/>
+					<a class="bg-stone-200 w-64 flex flex-col text-black-200 z-10  text-sm font-extrabold absolute p-4 text-center" href="#" id="location" >
 						<span class="w-full pl-3 block ">Per raggiungerci</span>
-						<span class=" ml-2 block bg-gray-300  py-1  leading-8 uppercase pt-2"> mappa</span>
+						<span class="block bg-gray-300  py-1  leading-8 uppercase pt-2"> mappa</span>
 						
 					</a>
 					
 				</div>
 				<div class="relative home-button">
 					<img src="img/clock-1.svg" alt="phone" class="phone pr-1"/>
-					<a class="flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 pt-4" href="#" id="orari" >
-						<p class="flex justify-between border-b py-2">
+					<a class="bg-stone-200  flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 p-4" href="#" id="orari" >
+						<p class="flex justify-between border-b border-b-stone-200 py-2">
 							<span class="block text-gray-800 z-10  text-sm ">
 								martedì - venerdì 
 							</span>
@@ -200,7 +210,6 @@
 		
     </div>
 	<div class="scroll bg-gray-100"  on:click="{goToAbout}"></div>
-    <img src="img/lei.png" alt="donna"  class="absolute inset-y-0 h-screen" loading="eager" id="home-image" />
     <img src="img/logo-dibi-center.png" alt="logo dibi" class="absolute home-logo" loading="eager" /> 
 </div>
 
