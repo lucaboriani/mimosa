@@ -19,7 +19,7 @@
 		   ],
 		  "currenciesAccepted": "EUR" 
 		  "name": "Estetica la mimosa",
-		  "brand" : "dibi"
+		  "brand" : "dibi",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "Via G. Marconi 13",
