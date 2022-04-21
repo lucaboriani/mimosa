@@ -64,15 +64,15 @@
             </div>
         </div>
         <div class="flex flex-col relative bg-stone-100">
-            <div class="text-md  px-4  py-4 my-4  w-full flex justify-between">
-                <p class="italic w-2/3 text-stone-600 flex flex-col ">
+            <div class="text-md  px-4  py-4 my-4  w-full flex flex-col lg:flex-row justify-between">
+                <p class="italic lg:w-2/3 text-stone-600 flex flex-col order-1 lg:order-0">
                     <span class="text-2xl text-stone-500">DIBI MILANO</span>
                     <span class="pt-4">
                         offre risposte mirate ai reali bisogni della tua pelle per proporti la soluzione che cercavi<br>
                         e offrirti un momento speciale da dedicare a te stessa
                     </span>
                  </p>
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center ">
+                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 flex flex-col items-center justify-center order-0 lg:order-1 mb-4">
                     <img src="../img/dibi.png" alt="logo dibi" class="w-4/6 visocollo-dibi-logo" loading="eager" />
                 </div>
              </div>
@@ -125,9 +125,9 @@
             </div>
             
         </div>
-        <div class="sm:flex flex-wrap pr-4 bg-stone-400">
-            <div class="text-md  text-stone-400 py-8 p-0   w-full flex flex-col lg:flex-row justify-between items-start">
-                <div class="flex flex-col w-5/6 bg-stone-200">
+        <div class="sm:flex flex-wrap lg:pr-4 bg-stone-400">
+            <div class="text-md  text-stone-400 py-8 p-0   w-full flex flex-col lg:flex-row justify-between items-center lg:items-start">
+                <div class="flex flex-col w-5/6 lg:w-full bg-stone-200 order-1 lg:order-0 ">
                     <div class=" w-full flex flex-col justify-between items-center  p-4">
                         <div class="flex flex-col w-full lg:w-1/2 border border-stone-500">
                             <div class="flex justify-center">
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="../img/priori.png" alt="priori logo" class="w-48 border ml-4 block" loading="eager" />
+                <img src="../img/priori.png" alt="priori logo" class="w-48 order-0 lg:order-1 border lg:ml-4 mb-8 lg:mb-0 block" loading="eager" />
                 
             </div>
             

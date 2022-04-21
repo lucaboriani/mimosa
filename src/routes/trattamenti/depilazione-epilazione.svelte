@@ -45,8 +45,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-between">
-                <div class="w-3/5">
+            <div class="flex flex-col lg:flex-row justify-between">
+                <div class="w-full lg:w-3/5">
                     <h4 class="text-2xl ml-4 mb-4 mt-4 text-stone-500">depliazione</h4>
                     <div class="flex flex-col lg:flex-row  w-full  bg-stone-200 mb-4 p-4">
                         <div class="flex flex-col w-full lg:w-1/2 bg-white mr-2 mb-4 lg:mb-0">
