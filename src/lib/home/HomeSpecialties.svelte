@@ -6,7 +6,7 @@
 <div class="w-full lg:w-1/2 p-8 py-20 bg-stone-200 flex justify-center" id="specialties" >
     <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
         <p class="mb-4 text-stone-500 p-2 pt-10">
-            <span class="text-2xl text-stone-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
+            <span class="text-xl lg:text-2xl text-stone-700">Specializzate</span> nell' epilazione con <br>  laser diodo 
             <span class="text-xl text-stone-700">Epildream</span>  
             ed 
             <span class="text-xl text-stone-700">elettrocoagulazione</span>.
@@ -50,7 +50,7 @@
    
 </div>
 <div class="w-full lg:w-1/2 flex justify-center">
-    <img class="h-7/10 w-auto" src="img/griglia.png" alt="griglia loghi e prodotti" loading="lazy" />
+    <img class="h-7/10 w-auto mt-8 lg:mt-0" src="img/griglia.png" alt="griglia loghi e prodotti" loading="lazy" />
 </div>
 <script>
     

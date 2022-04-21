@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="w-full lg:w-1/2 h-screen flex flex-col overflow-hidden" id="contact-map" bind:this={map}>
+    <div class="w-full lg:w-1/2 h-60 lg:h-screen flex flex-col overflow-hidden" id="contact-map" bind:this={map}>
        
     </div>
     
