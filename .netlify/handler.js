@@ -1,4 +1,4 @@
-import './shims-c8fba98f.js';
+import './shims.js';
 import { App } from './server/app.js';
 import 'node:http';
 import 'node:https';

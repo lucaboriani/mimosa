@@ -9,6 +9,9 @@ function blank_object() {
 function run_all(fns) {
   fns.forEach(run);
 }
+function safe_not_equal(a, b) {
+  return a != a ? b == b : a !== b || (a && typeof a === "object" || typeof a === "function");
+}
 function subscribe(store, ...callbacks) {
   if (store == null) {
     return noop;
@@ -126,4 +129,4 @@ function add_attribute(name, value, boolean) {
     return "";
   return ` ${name}${value === true && boolean_attributes.has(name) ? "" : `=${typeof value === "string" ? JSON.stringify(escape(value)) : `"${value}"`}`}`;
 }
-export { add_attribute as a, subscribe as b, create_ssr_component as c, each as d, escape as e, getContext as g, missing_component as m, setContext as s, validate_component as v };
+export { add_attribute as a, safe_not_equal as b, create_ssr_component as c, subscribe as d, escape as e, each as f, getContext as g, missing_component as m, noop as n, setContext as s, validate_component as v };

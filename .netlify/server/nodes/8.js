@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/servizi.svelte.js';
+import * as module from '../entries/pages/trattamenti/visocollo.svelte.js';
 
 export { module };
-export const entry = 'pages/servizi.svelte-761e2049.js';
-export const js = ["pages/servizi.svelte-761e2049.js","chunks/vendor-1ccedf9c.js","chunks/Header-5be2f9b2.js"];
-export const css = ["assets/pages/servizi.svelte-42ee12a3.css","assets/Header-76ae8cc0.css"];
+export const entry = 'pages/trattamenti/visocollo.svelte-6780c4c2.js';
+export const js = ["pages/trattamenti/visocollo.svelte-6780c4c2.js","chunks/vendor-adcc5950.js","chunks/ServiceCard-14fb362b.js","chunks/TreatmentTitle-89f3c141.js","chunks/TreatmentContent-0f63b4ca.js","chunks/Footer-07b0da50.js"];
+export const css = ["assets/pages/trattamenti/visocollo.svelte-a8f571e3.css"];

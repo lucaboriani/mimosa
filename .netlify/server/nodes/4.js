@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/trattamenticorpo.svelte.js';
+import * as module from '../entries/pages/trattamenti/depilazione-epilazione.svelte.js';
 
 export { module };
-export const entry = 'pages/trattamenticorpo.svelte-1f27a741.js';
-export const js = ["pages/trattamenticorpo.svelte-1f27a741.js","chunks/vendor-1ccedf9c.js","chunks/Header-5be2f9b2.js","chunks/ServiziMenu-15ebf252.js","chunks/OneThirdCard-ac62a1cd.js"];
-export const css = ["assets/pages/trattamenticorpo.svelte-21e01005.css","assets/Header-76ae8cc0.css","assets/ServiziMenu-3e4af560.css"];
+export const entry = 'pages/trattamenti/depilazione-epilazione.svelte-1b7fe7c7.js';
+export const js = ["pages/trattamenti/depilazione-epilazione.svelte-1b7fe7c7.js","chunks/vendor-adcc5950.js","chunks/TreatmentTitle-89f3c141.js","chunks/TreatmentContent-0f63b4ca.js","chunks/Footer-07b0da50.js"];
+export const css = ["assets/pages/trattamenti/depilazione-epilazione.svelte-2af63778.css"];

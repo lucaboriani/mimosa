@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/app.js",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js"
+      "_index-d67b9b49.js"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -12,10 +12,10 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js"
+      "_index-d67b9b49.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-484cf705.css"
+      "assets/app-c098b379.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -23,7 +23,7 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js"
+      "_index-d67b9b49.js"
     ]
   },
   "src/routes/index.svelte": {
@@ -31,80 +31,150 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js"
+      "_index-d67b9b49.js",
+      "_Header-f6d0b3b9.js",
+      "_Footer-b44e23cc.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-6a69af31.css"
+      "assets/entries/pages/index.svelte-a0b314d2.css"
     ]
   },
-  "src/routes/manicurepedicure.svelte": {
-    "file": "entries/pages/manicurepedicure.svelte.js",
-    "src": "src/routes/manicurepedicure.svelte",
+  "src/routes/trattamenti/__layout.svelte": {
+    "file": "entries/pages/trattamenti/__layout.svelte.js",
+    "src": "src/routes/trattamenti/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_OneThirdCard-4fdc4399.js",
-      "_ServiziMenu-da0a1911.js"
+      "_index-d67b9b49.js",
+      "_Header-f6d0b3b9.js"
     ],
     "css": [
-      "assets/entries/pages/manicurepedicure.svelte-b810b669.css"
+      "assets/entries/pages/trattamenti/__layout.svelte-7ac91fdd.css",
+      "assets/app-c098b379.css"
     ]
   },
-  "src/routes/trattamenticorpo.svelte": {
-    "file": "entries/pages/trattamenticorpo.svelte.js",
-    "src": "src/routes/trattamenticorpo.svelte",
+  "src/routes/trattamenti/depilazione-epilazione.svelte": {
+    "file": "entries/pages/trattamenti/depilazione-epilazione.svelte.js",
+    "src": "src/routes/trattamenti/depilazione-epilazione.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_ServiziMenu-da0a1911.js",
-      "_OneThirdCard-4fdc4399.js"
+      "_index-d67b9b49.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
     ],
     "css": [
-      "assets/entries/pages/trattamenticorpo.svelte-777d3c5f.css"
+      "assets/entries/pages/trattamenti/depilazione-epilazione.svelte-3006dded.css"
     ]
   },
-  "src/routes/epilazione.svelte": {
-    "file": "entries/pages/epilazione.svelte.js",
-    "src": "src/routes/epilazione.svelte",
+  "src/routes/trattamenti/manicurepedicure.svelte": {
+    "file": "entries/pages/trattamenti/manicurepedicure.svelte.js",
+    "src": "src/routes/trattamenti/manicurepedicure.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_ServiziMenu-da0a1911.js"
+      "_index-d67b9b49.js",
+      "_ServiceCard-709c4712.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
     ],
     "css": [
-      "assets/entries/pages/trattamenticorpo.svelte-777d3c5f.css"
+      "assets/entries/pages/trattamenti/manicurepedicure.svelte-cda6a56f.css"
     ]
   },
-  "src/routes/visocollo.svelte": {
-    "file": "entries/pages/visocollo.svelte.js",
-    "src": "src/routes/visocollo.svelte",
+  "src/routes/trattamenti/depilazione.svelte": {
+    "file": "entries/pages/trattamenti/depilazione.svelte.js",
+    "src": "src/routes/trattamenti/depilazione.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_OneThirdCard-4fdc4399.js",
-      "_ServiziMenu-da0a1911.js"
+      "_index-d67b9b49.js",
+      "_ImageLessCard-5b6fc2d8.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js"
     ],
     "css": [
-      "assets/entries/pages/visocollo.svelte-4d33e71b.css"
+      "assets/entries/pages/trattamenti/depilazione.svelte-7c2b1cae.css"
     ]
   },
-  "src/routes/massaggi.svelte": {
-    "file": "entries/pages/massaggi.svelte.js",
-    "src": "src/routes/massaggi.svelte",
+  "src/routes/trattamenti/epilazione.svelte": {
+    "file": "entries/pages/trattamenti/epilazione.svelte.js",
+    "src": "src/routes/trattamenti/epilazione.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_OneThirdCard-4fdc4399.js",
-      "_ServiziMenu-da0a1911.js"
+      "_index-d67b9b49.js",
+      "_ImageLessCard-5b6fc2d8.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js"
     ],
     "css": [
-      "assets/entries/pages/manicurepedicure.svelte-b810b669.css"
+      "assets/entries/pages/trattamenti/depilazione.svelte-7c2b1cae.css"
+    ]
+  },
+  "src/routes/trattamenti/visocollo.svelte": {
+    "file": "entries/pages/trattamenti/visocollo.svelte.js",
+    "src": "src/routes/trattamenti/visocollo.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d67b9b49.js",
+      "_ServiceCard-709c4712.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
+    ],
+    "css": [
+      "assets/entries/pages/trattamenti/visocollo.svelte-1b8b72c5.css"
+    ]
+  },
+  "src/routes/trattamenti/massaggi.svelte": {
+    "file": "entries/pages/trattamenti/massaggi.svelte.js",
+    "src": "src/routes/trattamenti/massaggi.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d67b9b49.js",
+      "_ServiceCard-709c4712.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
+    ],
+    "css": [
+      "assets/entries/pages/trattamenti/massaggi.svelte-d7741b95.css"
+    ]
+  },
+  "src/routes/trattamenti/makeup.svelte": {
+    "file": "entries/pages/trattamenti/makeup.svelte.js",
+    "src": "src/routes/trattamenti/makeup.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d67b9b49.js",
+      "_ServiceCard-709c4712.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
+    ]
+  },
+  "src/routes/trattamenti/corpo.svelte": {
+    "file": "entries/pages/trattamenti/corpo.svelte.js",
+    "src": "src/routes/trattamenti/corpo.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d67b9b49.js",
+      "_ServiceCard-709c4712.js",
+      "_TreatmentTitle-e4fd1973.js",
+      "_TreatmentContent-dea6a9ea.js",
+      "_Footer-b44e23cc.js"
+    ]
+  },
+  "src/routes/trattamenti.svelte": {
+    "file": "entries/pages/trattamenti.svelte.js",
+    "src": "src/routes/trattamenti.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d67b9b49.js",
+      "_Header-f6d0b3b9.js",
+      "_Splash-880b2e05.js",
+      "_TreatmentTitle-e4fd1973.js"
+    ],
+    "css": [
+      "assets/entries/pages/trattamenti.svelte-d99ab027.css"
     ]
   },
   "src/routes/servizi.svelte": {
@@ -112,64 +182,63 @@
     "src": "src/routes/servizi.svelte",
     "isEntry": true,
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js"
+      "_index-d67b9b49.js",
+      "_Header-f6d0b3b9.js",
+      "_Splash-880b2e05.js"
     ],
     "css": [
-      "assets/entries/pages/servizi.svelte-2ffa03c5.css"
+      "assets/entries/pages/trattamenti.svelte-d99ab027.css"
     ]
   },
-  "src/routes/makeup.svelte": {
-    "file": "entries/pages/makeup.svelte.js",
-    "src": "src/routes/makeup.svelte",
-    "isEntry": true,
+  "_index-d67b9b49.js": {
+    "file": "chunks/index-d67b9b49.js"
+  },
+  "_Header-f6d0b3b9.js": {
+    "file": "chunks/Header-f6d0b3b9.js",
     "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js",
-      "_ServiziMenu-da0a1911.js",
-      "_OneThirdCard-4fdc4399.js"
+      "_index-d67b9b49.js"
     ],
     "css": [
-      "assets/entries/pages/manicurepedicure.svelte-b810b669.css"
+      "assets/Header-d0d60236.css"
     ]
   },
-  "src/routes/about.svelte": {
-    "file": "entries/pages/about.svelte.js",
-    "src": "src/routes/about.svelte",
-    "isEntry": true,
+  "_Footer-b44e23cc.js": {
+    "file": "chunks/Footer-b44e23cc.js",
     "imports": [
-      "_index-6f55eac1.js"
+      "_index-d67b9b49.js"
+    ]
+  },
+  "_TreatmentTitle-e4fd1973.js": {
+    "file": "chunks/TreatmentTitle-e4fd1973.js",
+    "imports": [
+      "_index-d67b9b49.js"
+    ]
+  },
+  "_TreatmentContent-dea6a9ea.js": {
+    "file": "chunks/TreatmentContent-dea6a9ea.js",
+    "imports": [
+      "_index-d67b9b49.js"
+    ]
+  },
+  "_ServiceCard-709c4712.js": {
+    "file": "chunks/ServiceCard-709c4712.js",
+    "imports": [
+      "_index-d67b9b49.js"
+    ]
+  },
+  "_ImageLessCard-5b6fc2d8.js": {
+    "file": "chunks/ImageLessCard-5b6fc2d8.js",
+    "imports": [
+      "_index-d67b9b49.js"
+    ]
+  },
+  "_Splash-880b2e05.js": {
+    "file": "chunks/Splash-880b2e05.js",
+    "imports": [
+      "_index-d67b9b49.js"
     ],
     "css": [
-      "assets/entries/pages/about.svelte-64e391b1.css"
-    ]
-  },
-  "_index-6f55eac1.js": {
-    "file": "chunks/index-6f55eac1.js"
-  },
-  "_Header-9306c643.js": {
-    "file": "chunks/Header-9306c643.js",
-    "imports": [
-      "_index-6f55eac1.js"
-    ],
-    "css": [
-      "assets/Header-1dba7fe3.css"
-    ]
-  },
-  "_ServiziMenu-da0a1911.js": {
-    "file": "chunks/ServiziMenu-da0a1911.js",
-    "imports": [
-      "_index-6f55eac1.js",
-      "_Header-9306c643.js"
-    ],
-    "css": [
-      "assets/ServiziMenu-520240c4.css"
-    ]
-  },
-  "_OneThirdCard-4fdc4399.js": {
-    "file": "chunks/OneThirdCard-4fdc4399.js",
-    "imports": [
-      "_index-6f55eac1.js"
+      "assets/Splash-3ea72dfe.css"
     ]
   }
 }
