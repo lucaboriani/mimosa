@@ -10,6 +10,7 @@
 </script>
 <svelte:head>
 	<title>Home</title>
+	<link rel="preload" as="image" href="img/lei.png">
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
