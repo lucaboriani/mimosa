@@ -184,7 +184,7 @@
 			<div class="flex w-32 justify-between items-end ml-4 pb-9 lg:relative lg:-top-4">
 				<div class="relative home-button">
 					<img src="img/phone-icons.svg" alt="phone" class="phone pr-1"/>
-					<a class="mt-2 bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#" >
+					<a class="mt-2 bg-stone-200 flex flex-col items-center text-black-200 z-10 w-80 text-sm font-extrabold absolute p-4 text-center" href="#contacts" >
 						<span class="w-full  block uppercase mb-2">Per appuntamenti</span>
 						<span class="block bg-stone-300    leading-8">Tel 02-99026325</span>
 						
@@ -192,7 +192,11 @@
 				</div>
 				<div class="relative home-button">
 					<img src="img/locator-icon.png" alt="phone" class="locator pr-1"/>
-					<a class="mt-2 bg-stone-200 w-64 flex flex-col text-black-200 z-10  text-sm font-extrabold absolute p-4 text-center" href="#contacts" id="location" >
+					<a 
+						class="mt-2 bg-stone-200 w-64 flex flex-col text-black-200 z-10  text-sm font-extrabold absolute p-4 text-center" 
+						href="#contacts" 
+						id="location" 
+					>
 						<span class="w-full pl-3 block mb-2 uppercase">Per raggiungerci</span>
 						<span class="block bg-stone-300  py-1  leading-8 uppercase pt-2"> mappa</span>
 					</a>
@@ -200,7 +204,11 @@
 				</div>
 				<div class="relative home-button">
 					<img src="img/clock-1.svg" alt="phone" class="phone pr-1"/>
-					<a class="mt-2 bg-stone-200  flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 p-4" href="#" id="orari" >
+					<a 
+						class="mt-2 bg-stone-200  flex flex-col text-black-200 z-10  text-sm font-extrabold absolute w-80 p-4" 
+						href="#contacts" 
+						id="orari" 
+					>
 						<span class="block text-stone-800 z-10 uppercase text-sm mb-2">
 							orari 
 						</span>
