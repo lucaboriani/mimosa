@@ -47,7 +47,7 @@
         <span class=" fucsia-color inline">trattamenti</span>
         <span class=" inline pl-2">corpo</span>
     </TreatmentTitle>
-    <TreatmentContent>
+    <TreatmentContent classes="">
         <div class="flex flex-col">
             <p class="text-stone-500 text-left lg:text-right pl-4 pr-4 pb-4 text-xl">
                 Per una bellezza speciale un trattamento completo, mirato e selettivo<br>

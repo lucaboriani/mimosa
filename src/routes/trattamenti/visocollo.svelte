@@ -52,7 +52,7 @@
         <span class=" fucsia-color inline">viso collo</span>
 		<span class=" inline pl-2">décolleté</span>
     </TreatmentTitle>
-    <TreatmentContent>
+    <TreatmentContent classes="">
         <div class="flex flex-col fucsia-color-bg">
             <div class="flex flex-wrap pt-8">
                 {#each data[0] as service}

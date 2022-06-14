@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import {bgWhiteMenu} from '$lib/states'
+	import { goto } from '$app/navigation';
 	let servicePaths = [
 		'/trattamenti', 
 		'/trattamenti/visocollo',
@@ -14,15 +15,21 @@
 	bgWhiteMenu.subscribe(value => {
 		showWiteBg = value;
 	});
+
+	let mobileMenuInput
+	const onLinkClick = e => {
+		mobileMenuInput.checked = false
+		goto(e.currentTarget.href)
+	}
 </script>
 
 <div class="w-full {$page.url.pathname === '/' ? 'fixed ' : ' sticky ' } {showWiteBg || $page.url.pathname !== '/' ? ' shadow' : ' ' } " id="menu-container">
 	<nav class="bg-white {showWiteBg ? 'bg-white ' : 'bg-transparent' }    ">
-		<div class="pl-4 pr-4">
+		<div class="pl-2">
 			<div class="flex items-center justify-between h-16 w-full">
 				<div class="w-full justify-between flex items-center">
 					<a class="flex-shrink-0 w-20" href="/">
-						<img src="../img/logo-mimosa.svg" loading="eager" alt="logo la mimosa " class="w-full h-full p-2 object-contain" />
+						<img src="../img/logo-mimosa.svg" loading="eager" alt="logo la mimosa " class="w-full h-full py-4 px-2 object-contain" />
 					</a>
 					<div class="hidden md:block">
 						<div class="ml-10 flex items-center space-x-2">
@@ -45,37 +52,43 @@
 					</div>
 				</div>
 				<div class="flex md:hidden relative">
-					<input class="mobile-menu-btn" type="checkbox" id="mobile-menu-btn">
+					<input class="mobile-menu-btn" type="checkbox" id="mobile-menu-btn" bind:this={mobileMenuInput}>
                		<label class="mobile-menu-icon" for="mobile-menu-btn"><span class="navicon"></span></label>
 
-					<div class="mobile-menu w-screen bg-stone-200">
-						<nav class="w-full block  bg-stone-100 service-menu p-4">
+					<div class="mobile-menu w-full bg-stone-200">
+						<nav class="w-full block  bg-stone-100 service-menu px-4">
 							<ul class="flex w-full flex-col">
 								<li class="mb-2">
-									<a class="text-stone-600  hover:text-stone-800  px-2 py-2 rounded-md text-xl font-medium" class:active={$page.url.pathname === '/'}  sveltekit:prefetch href="/">
+									<a class="
+										text-stone-600  
+										hover:text-stone-800  
+										px-2 py-1 rounded-md text-xl 
+										font-medium" 
+										class:active={$page.url.pathname === '/'}  
+										sveltekit:prefetch 
+										href="/"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										Home
 									</a>
 								</li>
 								<li class="mb-2">
-									<a class="text-stone-600  hover:text-stone-800  px-2 py-2 rounded-md text-xl font-medium" class:active={servicePaths.indexOf($page.url.pathname) !== -1} href="/trattamenti">
+									<a 
+										class="text-stone-600  hover:text-stone-800  px-2 py-1 rounded-md text-xl font-medium" 
+										class:active={servicePaths.indexOf($page.url.pathname) !== -1} 
+										href="/trattamenti"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										trattamenti
 									</a>
 								</li>
 								<li class="mb-2">
-									<a class="text-stone-600  hover:text-stone-800  px-2 py-2 rounded-md text-xl font-medium" href="/#contacts">
+									<a 
+										class="text-stone-600  hover:text-stone-800  px-2 py-1 rounded-md text-xl font-medium" 
+										href="/#contacts"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										contatti
-									</a>
-								</li>
-								<li class="mb-2">
-									<a class="flex items-center text-stone-600  hover:text-stone-800   py-2 rounded-md text-xl font-medium" href="/#">
-										<img src="/img/phone-icons.svg" alt="phone" class="menu-phone"/>
-										<span class="ml-2">chiama ora</span>
-									</a>
-								</li>
-								<li class="mb-2">
-									<a class="flex items-center text-stone-600  hover:text-stone-800   py-2 rounded-md text-xl font-medium" href="/#">
-										<img src="/img/locator-icon.png" alt="phone" class="menu-phone pr-1"/>
-										<span class="ml-2">mappa</span>
 									</a>
 								</li>
 							</ul>
@@ -83,8 +96,11 @@
 						<nav class="w-full block  bg-stone-400 service-menu p-4">
 							<ul class="flex w-full flex-col">
 								<li class="mb-4">
-									<a class="{$page.url.pathname === '/trattamenti/visocollo' ? 'fucsia-color-bg ' : 'bg-stone-300 '} p-2 flex  border border-stone-700" 
-										href="/trattamenti/visocollo">
+									<a 
+										class="{$page.url.pathname === '/trattamenti/visocollo' ? 'fucsia-color-bg ' : 'bg-stone-300 '} p-2 flex  border border-stone-700" 
+										href="/trattamenti/visocollo"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										<span class="text-blacl">viso collo</span>
 										<span class=" inline pl-2 text-white">décolleté</span>
 										
@@ -93,6 +109,7 @@
 								<li class="mb-4">
 									<a href="/trattamenti/corpo" 
 										class="{$page.url.pathname === '/trattamenti/corpo' ? 'fucsia-color-bg ' : 'bg-stone-300 '}  flex p-2 border border-stone-100"
+										on:click|preventDefault="{onLinkClick}"
 									>
 										<span class=" text-black">trattamenti</span>
 										<span class=" pl-2 text-white">corpo</span>
@@ -102,6 +119,7 @@
 									<a 
 										href="/trattamenti/depilazione-epilazione" 
 										class="{$page.url.pathname === '/trattamenti/depilazione-epilazione' ? 'fucsia-color-bg ' : 'bg-stone-300 '} border flex p-2 border border-stone-100"
+										on:click|preventDefault="{onLinkClick}"
 									>
 										<span class=" pl-2 text-white">depilazione</span>
 										<span class="text-black pl-2 ">epilazione</span>
@@ -109,25 +127,33 @@
 								</li>
 								
 								<li class="mb-4">
-									<a href="/trattamenti/manicurepedicure" class="{$page.url.pathname === '/trattamenti/manicurepedicure' ? 'fucsia-color-bg ' : 'bg-stone-300 '} flex p-2 border border-stone-100">
+									<a 
+										href="/trattamenti/manicurepedicure" 
+										class="{$page.url.pathname === '/trattamenti/manicurepedicure' ? 'fucsia-color-bg ' : 'bg-stone-300 '} flex p-2 border border-stone-100"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										<span class="">manicure</span>
 										<span class="text-white pl-2">pedicure</span>
 										  
 									</a>
 								</li>
 								<li class="mb-4">
-									<a href="/trattamenti/massaggi" class="{$page.url.pathname === '/trattamenti/massaggi' ? 'fucsia-color-bg ' : 'bg-stone-300 '}  flex p-2 border border-stone-100">
+									<a 
+										href="/trattamenti/massaggi" 
+										class="{$page.url.pathname === '/trattamenti/massaggi' ? 'fucsia-color-bg ' : 'bg-stone-300 '}  flex p-2 border border-stone-100"
+										on:click|preventDefault="{onLinkClick}"
+									>
 										massaggi
 									</a>
 								</li>
 								<li class=" mb-4 ">
-									<a href="/trattamenti/makeup" class="{$page.url.pathname === '/trattamenti/makeup' ? 'fucsia-color-bg ' : 'bg-stone-300 '} flex p-2 border border-stone-100">
-										
-											<span class="">make</span>
-											<span class=" text-white">up</span>
-										
-											
-										
+									<a 
+										href="/trattamenti/makeup" 
+										class="{$page.url.pathname === '/trattamenti/makeup' ? 'fucsia-color-bg ' : 'bg-stone-300 '} flex p-2 border border-stone-100"
+										on:click|preventDefault="{onLinkClick}"
+									>
+										<span class="">make</span>
+										<span class=" text-white">up</span>
 									 </a>
 								</li>
 								

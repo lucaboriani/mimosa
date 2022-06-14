@@ -42,12 +42,13 @@
 			left: 2em;
 			transform: translate3d(0,0, 0);
 		}
+
 	}
 	
 	.home-logo {
 		width: 7em;
 		height: auto;
-		bottom: 4em;
+		bottom: 2em;
 		left: 87.5%;
 		transform: translateX(-50%);
 	}
@@ -122,7 +123,7 @@
 	}
 	#orari{
 		
-    	left: -4em;
+    	left: -10em;
 	}
 	#location {
     	left: -4.4em
@@ -220,7 +221,7 @@
 								09.00 - 17.00
 							</span>
 						</p>
-						<span class="block text-black-200 z-10 font-semibold text-sm text-right  uppercase pt-4">
+						<span class="block bg-stone-300 text-stone-800 z-10 font-semibold text-sm text-center  uppercase py-2">
 							solo su appuntamento
 						</span>
 						
