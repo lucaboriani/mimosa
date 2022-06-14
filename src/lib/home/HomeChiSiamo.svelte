@@ -15,14 +15,14 @@
     <div class="my-12 px-8 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
         <h1 class="pl-4 text-5xl text-black z-10 pl-4-em flex flex-col lg:flex-row items-baseline">
             <span class="text-stone-600">estetica</span>
-            <span class="mimosa-color lg:pl-4 text-6xl">
+            <span class="mimosa-color   pl-4 text-5xl">
                 <bold><span>la mi</span><span class="text-black">mosa</span></bold>
             </span>
         </h1>
         <h2 class="mb-4 text-stone-600 italic font-semibold text-xl lg:text-4xl mt-4 pl-4">
             Insieme a voi da più di 30 anni
         </h2>
-        <p class="mb-6 leading-loose text-stone-600 pl-4 text-base font-light">
+        <p class="mb-6 leading-loose text-stone-600 pl-4 text-base lg:text-xl font-light">
             Senza mai tralasciare la <span class="font-bold text-stone-800">costante formazione</span> tecnico scientifica<br>
             che ci ha permesso di offrirti <span class="font-bold text-stone-800">splendidi risultati.</span>
         </p>
