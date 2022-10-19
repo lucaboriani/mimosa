@@ -1,7 +1,7 @@
 [
   {
     "title": "TRUCCO VELOCE",
-    "text": "fondo tinta, mascara, fard, lucida labbra",
+    "text": "Fondo tinta, mascara, fard, lucida labbra",
     "image": "trucco_veloce.jpg",
     "duration": "",
     "price": "",
@@ -11,7 +11,7 @@
   },
   {
     "title": "TRUCCO COMPLETO",
-    "text": "",
+    "text": "Perfetta e impeccabile per ogni occasione",
     "image": "Trucco_completo.jpg",
     "duration": "",
     "price": "",
@@ -51,7 +51,7 @@
   },
   {
     "title": "TRUCCO SEMIPERMANENTE",
-    "text": "occhi, sopracciglia, labbra",
+    "text": "Occhi, sopracciglia, labbra",
     "image": "trucco-semipermanente.jpg",
     "duration": "",
     "price": "",
