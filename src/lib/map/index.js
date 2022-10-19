@@ -2,7 +2,7 @@ import {config} from './config'
 
 export const loadScripts = async() => {
   await Promise.all([
-    await import('https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js'),
+    await import('https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'),
   ]).catch(er => console.log(er))
 } 
 
