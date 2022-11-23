@@ -1,17 +1,7 @@
 [
   {
-    "title": "TRUCCO VELOCE",
-    "text": "Fondo tinta, mascara, fard, lucida labbra",
-    "image": "trucco_veloce.jpg",
-    "duration": "",
-    "price": "",
-    "section": "",
-    "subscription": "",
-    "description": "fondo tinta, mascara, fard, lucida labbra"
-  },
-  {
-    "title": "TRUCCO COMPLETO",
-    "text": "Perfetta e impeccabile per ogni occasione",
+    "title": "MAKE UP",
+    "text": "Che sia per tutti i giorni, per un evento o per il giorno piu bello, puoi trovare il make up adatto alla tue esigenze",
     "image": "Trucco_completo.jpg",
     "duration": "",
     "price": "",
@@ -20,18 +10,8 @@
     "description": ""
   },
   {
-    "title": "TRUCCO SPOSA",
-    "text": "",
-    "image": "trucco-sposa-768x461.jpg",
-    "duration": "",
-    "price": "",
-    "section": "",
-    "subscription": "",
-    "description": ""
-  },
-  {
     "title": "TINTURA SOPRACCIGLIA",
-    "text": "",
+    "text": "Colora le sopracciglia rendendole piu visibile e comprendo i peli bianchi",
     "image": "tintura_sopracciglia.jpg",
     "duration": "",
     "price": "",
@@ -41,7 +21,7 @@
  },
   {
     "title": "APPLICAZIONE CIGLIA",
-    "text": "",
+    "text": "Ciglia a ciuffetti per un effetto naturale e durevole fino a 3 settimane",
     "image": "CIGLIA.jpg",
     "duration": "",
     "price": "",
@@ -51,7 +31,7 @@
   },
   {
     "title": "TRUCCO SEMIPERMANENTE",
-    "text": "Occhi, sopracciglia, labbra",
+    "text": "Si puo effettuare su occhi, labbra e sopracciglia con tecnica estremamente naturale",
     "image": "trucco-semipermanente.jpg",
     "duration": "",
     "price": "",
@@ -61,7 +41,7 @@
   },
   {
     "title": "LEZIONI TRUCCO",
-    "text": "",
+    "text": "Permette di conoscere le tecniche di base per effettuare un trucco in autonomia",
     "image": "learn-makeup.jpg",
     "duration": "",
     "price": "",

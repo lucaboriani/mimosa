@@ -1,47 +1,43 @@
 [
   {
     "title": "ANTISTRESS",
-    "text": "1 ora di relax",
+    "text": "Manualità lente e distensive per 1 ora di piacevole relax",
     "image": "antistress_400.jpg",
     "duration": "1 ora",
     "price": "",
     "section": "",
-    "subscription": "",
-    "description": "1 ora di relax"
+    "subscription": ""
   },
   {
     "title": "CONNETTIVALE",
-    "text": "Per sciogliere le tensioni",
+    "text": "Specifico massaggio che lavora sul tessuto connettivo per sciogliere tensioni e riattivare il metabolismo",
     "image": "connettivale_400.jpg",
     "duration": "1 ora",
     "price": "",
     "section": "",
-    "subscription": "",
-    "description": "Per sciogliere le tensioni"
+    "subscription": ""
   },
   {
     "title": "ENERGIA VITALE",
-    "text": "Per ridare energia al corpo",
+    "text": "Massaggio che riporta equilibrio e armonia a corpo e mente",
     "image": "energia_vitale_400.jpg",
     "duration": "1 ora",
     "price": "",
     "section": "",
-    "subscription": "",
-    "description": "Per ridare energia al corpo"
+    "subscription": ""
   },
   {
     "title": "EMOLINFATICO",
-    "text": "Per drenare i liquidi",
+    "text": "Adatto anche in gravidanza, supporta il sistema venoso e linfatico e drena i liquidi in eccesso",
     "image": "emolinfatico_400.jpg",
     "duration": "1 ora",
     "price": "",
     "section": "",
-    "subscription": "",
-    "description": "Per drenare i liquidi"
+    "subscription": ""
   },
   {
     "title": "CLASSICO",
-    "text": "",
+    "text": "Massaggio funzionale in sinergia con gli attivi dibi, utile a contrastare cellulite e liquidi in eccesso",
     "image": "classico_400.jpg",
     "duration": "",
     "price": "",
@@ -50,17 +46,16 @@
   },
   {
     "title": "SCRUB CORPO",
-    "text": "Per rinnovare la pelle",
+    "text": "Una preziosa miscela di oli essenziali e sali minerale che levigano la pelle rendendola setosa",
     "image": "img_scrub_corpo.jpg",
     "duration": "",
     "price": "",
     "section": "",
-    "subscription": "",
-    "description": "Per rinnovare la pelle"
+    "subscription": ""
   },
   {
     "title": "BENDAGGIO SNELLENTE",
-    "text": "Azione anticellulite e drenante",
+    "text": "Specifico ad azione drenante e anticellulite",
     "image": "bendaggi_400.jpg",
     "duration": "1 ora",
     "price": "",

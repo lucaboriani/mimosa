@@ -10,8 +10,8 @@
     "subscription": ""
   },
   {
-    "title": "LIPO",
-    "text": "",
+    "title": "LIPOLISY",
+    "text": "Trattmento elettroestetico in abbinamento agli attivi dibi, per ridurre gli accumuli di adiposo",
     "image": "linea_av_lipo-e487899e.jpg",
     "duration": "",
     "price": "",
@@ -20,7 +20,7 @@
   },
   {
     "title": "TONIC",
-    "text": "",
+    "text": "Trattamento elettroestetico in abbinamento agli attivi dibi rassoda la muscolatura",
     "image": "dibi_tonic_lifter.jpg",
     "duration": "",
     "price": "",
@@ -29,8 +29,8 @@
   },
   {
     "title": "K.R.F corpo quadripolare",
-    "text": "",
-    "image": "KRF-banner.jpg",
+    "text": "Grazie alla radiofrequenza si ottiene una stimolazione profonda dei fibroblasti per una pelle piu rassodata ed elastica",
+    "image": "krfcorpo.jpg",
     "duration": "",
     "price": "",
     "section": "dibi body",
@@ -40,6 +40,15 @@
     "title": "CELL REWIND",
     "text": "",
     "image": "Cell_Rewind_ADV.jpg",
+    "duration": "",
+    "price": "",
+    "section": "dibi body",
+    "subscription": ""
+  },
+  {
+    "title": "PRESSOTERAPIA",
+    "text": "Trattamento che tramite un'apparecchiatura drena i liquidi in eccesso",
+    "image": "pressoterapia.jpg",
     "duration": "",
     "price": "",
     "section": "dibi body",
