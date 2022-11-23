@@ -1,21 +1,21 @@
 [
   {
-    "title": "CALM PERFECTION",
-    "text": "",
-    "image": "dibi_calm_perfection.jpg",
+    "title": "DEFENCE SOLUTION",
+    "text": "Adatto a pelli sensibili e delicate, minimizza rossori, pruriti e sensazioni di calore alla pelle",
+    "image": "defence-solution.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
   },
   {
     "title": "PURE EQUALIZER",
-    "text": "",
+    "text": "Adatto a pelli impure con tendenza acneica, riduce pori dilatati e riequilibra la produzione di sebo",
     "image": "dibi_pure_equalizer_adv_doppia_dibi_milano_ita.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
   },
   {
     "title": "HYDRA PERFECTION",
-    "text": "",
+    "text": "Adatto sia alle pelli giovani che mature, preserva l'idratazione cutanea per una pelle piu splendente",
     "image": "dibi_hydra_erfection_cartolina_15x15_ ita.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
@@ -29,22 +29,50 @@
   },
   {
     "title": "AGE METHOD",
-    "text": "",
+    "text": " Indicato per le donne che desiderano un viso dall'aspetto piu giovane, disteso e dall'incarnato luminoso",
     "image": "dibi_age_method_doppia.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
   },
   {
     "title": "LIFT CREATOR",
-    "text": "",
+    "text": "Adatto a pelli mature che desideravo un viso liftato, disteso e con ovale del viso risollevato e ridefinito",
     "image": "dibi_lift_creator_adv.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
   },
   {
     "title": "FILLER CODE",
-    "text": "",
+    "text": "Adatto a pelli mature, le rughe sono riempite e corrette e la visibilità del tempo viene minimizzata",
     "image": "dibi_filler_code_adv.jpg",
+    "duration": "1 ora e 30 min",
+    "price": ""
+  },
+  {
+    "title": "FACE PERFECTION",
+    "text": "Adatto a tutte le pelli di tutte le età, deterge e rinnova la pelle rendendola piu pulita e luminosa",
+    "image": "Face_Perfection.jpg",
+    "duration": "1 ora e 30 min",
+    "price": ""
+  },
+  {
+    "title": "THE GOLD",
+    "text": "Adatto a pelli spente, stanche e svuotate. per un aspetto radioso, levigato e pelle piu compatta",
+    "image": "the-gold.jpg",
+    "duration": "1 ora e 30 min",
+    "price": ""
+  },
+  {
+    "title": "ACID INFUSION",
+    "text": "Trattamento che agisce normalizzando il rinnovamento dell'epidermide, stimolando il rinnovo cellulare",
+    "image": "dibi-milano-acid-infusion.jpg",
+    "duration": "1 ora e 30 min",
+    "price": ""
+  },
+  {
+    "title": "PROCELLULAR",
+    "text": "Trattamento mirato per pelli fragili e sensibilizzate",
+    "image": "procellular.jpg",
     "duration": "1 ora e 30 min",
     "price": ""
   }
